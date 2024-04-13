@@ -144,8 +144,9 @@ function game.tilemap.stepOn(x, y)
 	game.state.level.standingOn[y][x] = true
 
 	local tile = game.tilemap.getTile(x, y)
+
 	if tile.step_on then
-		print(#stepOnFunctions)
+		print(tile.step_on)
 		stepOnFunctions[tile.step_on](x, y)
 	end
 end
@@ -247,4 +248,18 @@ end
 
 function game.tilemap.getTilePresets()
 	return tilePresets
+end
+
+function game.tilemap.getSpawn()
+	for y = 1, #map do
+		for x = 1, #map[y] do
+			if map[y][x].preset == "spawn" then
+				return x, y
+			end
+		end
+	end
+end
+
+function game.tilemap.tilemapToScreen(x, y)
+	return (x - 1) * TILE_SIZE, (y - 1) * TILE_SIZE
 end

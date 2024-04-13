@@ -1,8 +1,8 @@
 game = {}
+require("game.tilemap")
 require("game.state")
 require("game.summoning")
 require("game.minions")
-require("game.tilemap")
 require("game.editor")
 
 function love.load()

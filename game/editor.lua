@@ -61,12 +61,12 @@ function game.editor.update(dt)
 		game.tilemap.save("game/levels/level" .. game.tilemap.getCurrentLevel() .. ".json")
 	end
 
-	if love.keyboard.isScancodeDown("right") then
+	if love.keyboard.isScancodeDown("right") and love.keyboard.isDown("lctrl") then
 		cooldown = 0.2
 		game.tilemap.nextLevel()
 	end
 
-	if love.keyboard.isScancodeDown("left") then
+	if love.keyboard.isScancodeDown("left") and love.keyboard.isDown("lctrl") then
 		cooldown = 0.2
 		game.tilemap.previousLevel()
 	end

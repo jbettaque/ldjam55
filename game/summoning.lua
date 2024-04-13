@@ -1,5 +1,6 @@
 require("game.state")
 require("game.conf")
+game.tilemap = game.tilemap or require("game.tilemap")
 game.summoning = {}
 
 local minionTypes = {}
@@ -84,7 +85,7 @@ function game.summoning.summonAtDefaultLocation(type)
 end
 
 function game.summoning.getSummonLocation()
-	return 100, 100
+	return game.tilemap.tilemapToScreen(game.tilemap.getSpawn())
 end
 
 function game.summoning.summon(type, x, y)

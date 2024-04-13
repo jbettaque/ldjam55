@@ -1,5 +1,6 @@
 game.conf = {
 	minions = {
+		size = 14,
 		presets = {
 			homunculus = {
 				name = "Homunculus",

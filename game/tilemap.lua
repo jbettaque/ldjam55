@@ -171,24 +171,56 @@ function game.tilemap.save(filename)
 	local file = io.open(filename, "w")
 	file:write(json_data)
 	file:close()
+	--print(love.filesystem.getWorkingDirectory())
+	--print("saving to " .. love.filesystem.getWorkingDirectory() .. "/" .. filename)
+	--local json_data = json.encode(map)
+	--local file, errorstr = love.filesystem.newFile(love.filesystem.getWorkingDirectory() .. "/" .. filename)
+	--if file then
+	--	file:open("w")
+	--	file:write(json_data)
+	--	file:close()
+	--else
+	--	print("save failed: " .. errorstr)
+	--end
+	--local success, message = love.filesystem.write(love.filesystem.getWorkingDirectory() .. "/" .. filename, json_data)
+	--if success then
+	--	print("save successful")
+	--else
+	--	print("save failed: " .. message)
+	--end
 end
 
 function game.tilemap.loadSave(filename)
-	local file = io.open(filename, "r")
-	if file then
-		local json_data = file:read("*all")
-		file:close()
-		map = json.decode(json_data)
+	local contents, size = love.filesystem.read(filename)
+	if contents then
+		map = json.decode(contents)
 	end
 end
 
 function game.tilemap.nextLevel()
 	if (game.state.level.current + 1) > #game.conf.level_sequence then
-		love.event.quit()
+		game.state.level.current = 1
 	else
 		game.state.level.current = game.state.level.current + 1
-		game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
 	end
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+end
+
+function game.tilemap.previousLevel()
+	if (game.state.level.current - 1) < 1 then
+		game.state.level.current = #game.conf.level_sequence
+	else
+		game.state.level.current = game.state.level.current - 1
+	end
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+end
+
+function game.tilemap.setLevel(level)
+	game.state.level.current = level
+end
+
+function game.tilemap.getCurrentLevel()
+	return game.state.level.current
 end
 
 function game.tilemap.getTilePresets()

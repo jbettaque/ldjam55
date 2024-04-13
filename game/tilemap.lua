@@ -28,8 +28,8 @@ local map = game.state.level.map
 
 function game.tilemap.load()
 	game.tiles.door.register()
-	game.tiles.spawn.register()
 	game.tiles.finish.register()
+	game.tiles.spawn.register()
 
 	game.tilemap.loadAssets(assets)
 

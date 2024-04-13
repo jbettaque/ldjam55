@@ -1,6 +1,6 @@
 game.tiles.spawn = {}
 
-asset = "assets/tiles/tile_spawn.png"
+local asset = "assets/tiles/tile_spawn.png"
 
 function game.tiles.spawn.register()
 	local assetOffset = game.tilemap.getAssetCount()

@@ -1,6 +1,6 @@
 game.tiles.finish = {}
 
-asset  = "assets/tiles/tile_finish.png"
+local asset = "assets/tiles/tile_finish.png"
 
 function game.tiles.finish.register()
 	local assetOffset = game.tilemap.getAssetCount()

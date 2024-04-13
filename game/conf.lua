@@ -52,9 +52,10 @@ game.conf = {
 	},
 
 	level_sequence = {
-		"level3.json",
-		"level1.json",
-		"level2.json",
+		"game/levels/level1.json",
+		"game/levels/level2.json",
+		"game/levels/level3.json",
+		"game/levels/level4.json",
 	},
 
 	ui = {

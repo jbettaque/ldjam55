@@ -14,6 +14,11 @@ function game.editor.load()
 end
 
 function game.editor.update(dt)
+	if cooldown > 0 then
+		cooldown = cooldown - dt
+		return
+	end
+
 	if game.conf.editor == false then
 		return
 	end
@@ -24,10 +29,6 @@ function game.editor.update(dt)
 		--game.tilemap.interact(x, y, 1)
 	end
 	if love.mouse.isDown(2) then
-		if cooldown > 0 then
-			cooldown = cooldown - dt
-			return
-		end
 		cooldown = 0.1
 
 		local presetKeys = {}
@@ -51,11 +52,23 @@ function game.editor.update(dt)
 	end
 
 	if love.keyboard.isScancodeDown("n") then
+		cooldown = 0.1
 		newLevel()
 	end
 
-	if love.keyboard.isScancodeDown("s") then
-		game.tilemap.save("save.json")
+	if love.keyboard.isScancodeDown("s") and love.keyboard.isDown("lctrl") then
+		cooldown = 2
+		game.tilemap.save("game/levels/level" .. game.tilemap.getCurrentLevel() .. ".json")
+	end
+
+	if love.keyboard.isScancodeDown("right") then
+		cooldown = 0.2
+		game.tilemap.nextLevel()
+	end
+
+	if love.keyboard.isScancodeDown("left") then
+		cooldown = 0.2
+		game.tilemap.previousLevel()
 	end
 end
 
@@ -100,4 +113,9 @@ function newLevel()
 			game.state.level.standingOn[y][x] = false
 		end
 	end
+
+	game.conf.level_sequence[#game.conf.level_sequence + 1] = "game/levels/level"
+		.. #game.conf.level_sequence
+		.. ".json"
+	game.tilemap.setLevel(#game.conf.level_sequence)
 end

@@ -5,6 +5,7 @@ require("game.conf")
 require("game.tiles.door")
 require("game.tiles.spawn")
 require("game.tiles.finish")
+require("game.tiles.pit")
 
 local json = require("game.json")
 
@@ -30,6 +31,7 @@ function game.tilemap.load()
 	game.tiles.door.register()
 	game.tiles.finish.register()
 	game.tiles.spawn.register()
+	game.tiles.pit.register()
 
 	game.tilemap.loadAssets(assets)
 

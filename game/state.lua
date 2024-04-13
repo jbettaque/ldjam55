@@ -3,5 +3,6 @@ game.state = {
 	summoning = {},
 	level = {
 		map = {},
+		standingOn = {},
 	},
 }

@@ -34,6 +34,7 @@ function game.tilemap.load()
 
 	for y = 1, LEVEL_HEIGHT do
 		map[y] = {}
+		game.state.level.standingOn[y] = {}
 		for x = 1, LEVEL_WIDTH do
 			if x == 1 or x == LEVEL_WIDTH or y == 1 or y == LEVEL_HEIGHT then
 				game.tilemap.setTileWithPreset(x, y, tilePresets.wall)
@@ -48,6 +49,7 @@ function game.tilemap.load()
 			if x == math.floor(LEVEL_WIDTH / 2) and y == 5 then
 				game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_vert)
 			end
+			game.state.level.standingOn[y][x] = false
 		end
 	end
 end
@@ -61,6 +63,7 @@ function game.tilemap.update(dt)
 		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
 		game.tilemap.interact(x, y, 1)
+		game.tilemap.stepOn(x, y)
 	end
 	if love.mouse.isDown(2) then
 		if interactCooldown > 0 then
@@ -70,6 +73,7 @@ function game.tilemap.update(dt)
 		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
 		game.tilemap.interact(x, y, 2)
+		game.tilemap.stepOff(x, y)
 	end
 end
 
@@ -133,6 +137,14 @@ function game.tilemap.interact(x, y, button)
 	if tile.interact then
 		tile.interact(x, y, button)
 	end
+end
+
+function game.tilemap.stepOn(x, y)
+	game.state.level.standingOn[x][y] = true
+end
+
+function game.tilemap.stepOff(x, y)
+	game.state.level.standingOn[x][y] = false
 end
 
 function game.tilemap.registerTilePresets(name, preset)

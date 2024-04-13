@@ -57,10 +57,30 @@ game.conf = {
 		"game/levels/level3.json",
 		"game/levels/level4.json",
 	},
+	level_minions = {
+		{
+			homunculus = 1,
+			zombie = 0,
+			fae = 0,
+			guard = 0,
+		},
+		{
+			homunculus = 2,
+			zombie = 0,
+			fae = 0,
+			guard = 0,
+		},
+		{
+			homunculus = 1,
+			zombie = 1,
+			fae = 0,
+			guard = 0,
+		},
+	},
 
 	ui = {
 		summoning = {
-			rowWidth = 300,
+			rowWidth = 430,
 			rowHeight = 50,
 			titleHeight = 40,
 			border = 5,

@@ -1,24 +1,27 @@
 require("game.state")
 require("game.conf")
+require("game.utils")
+
 game.tilemap = game.tilemap or require("game.tilemap")
 game.summoning = {}
 
-local minionTypes = {}
-
+--- callback when the game loads
 function game.summoning.load()
-	game.state.summoning.isSummoning = false
-	game.state.summoning.types = game.conf.minions.presets
-	for k, _ in pairs(game.state.summoning.types) do
-		table.insert(minionTypes, k)
-	end
+	-- initialize empty state where nothing can be summoned
+	game.state.summoning = {
+		isSummoning = false,
+		types = {},
+	}
 end
 
+--- callback to update game state
 function game.summoning.update(dt) end
 
+--- callback to draw the current game state
 function game.summoning.draw()
 	if game.state.summoning.isSummoning then
 		local rowHeight = game.conf.ui.summoning.rowHeight
-		local tableHeight = (rowHeight + 1) * table.getn(minionTypes)
+		local tableHeight = (rowHeight + 1) * #game.state.summoning.types
 		local tableWidth = game.conf.ui.summoning.rowWidth
 		local titleHeight = game.conf.ui.summoning.titleHeight
 		local menuBorder = game.conf.ui.summoning.border
@@ -47,58 +50,82 @@ function game.summoning.draw()
 			"center"
 		)
 
-		--Print Table
+		-- Print Minion Table
 		local tableX = x1 + menuBorder
 		local tableY = y1 + menuBorder + titleHeight
 		love.graphics.setNewFont(rowHeight * 0.6)
 		local fontOffset = rowHeight * 0.2
-		for i, v in ipairs(minionTypes) do
+		local keyNumberWidth = rowHeight
+		local availableWidth = 80
+		for i, v in ipairs(game.state.summoning.types) do
+			local minionState = game.state.summoning.types[i]
+			local minionType = game.conf.minions.presets[minionState.id]
 			local yOffset = (rowHeight + 1) * (i - 1)
+			local textColor = { 1, 1, 1 }
+			if minionState.summoned == minionState.totalAvailable then
+				textColor = { 0.5, 0.5, 0.5 }
+			end
 			love.graphics.line(tableX, tableY + yOffset, tableX + tableWidth, tableY + yOffset)
-			love.graphics.printf(i, tableX, tableY + yOffset + fontOffset, rowHeight, "center")
+			love.graphics.printf({ textColor, i }, tableX, tableY + yOffset + fontOffset, keyNumberWidth, "center")
 			love.graphics.printf(
-				game.state.summoning.types[v].name,
-				tableX + rowHeight,
+				{ textColor, minionType.name },
+				tableX + keyNumberWidth,
 				tableY + yOffset + fontOffset,
-				tableWidth - rowHeight,
+				tableWidth - keyNumberWidth - availableWidth,
 				"left"
+			)
+			love.graphics.printf(
+				{ textColor, tostring(minionState.totalAvailable - minionState.summoned) .. " left" },
+				tableX + tableWidth - availableWidth - fontOffset,
+				tableY + yOffset + fontOffset,
+				availableWidth,
+				"right"
 			)
 		end
 	end
 end
 
+--- callback when a key is pressed
 function game.summoning.keypressed(key)
 	if key == "q" then
 		game.state.summoning.isSummoning = not game.state.summoning.isSummoning
 		print("show summoning menu: " .. tostring(game.state.summoning.isSummoning))
 	end
+
 	local number = tonumber(key)
-	if game.state.summoning.isSummoning and number and number > 0 and number <= table.getn(minionTypes) then
-		game.state.summoning.isSummoning = false
-		game.summoning.summonAtDefaultLocation(minionTypes[number])
+	if game.state.summoning.isSummoning and number and number > 0 and number <= #game.state.summoning.types then
+		-- check if there are still enough summons left and do the summoning
+		local minionState = game.state.summoning.types[number]
+		if minionState.summoned < minionState.totalAvailable then
+			game.state.summoning.isSummoning = false
+			minionState.summoned = minionState.summoned + 1
+			game.minions.summon(minionState.id, game.summoning.getSummonLocation())
+		end
 	end
 end
 
-function game.summoning.summonAtDefaultLocation(type)
-	x, y = game.summoning.getSummonLocation()
-	game.summoning.summon(type, x, y)
+--- callback when the level with the given index is loaded
+function game.summoning.loadLevel(id)
+	-- reset state
+	game.state.summoning.isSummoning = false
+	game.state.summoning.types = {}
+
+	-- rebuild state to store summonable minion types
+	print("loading summoning options for level " .. tostring(id))
+	for minionId, amount in pairs(game.conf.level_minions[id]) do
+		if amount > 0 then
+			print("    " .. amount .. " " .. minionId .. " available to summon")
+			table.insert(game.state.summoning.types, {
+				id = minionId,
+				summoned = 0,
+				totalAvailable = amount,
+			})
+		end
+	end
+	print(table.concat(game.state.summoning))
 end
 
+--- get the default summoning location for the current level
 function game.summoning.getSummonLocation()
-	return game.tilemap.tilemapToScreen(game.tilemap.getSpawn())
-end
-
-function game.summoning.summon(type, x, y)
-	print("summoning " .. type .. " minion at " .. x .. "," .. y)
-	local preset = game.state.summoning.types[type]
-	local minion = {}
-	for k, v in pairs(preset) do
-		minion[k] = v
-	end
-	minion.position = {
-		x = x,
-		y = y,
-	}
-	minion.angle = 0
-	table.insert(game.state.minions, minion)
+	return 100, 100
 end

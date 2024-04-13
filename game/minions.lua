@@ -229,3 +229,29 @@ function game.minions.keypressed(key, scancode, isrepeat)
 		end
 	end
 end
+
+--- summon a minion of the specified type at a given position
+---
+--- Parameters:
+---    typ: The minion ID which is equal to the index into game.conf.minions
+---    x, y: Map coordinates at which the minion should be summoned
+function game.minions.summon(typ, x, y)
+	print("summoning " .. typ .. " minion at " .. x .. "x" .. y)
+	local preset = game.conf.minions.presets[typ]
+
+	-- instantiate by copying all properties
+	local minion = {}
+	for k, v in pairs(preset) do
+		minion[k] = v
+	end
+
+	-- set runtime properties
+	minion.position = {
+		x = x,
+		y = y,
+	}
+	minion.angle = 0
+
+	-- actually spawn by inserting into game state
+	table.insert(game.state.minions, minion)
+end

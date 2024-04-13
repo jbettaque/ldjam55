@@ -81,7 +81,7 @@ local function rotateMinion(minion)
 		minion.angle = 270 + 45
 	-- combinations that only partially make sense
 	elseif isUp and isLeft and isRight and not isDown then
-		monion.angle = 0
+		minion.angle = 0
 	elseif isRight and isUp and isDown and not isLeft then
 		minion.angle = 90
 	elseif isDown and isLeft and isRight and not isUp then

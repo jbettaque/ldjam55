@@ -1,17 +1,17 @@
-game.tiles.bridge= {}
+game.tiles.bridge = {}
 
 local asset = "assets/tiles/tile_bridge_hor.png"
 
 function game.tiles.bridge.register()
-    local assetOffset = game.tilemap.getAssetCount()
+	local assetOffset = game.tilemap.getAssetCount()
 
-    game.tilemap.registerAsset(asset)
-    print("assetOffset: " .. assetOffset)
+	game.tilemap.registerAsset(asset)
+	print("assetOffset: " .. assetOffset)
 
-    game.tiles.bridge.tilePreset = {
-        asset = 1 + assetOffset,
-        walkable = false,
-    }
+	game.tiles.bridge.tilePreset = {
+		asset = 1 + assetOffset,
+		walkable = false,
+	}
 
-    game.tilemap.registerTilePreset("bridge", game.tiles.bridge.tilePreset)
+	game.tilemap.registerTilePreset("bridge", game.tiles.bridge.tilePreset)
 end

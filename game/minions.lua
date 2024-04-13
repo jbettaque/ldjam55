@@ -9,6 +9,12 @@ local MINION_SIZE = game.conf.minions.size
 
 local function triggerMinionStepOn(minion, mapX, mapY)
 	print("minion " .. minion.name .. " stepped on new tile " .. mapX .. "x" .. mapY)
+	game.tilemap.stepOn(mapX, mapY)
+end
+
+local function triggerMinionStepOff(minion, mapX, mapY)
+	print("minion " .. minion.name .. " stepped off old tile " .. mapX .. "x" .. mapY)
+	game.tilemap.stepOff(mapX, mapY)
 end
 
 local function moveMinion(minion, dt)
@@ -35,8 +41,9 @@ local function moveMinion(minion, dt)
 		minion.position.x = newX
 		minion.position.y = newY
 
-		-- trigger step-on if stepped on a new tile
+		-- trigger events if stepped on a new tile
 		if mapX ~= newMapX or mapY ~= newMapY then
+			triggerMinionStepOff(minion, mapX, mapY)
 			triggerMinionStepOn(minion, newMapX, newMapY)
 		end
 	end

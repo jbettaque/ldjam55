@@ -54,7 +54,7 @@ function game.tilemap.load()
 			game.state.level.standingOn[y][x] = false
 		end
 	end
-	game.tilemap.loadSave()
+	game.tilemap.loadSave("save.json")
 	--game.tilemap.save()
 end
 
@@ -142,11 +142,11 @@ function game.tilemap.interact(x, y, button)
 end
 
 function game.tilemap.stepOn(x, y)
-	game.state.level.standingOn[x][y] = true
+	game.state.level.standingOn[y][x] = true
 end
 
 function game.tilemap.stepOff(x, y)
-	game.state.level.standingOn[x][y] = false
+	game.state.level.standingOn[y][x] = false
 end
 
 function game.tilemap.registerTilePresets(name, preset)
@@ -165,15 +165,15 @@ function game.tilemap.getAssetCount()
 	return #assets
 end
 
-function game.tilemap.save()
+function game.tilemap.save(filename)
 	local json_data = json.encode(map)
-	local file = io.open("save.json", "w")
+	local file = io.open(filename, "w")
 	file:write(json_data)
 	file:close()
 end
 
-function game.tilemap.loadSave()
-	local file = io.open("save.json", "r")
+function game.tilemap.loadSave(filename)
+	local file = io.open(filename, "r")
 	if file then
 		local json_data = file:read("*all")
 		file:close()

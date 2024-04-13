@@ -47,12 +47,13 @@ game.conf = {
 
 	level = {
 		tileSize = 32,
-		width = 20,
-		height = 15,
+		width = 45,
+		height = 30,
 	},
 
 	level_sequence = {
-		"save.json",
+		"level3.json",
+		"level1.json",
 		"level2.json",
 	},
 

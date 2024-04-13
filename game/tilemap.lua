@@ -40,24 +40,24 @@ function game.tilemap.load()
 		map[y] = {}
 		game.state.level.standingOn[y] = {}
 		for x = 1, LEVEL_WIDTH do
-			if x == 1 or x == LEVEL_WIDTH or y == 1 or y == LEVEL_HEIGHT then
-				game.tilemap.setTileWithPreset(x, y, tilePresets.wall)
-			else
-				game.tilemap.setTileWithPreset(x, y, tilePresets.ground)
-			end
-
-			if x == 5 and y == math.floor(LEVEL_HEIGHT / 2) then
-				game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_hor)
-			end
-
-			if x == math.floor(LEVEL_WIDTH / 2) and y == 5 then
-				game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_vert)
-			end
+			--if x == 1 or x == LEVEL_WIDTH or y == 1 or y == LEVEL_HEIGHT then
+			--	game.tilemap.setTileWithPreset(x, y, tilePresets.wall)
+			--else
+			--	game.tilemap.setTileWithPreset(x, y, tilePresets.ground)
+			--end
+			--
+			--if x == 5 and y == math.floor(LEVEL_HEIGHT / 2) then
+			--	game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_hor)
+			--end
+			--
+			--if x == math.floor(LEVEL_WIDTH / 2) and y == 5 then
+			--	game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_vert)
+			--end
 			game.state.level.standingOn[y][x] = false
 		end
 	end
-	--game.tilemap.loadSave(game.conf.level_sequence[1])
-	game.tilemap.save("save.json")
+	game.tilemap.loadSave(game.conf.level_sequence[1])
+	--game.tilemap.save("save.json")
 end
 
 function game.tilemap.update(dt) end

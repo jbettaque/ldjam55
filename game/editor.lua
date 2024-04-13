@@ -53,6 +53,10 @@ function game.editor.update(dt)
 	if love.keyboard.isScancodeDown("n") then
 		newLevel()
 	end
+
+	if love.keyboard.isScancodeDown("s") then
+		game.tilemap.save("save.json")
+	end
 end
 
 function game.editor.draw()

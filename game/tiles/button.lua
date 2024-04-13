@@ -13,6 +13,7 @@ function game.tiles.button.register()
 		asset = 1 + assetOffset,
 		walkable = true,
 		overFlyable = true,
+		redstone = true,
 	}
 
 	game.tilemap.registerTilePreset("button", game.tiles.button.tilePreset)

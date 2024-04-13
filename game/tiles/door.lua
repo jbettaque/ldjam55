@@ -3,15 +3,33 @@ game.tiles.door = {}
 
 door_func = function(x, y, button)
 	if button == 1 then
+		if game.tilemap.getValue(x, y, "needs_redstone") then
+			local redstoneNeeded = game.tilemap.getValue(x, y, "needs_redstone")
+
+			for i = 1, #redstoneNeeded do
+				local redstoneX = redstoneNeeded[i].x
+				local redstoneY = redstoneNeeded[i].y
+
+				if not game.tilemap.getValue(redstoneX, redstoneY, "redstone") then
+					return
+				end
+			end
+		end
+
 		local assetOpen = game.tilemap.getValue(x, y, "assetOpen")
-		game.tilemap.setAsset(x, y, assetOpen)
-		game.tilemap.setValue(x, y, "walkable", true)
-		game.tilemap.setValue(x, y, "overFlyable", true)
-	elseif button == 2 then
 		local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
-		game.tilemap.setAsset(x, y, assetClosed)
-		game.tilemap.setValue(x, y, "walkable", false)
-		game.tilemap.setValue(x, y, "overFlyable", true)
+
+		local asset = game.tilemap.getAsset(x, y)
+
+		if asset == assetOpen then
+			game.tilemap.setAsset(x, y, assetClosed)
+			game.tilemap.setValue(x, y, "walkable", false)
+			game.tilemap.setValue(x, y, "overFlyable", false)
+		else
+			game.tilemap.setAsset(x, y, assetOpen)
+			game.tilemap.setValue(x, y, "walkable", true)
+			game.tilemap.setValue(x, y, "overFlyable", true)
+		end
 	end
 end
 
@@ -39,6 +57,10 @@ function game.tiles.door.register()
 			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
+			needs_redstone = {
+				--{ x = 5, y = 5 },
+				--{ x = 6, y = 6 },
+			},
 		},
 		door_vert = {
 			preset = "door_vert",
@@ -49,6 +71,10 @@ function game.tiles.door.register()
 			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
+			needs_redstone = {
+				--{ x = 5, y = 5 },
+				--{ x = 6, y = 6 },
+			},
 		},
 	}
 

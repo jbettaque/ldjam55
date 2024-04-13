@@ -39,9 +39,7 @@ function game.editor.update(dt)
 		local presetKeys = {}
 		for k, v in pairs(game.tilemap.getTilePresets()) do
 			table.insert(presetKeys, k)
-			print(k)
 		end
-		print("presetKeys: " .. #presetKeys)
 		local index = 1
 		for i = 1, #presetKeys do
 			if presetKeys[i] == currentPreset then
@@ -86,7 +84,6 @@ function game.editor.update(dt)
 		if love.keyboard.isScancodeDown("r") and lineConnectorStart ~= nil then
 			local x, y = game.tilemap.screenToWorldPos(lineConnectorStart[1], lineConnectorStart[2])
 			local endx, endy = game.tilemap.screenToWorldPos(lineConnectorEnd[1], lineConnectorEnd[2])
-			print("x: " .. x .. " y: " .. y .. " endx: " .. endx .. " endy: " .. endy)
 			local currentNeededRedstone = game.tilemap.getValue(x, y, "needs_redstone")
 			if currentNeededRedstone == nil then
 				currentNeededRedstone = {}

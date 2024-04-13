@@ -131,9 +131,7 @@ function game.tilemap.getValue(x, y, key)
 end
 
 function game.tilemap.setValue(x, y, key, value)
-	print(x, y, key, game.utils.serializeTable(value))
 	map[y][x][key] = value
-	print(game.utils.serializeTable(map[y][x]))
 end
 
 function game.tilemap.setAsset(x, y, asset)
@@ -161,7 +159,6 @@ function game.tilemap.stepOn(x, y, minion)
 	local tile = game.tilemap.getTile(x, y)
 
 	if tile.step_on then
-		print(tile.step_on)
 		stepOnFunctions[tile.step_on](x, y, minion)
 	end
 end

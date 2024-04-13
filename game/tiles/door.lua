@@ -34,12 +34,9 @@ door_func = function(x, y, button)
 end
 
 door_update_func = function(x, y, dt)
-	print("update door")
 	local shouldBeOpen = true
-	print(game.tilemap.getValue(x, y, "needs_redstone"))
 	if game.tilemap.getValue(x, y, "needs_redstone") then
 		local redstoneNeeded = game.tilemap.getValue(x, y, "needs_redstone")
-		print("redstoneNeeded: " .. game.utils.serializeTable(redstoneNeeded))
 
 		for i = 1, #redstoneNeeded do
 			local redstoneX = redstoneNeeded[i].x

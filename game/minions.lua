@@ -37,10 +37,10 @@ local function moveMinion(minion, dt)
 	end
 
 	-- handle movement in all four directions
-	local isUp = love.keyboard.isDown("w") or love.keyboard.isDown("up")
-	local isRight = love.keyboard.isDown("d") or love.keyboard.isDown("right")
-	local isDown = love.keyboard.isDown("s") or love.keyboard.isDown("down")
-	local isLeft = love.keyboard.isDown("a") or love.keyboard.isDown("left")
+	local isUp = love.keyboard.isScancodeDown("w") or love.keyboard.isScancodeDown("up")
+	local isRight = love.keyboard.isScancodeDown("d") or love.keyboard.isScancodeDown("right")
+	local isDown = love.keyboard.isScancodeDown("s") or love.keyboard.isScancodeDown("down")
+	local isLeft = love.keyboard.isScancodeDown("a") or love.keyboard.isScancodeDown("left")
 	if isUp and not isDown and canMoveTo(x, y - minion.moveSpeed * dt) then
 		minion.position.y = y - minion.moveSpeed * dt
 		hasMoved = true
@@ -67,10 +67,10 @@ local function moveMinion(minion, dt)
 end
 
 local function rotateMinion(minion)
-	local isUp = love.keyboard.isDown("w") or love.keyboard.isDown("up")
-	local isRight = love.keyboard.isDown("d") or love.keyboard.isDown("right")
-	local isDown = love.keyboard.isDown("s") or love.keyboard.isDown("down")
-	local isLeft = love.keyboard.isDown("a") or love.keyboard.isDown("left")
+	local isUp = love.keyboard.isScancodeDown("w") or love.keyboard.isScancodeDown("up")
+	local isRight = love.keyboard.isScancodeDown("d") or love.keyboard.isScancodeDown("right")
+	local isDown = love.keyboard.isScancodeDown("s") or love.keyboard.isScancodeDown("down")
+	local isLeft = love.keyboard.isScancodeDown("a") or love.keyboard.isScancodeDown("left")
 
 	-- combinations that are supposed to do nothing
 	if not isUp and not isRight and not isDown and not isLeft then

@@ -8,6 +8,7 @@ require("game.tiles.finish")
 require("game.tiles.pit")
 require("game.tiles.box")
 require("game.tiles.mine")
+require("game.tiles.bridge")
 
 local json = require("game.json")
 
@@ -36,6 +37,7 @@ function game.tilemap.load()
 	game.tiles.pit.register()
 	game.tiles.box.register()
 	game.tiles.mine.register()
+	game.tiles.bridge.register()
 
 	game.tilemap.loadAssets(assets)
 

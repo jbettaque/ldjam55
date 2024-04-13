@@ -1,0 +1,80 @@
+name: create-dist
+on:
+  push:
+    branches: [ "*" ]
+  workflow_dispatch:
+
+env:
+  LOVE_VERSION: "11.5"
+
+jobs:
+  create-love-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: create game archive
+        run: ./create_archive.sh
+      - name: create game distribution
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: ./game.love
+
+  create-windows-bundle:
+    runs-on: ubuntu-latest
+    needs: [ create-love-file ]
+    steps:
+      - name: download required windows files
+        run: curl -sSL https://github.com/love2d/love/releases/download/${LOVE_VERSION}/love-${LOVE_VERSION}-win64.zip -o ./love-${LOVE_VERSION}-win64.zip
+      - name: extract required windows files
+        run: unzip ./love-${LOVE_VERSION}-win64.zip
+      - name: download current game distribution
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: ./dist
+      - name: create windows release
+        run: |
+          cp -r ./love-${LOVE_VERSION}-win64/ ./dist/win64/
+          cat ./dist/win64/love.exe ./dist/game.love > ./dist/win64/game.exe
+          rm ./dist/win64/love.exe
+      - name: update game distribution
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: ./dist
+          overwrite: true
+
+  create-linux-bundle:
+    runs-on: ubuntu-latest
+    needs: [ create-windows-bundle ]
+    steps:
+      - name: install appimagetool
+        run: |
+          sudo apt update
+          sudo apt install -y fuse
+          curl -sSL https://github.com/AppImage/AppImageKit/releases/download/13/appimagetool-x86_64.AppImage -o /usr/local/bin/appimagetool
+          chmod +x /usr/local/bin/appimagetool
+      - name: download required linux file
+        run: |
+          curl -sSL https://github.com/love2d/love/releases/download/11.5/love-11.5-x86_64.AppImage -o ./love.AppImage
+          chmod +x ./love.AppImage
+      - name: download current game distribution
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: ./dist
+      - name: create linux release
+        run: |
+          mkdir dist/linux
+          ./love.AppImage --appimage-extract
+          cp ./dist/game.love ./squashfs-root/game.love
+          sed -i '/# uncomment and edit to add your own game/ a FUSE_PATH=$APPDIR/game.love' squashfs-root/AppRun
+          appimagetool ./squashfs-root ./Game.AppImage
+          mv ./Game.AppImage ./dist/linux/Game.AppImage
+      - name: update game distribution
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: ./dist
+          overwrite: true

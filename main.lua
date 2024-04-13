@@ -17,6 +17,5 @@ end
 
 function love.draw()
 	game.tilemap.draw()
-	love.graphics.print("Hello World " .. time, 400, 250)
 	game.minions.draw()
 end

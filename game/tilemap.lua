@@ -142,3 +142,7 @@ end
 function game.tilemap.registerAsset(asset)
 	table.insert(assets, asset)
 end
+
+function game.tilemap.getAssetCount()
+	return #assets
+end

@@ -12,6 +12,8 @@
 - wall
 - ground
 - pit
+- moveable boxes
+- mines sacrifice a minion
 
 - switch
 - step on plate

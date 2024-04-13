@@ -22,6 +22,7 @@ function love.draw()
 	game.summoning.draw()
 end
 
-function love.keypressed(key)
+function love.keypressed(key, scancode, isrepeat)
 	game.summoning.keypressed(key)
+	game.minions.keypressed(key, scancode, isrepeat)
 end

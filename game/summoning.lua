@@ -2,9 +2,14 @@ require("game.state")
 require("game.conf")
 game.summoning = {}
 
+local minionTypes = {}
+
 function game.summoning.load()
 	game.state.summoning.isSummoning = false
-	game.state.summoning.types = { "default", "special" }
+	game.state.summoning.types = game.conf.minions.presets
+	for k, _ in pairs(game.state.summoning.types) do
+		table.insert(minionTypes, k)
+	end
 end
 
 function game.summoning.update(dt) end
@@ -12,7 +17,7 @@ function game.summoning.update(dt) end
 function game.summoning.draw()
 	if game.state.summoning.isSummoning then
 		local rowHeight = game.conf.ui.summoning.rowHeight
-		local tableHeight = (rowHeight + 1) * table.getn(game.state.summoning.types)
+		local tableHeight = (rowHeight + 1) * table.getn(minionTypes)
 		local tableWidth = game.conf.ui.summoning.rowWidth
 		local titleHeight = game.conf.ui.summoning.titleHeight
 		local menuBorder = game.conf.ui.summoning.border
@@ -44,14 +49,19 @@ function game.summoning.draw()
 		--Print Table
 		local tableX = x1 + menuBorder
 		local tableY = y1 + menuBorder + titleHeight
-		local rows = table.getn(game.state.summoning.types) - 1
 		love.graphics.setNewFont(rowHeight * 0.6)
 		local fontOffset = rowHeight * 0.2
-		for i, v in ipairs(game.state.summoning.types) do
+		for i, v in ipairs(minionTypes) do
 			local yOffset = (rowHeight + 1) * (i - 1)
 			love.graphics.line(tableX, tableY + yOffset, tableX + tableWidth, tableY + yOffset)
 			love.graphics.printf(i, tableX, tableY + yOffset + fontOffset, rowHeight, "center")
-			love.graphics.printf(v, tableX + rowHeight, tableY + yOffset + fontOffset, tableWidth - rowHeight, "left")
+			love.graphics.printf(
+				game.state.summoning.types[v].name,
+				tableX + rowHeight,
+				tableY + yOffset + fontOffset,
+				tableWidth - rowHeight,
+				"left"
+			)
 		end
 	end
 end
@@ -62,14 +72,9 @@ function game.summoning.keypressed(key)
 		print("show summoning menu: " .. tostring(game.state.summoning.isSummoning))
 	end
 	local number = tonumber(key)
-	if
-		game.state.summoning.isSummoning
-		and number
-		and number > 0
-		and number <= table.getn(game.state.summoning.types)
-	then
+	if game.state.summoning.isSummoning and number and number > 0 and number <= table.getn(minionTypes) then
 		game.state.summoning.isSummoning = false
-		game.summoning.summonAtDefaultLocation(game.state.summoning.types[number])
+		game.summoning.summonAtDefaultLocation(minionTypes[number])
 	end
 end
 
@@ -84,12 +89,14 @@ end
 
 function game.summoning.summon(type, x, y)
 	print("summoning " .. type .. " minion at " .. x .. "," .. y)
-	table.insert(game.state.minions, {
-		type = type,
-		color = game.conf.minions.defaultColor,
-		position = {
-			x = x,
-			y = y,
-		},
-	})
+	local preset = game.state.summoning.types[type]
+	local minion = {}
+	for k, v in pairs(preset) do
+		minion[k] = v
+	end
+	minion.position = {
+		x = x,
+		y = y,
+	}
+	table.insert(game.state.minions, minion)
 end

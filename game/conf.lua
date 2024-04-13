@@ -1,13 +1,19 @@
 game.conf = {
 	minions = {
 		presets = {
-			humunculus = {
+			homunculus = {
+				name = "Homunculus",
 				moveSpeed = 120,
 				color = { 255, 203, 164 },
+				canStepOn = true,
+				canInteract = true,
 			},
 			zombie = {
+				name = "Zombie",
 				moveSpeed = 80,
 				color = { 139, 139, 100 },
+				canStepOn = true,
+				canInteract = false,
 			},
 		},
 	},

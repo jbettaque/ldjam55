@@ -1,13 +1,23 @@
 game.conf = {
 	minions = {
-		moveSpeed = 100,
-		defaultColor = { 255, 0, 0 },
+		presets = {
+			humunculus = {
+				moveSpeed = 120,
+				color = { 255, 203, 164 },
+			},
+			zombie = {
+				moveSpeed = 80,
+				color = { 139, 139, 100 },
+			},
+		},
 	},
+
 	level = {
 		tileSize = 32,
 		width = 20,
 		height = 15,
 	},
+
 	ui = {
 		summoning = {
 			rowWidth = 300,

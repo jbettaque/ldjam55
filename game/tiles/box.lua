@@ -11,6 +11,7 @@ function game.tiles.box.register()
 	game.tiles.box.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = false,
+		overFlyable = false,
 	}
 
 	game.tilemap.registerTilePreset("box", game.tiles.box.tilePreset)

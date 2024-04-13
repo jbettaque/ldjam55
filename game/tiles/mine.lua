@@ -11,6 +11,7 @@ function game.tiles.mine.register()
 	game.tiles.mine.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = false,
+		overFlyable = false,
 	}
 
 	game.tilemap.registerTilePreset("mine", game.tiles.mine.tilePreset)

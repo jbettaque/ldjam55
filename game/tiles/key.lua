@@ -11,6 +11,7 @@ function game.tiles.key.register()
 	game.tiles.key.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = true,
+		overFlyable = true,
 	}
 
 	game.tilemap.registerTilePreset("key", game.tiles.key.tilePreset)

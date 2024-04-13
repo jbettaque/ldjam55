@@ -6,10 +6,12 @@ door_func = function(x, y, button)
 		local assetOpen = game.tilemap.getValue(x, y, "assetOpen")
 		game.tilemap.setAsset(x, y, assetOpen)
 		game.tilemap.setValue(x, y, "walkable", true)
+		game.tilemap.setValue(x, y, "overFlyable", true)
 	elseif button == 2 then
 		local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
 		game.tilemap.setAsset(x, y, assetClosed)
 		game.tilemap.setValue(x, y, "walkable", false)
+		game.tilemap.setValue(x, y, "overFlyable", true)
 	end
 end
 
@@ -33,6 +35,7 @@ function game.tiles.door.register()
 			assetOpen = 2 + assetOffset,
 			assetClosed = 1 + assetOffset,
 			walkable = false,
+			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
 		},
@@ -41,6 +44,7 @@ function game.tiles.door.register()
 			assetOpen = 4 + assetOffset,
 			assetClosed = 3 + assetOffset,
 			walkable = false,
+			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
 		},

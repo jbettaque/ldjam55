@@ -10,7 +10,8 @@ function game.tiles.pit.register()
 
 	game.tiles.pit.tilePreset = {
 		asset = 1 + assetOffset,
-		walkable = true,
+		walkable = false,
+		overFlyable = true,
 	}
 
 	game.tilemap.registerTilePreset("pit", game.tiles.pit.tilePreset)

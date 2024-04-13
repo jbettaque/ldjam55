@@ -11,6 +11,7 @@ function game.tiles.finish.register()
 	game.tiles.finish.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = true,
+		overFlyable = true,
 	}
 
 	game.tilemap.registerTilePreset("finish", game.tiles.finish.tilePreset)

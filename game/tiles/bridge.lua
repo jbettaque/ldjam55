@@ -11,6 +11,7 @@ function game.tiles.bridge.register()
 	game.tiles.bridge.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = false,
+		overFlyable = true,
 	}
 
 	game.tilemap.registerTilePreset("bridge", game.tiles.bridge.tilePreset)

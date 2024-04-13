@@ -11,6 +11,7 @@ function game.tiles.spawn.register()
 	game.tiles.spawn.tilePreset = {
 		asset = 1 + assetOffset,
 		walkable = true,
+		overFlyable = true,
 	}
 
 	game.tilemap.registerTilePreset("spawn", game.tiles.spawn.tilePreset)

@@ -98,5 +98,6 @@ function game.summoning.summon(type, x, y)
 		x = x,
 		y = y,
 	}
+	minion.angle = 0
 	table.insert(game.state.minions, minion)
 end

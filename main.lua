@@ -10,9 +10,6 @@ function love.load()
 	game.summoning.load()
 	game.minions.load()
 	game.editor.load()
-
-	game.tilemap.nextLevel()
-	game.loadLevel(2)
 end
 
 function love.update(dt)

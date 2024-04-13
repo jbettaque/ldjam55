@@ -131,7 +131,9 @@ function game.tilemap.getValue(x, y, key)
 end
 
 function game.tilemap.setValue(x, y, key, value)
+	print(x, y, key, game.utils.serializeTable(value))
 	map[y][x][key] = value
+	print(game.utils.serializeTable(map[y][x]))
 end
 
 function game.tilemap.setAsset(x, y, asset)

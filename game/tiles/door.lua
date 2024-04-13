@@ -39,6 +39,7 @@ door_update_func = function(x, y, dt)
 	print(game.tilemap.getValue(x, y, "needs_redstone"))
 	if game.tilemap.getValue(x, y, "needs_redstone") then
 		local redstoneNeeded = game.tilemap.getValue(x, y, "needs_redstone")
+		print("redstoneNeeded: " .. game.utils.serializeTable(redstoneNeeded))
 
 		for i = 1, #redstoneNeeded do
 			local redstoneX = redstoneNeeded[i].x
@@ -102,10 +103,6 @@ function game.tiles.door.register()
 			interact = "door_func",
 			step_on = "door_step",
 			update = "door_update_func",
-			needs_redstone = {
-				{ x = 5, y = 5 },
-				{ x = 6, y = 6 },
-			},
 		},
 	}
 

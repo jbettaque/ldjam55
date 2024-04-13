@@ -6,6 +6,8 @@ game.editor = {}
 local cooldown = 0.1
 
 local currentPreset = "wall"
+local lineConnectorStart = nil
+local lineConnectorEnd = nil
 
 function game.editor.load()
 	if game.conf.editor == false then
@@ -23,9 +25,12 @@ function game.editor.update(dt)
 		return
 	end
 
-	if love.mouse.isDown(1) then
-		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
-		game.tilemap.setTileWithPreset(x, y, game.tilemap.getTilePresets()[currentPreset])
+	if love.mouse.isDown(1) and not love.keyboard.isScancodeDown("r") then
+		if not (lineConnectorStart ~= nil) then
+			local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
+			game.tilemap.setTileWithPreset(x, y, game.tilemap.getTilePresets()[currentPreset])
+		end
+
 		--game.tilemap.interact(x, y, 1)
 	end
 	if love.mouse.isDown(2) then
@@ -70,6 +75,28 @@ function game.editor.update(dt)
 		cooldown = 0.2
 		game.tilemap.previousLevel()
 	end
+
+	if love.keyboard.isScancodeDown("r") and love.mouse.isDown(1) then
+		if lineConnectorStart == nil then
+			lineConnectorStart = { love.mouse.getX(), love.mouse.getY() }
+		else
+			lineConnectorEnd = { love.mouse.getX(), love.mouse.getY() }
+		end
+	else
+		if love.keyboard.isScancodeDown("r") and lineConnectorStart ~= nil then
+			local x, y = game.tilemap.screenToWorldPos(lineConnectorStart[1], lineConnectorStart[2])
+			local endx, endy = game.tilemap.screenToWorldPos(lineConnectorEnd[1], lineConnectorEnd[2])
+			print("x: " .. x .. " y: " .. y .. " endx: " .. endx .. " endy: " .. endy)
+			local currentNeededRedstone = game.tilemap.getValue(x, y, "needs_redstone")
+			if currentNeededRedstone == nil then
+				currentNeededRedstone = {}
+			end
+			table.insert(currentNeededRedstone, { x = endx, y = endy })
+			game.tilemap.setValue(x, y, "needs_redstone", currentNeededRedstone)
+			lineConnectorStart = nil
+			lineConnectorEnd = nil
+		end
+	end
 end
 
 function game.editor.draw()
@@ -86,6 +113,15 @@ function game.editor.draw()
 	for k, v in pairs(game.tilemap.getTilePresets()) do
 		love.graphics.print(k, 10, 40 + i * 20)
 		i = i + 1
+	end
+
+	if lineConnectorStart ~= nil then
+		love.graphics.setColor(255, 0, 0)
+		love.graphics.circle("fill", lineConnectorStart[1], lineConnectorStart[2], 5)
+		if lineConnectorEnd ~= nil then
+			love.graphics.circle("fill", lineConnectorEnd[1], lineConnectorEnd[2], 5)
+			love.graphics.line(lineConnectorStart[1], lineConnectorStart[2], lineConnectorEnd[1], lineConnectorEnd[2])
+		end
 	end
 end
 

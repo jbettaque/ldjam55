@@ -1,1 +1,3 @@
-game.state = {}
+game.state = {
+	minions = {},
+}

@@ -6,11 +6,7 @@ require("game.tilemap")
 game.minions = {}
 
 function game.minions.load()
-	game.state.minions = {
-		{ position = { x = 100, y = 200 }, color = { 255, 0, 0 }, moveSpeed = 150 },
-		--{ position = { x = 200, y = 200 }, color = { 0, 255, 0 } },
-		--{ position = { x = 300, y = 400 }, color = { 0, 0, 255 } },
-	}
+	game.state.minions = {}
 end
 
 function game.minions.update(dt)

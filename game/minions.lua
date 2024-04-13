@@ -1,6 +1,5 @@
 require("game.state")
 require("game.conf")
-require("game.utils")
 require("game.tilemap")
 
 game.minions = {}
@@ -23,16 +22,16 @@ local function moveMinion(minion, dt)
 	-- prepare to move the minion
 	local newX, newY = minion.position.x, minion.position.y
 	if love.keyboard.isDown("w") or love.keyboard.isDown("up") then
-		newY = utils.clamp(0, minion.position.y - minion.moveSpeed * dt, 600)
+		newY = minion.position.y - minion.moveSpeed * dt
 	end
 	if love.keyboard.isDown("s") or love.keyboard.isDown("down") then
-		newY = utils.clamp(0, minion.position.y + minion.moveSpeed * dt, 600)
+		newY = minion.position.y + minion.moveSpeed * dt
 	end
 	if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
-		newX = utils.clamp(0, minion.position.x - minion.moveSpeed * dt, 800)
+		newX = minion.position.x - minion.moveSpeed * dt
 	end
 	if love.keyboard.isDown("d") or love.keyboard.isDown("right") then
-		newX = utils.clamp(0, minion.position.x + minion.moveSpeed * dt, 800)
+		newX = minion.position.x + minion.moveSpeed * dt
 	end
 
 	-- assign new position if it is valid

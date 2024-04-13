@@ -29,14 +29,14 @@ function game.tiles.door.register()
 			assetOpen = 2 + assetOffset,
 			assetClosed = 1 + assetOffset,
 			walkable = false,
-			interact = door_func,
+			interact = "door_func",
 		},
 		door_vert = {
 			asset = 3 + assetOffset,
 			assetOpen = 4 + assetOffset,
 			assetClosed = 3 + assetOffset,
 			walkable = false,
-			interact = door_func,
+			interact = "door_func",
 		},
 	}
 
@@ -45,4 +45,5 @@ function game.tiles.door.register()
 	end
 
 	game.tilemap.registerTilePresets(game.tiles.door.doorTilePresets)
+	game.tilemap.registerInteractFunction("door_func", door_func)
 end

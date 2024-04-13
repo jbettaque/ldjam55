@@ -25,6 +25,11 @@ game.conf = {
 		height = 15,
 	},
 
+	level_sequence = {
+		"save.json",
+		"level2.json",
+	},
+
 	ui = {
 		summoning = {
 			rowWidth = 300,

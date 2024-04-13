@@ -54,7 +54,7 @@ function game.tilemap.load()
 			game.state.level.standingOn[y][x] = false
 		end
 	end
-	game.tilemap.loadSave("save.json")
+	game.tilemap.loadSave(game.conf.level_sequence[1])
 	--game.tilemap.save()
 end
 
@@ -66,7 +66,8 @@ function game.tilemap.update(dt)
 		end
 		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
-		game.tilemap.interact(x, y, 1)
+		--game.tilemap.interact(x, y, 1)
+		game.tilemap.nextLevel()
 	end
 	if love.mouse.isDown(2) then
 		if interactCooldown > 0 then
@@ -75,7 +76,7 @@ function game.tilemap.update(dt)
 		end
 		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
-		game.tilemap.interact(x, y, 2)
+		--game.tilemap.interact(x, y, 2)
 	end
 end
 
@@ -178,5 +179,14 @@ function game.tilemap.loadSave(filename)
 		local json_data = file:read("*all")
 		file:close()
 		map = json.decode(json_data)
+	end
+end
+
+function game.tilemap.nextLevel()
+	if (game.state.level.current + 1) > #game.conf.level_sequence then
+		love.event.quit()
+	else
+		game.state.level.current = game.state.level.current + 1
+		game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
 	end
 end

@@ -3,23 +3,27 @@ require("game.state")
 require("game.summoning")
 require("game.minions")
 require("game.tilemap")
+require("game.editor")
 
 function love.load()
 	game.tilemap.load()
 	game.summoning.load()
 	game.minions.load()
+	game.editor.load()
 end
 
 function love.update(dt)
 	game.tilemap.update(dt)
 	game.summoning.update(dt)
 	game.minions.update(dt)
+	game.editor.update(dt)
 end
 
 function love.draw()
 	game.tilemap.draw()
 	game.minions.draw()
 	game.summoning.draw()
+	game.editor.draw()
 end
 
 function love.keypressed(key, scancode, isrepeat)

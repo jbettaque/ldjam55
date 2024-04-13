@@ -13,6 +13,10 @@ door_func = function(x, y, button)
 	end
 end
 
+door_step = function(x, y)
+	print("step on door")
+end
+
 local doorAssets = {
 	"assets/tiles/door_hor_closed.png",
 	"assets/tiles/door_hor_open.png",
@@ -30,6 +34,7 @@ function game.tiles.door.register()
 			assetClosed = 1 + assetOffset,
 			walkable = false,
 			interact = "door_func",
+			step_on = "door_step",
 		},
 		door_vert = {
 			asset = 3 + assetOffset,
@@ -37,6 +42,7 @@ function game.tiles.door.register()
 			assetClosed = 3 + assetOffset,
 			walkable = false,
 			interact = "door_func",
+			step_on = "door_step",
 		},
 	}
 
@@ -44,6 +50,8 @@ function game.tiles.door.register()
 		game.tilemap.registerAsset(doorAssets[i])
 	end
 
-	game.tilemap.registerTilePresets(game.tiles.door.doorTilePresets)
+	game.tilemap.registerStepOnFunction("door_step", door_step)
+	game.tilemap.registerTilePreset("door_hor", game.tiles.door.doorTilePresets.door_hor)
+	game.tilemap.registerTilePreset("door_vert", game.tiles.door.doorTilePresets.door_vert)
 	game.tilemap.registerInteractFunction("door_func", door_func)
 end

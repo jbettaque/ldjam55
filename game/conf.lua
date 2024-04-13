@@ -65,4 +65,6 @@ game.conf = {
 			menuTitle = "Summon Me",
 		},
 	},
+
+	editor = true,
 }

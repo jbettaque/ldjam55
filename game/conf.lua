@@ -10,6 +10,7 @@ game.conf = {
 				canInteract = true,
 				canFly = false,
 				canFight = false,
+				canFinish = true,
 			},
 			zombie = {
 				name = "Zombie",
@@ -19,6 +20,7 @@ game.conf = {
 				canInteract = false,
 				canFly = false,
 				canFight = false,
+				canFinish = false,
 			},
 			fae = {
 				name = "Fae",
@@ -28,6 +30,7 @@ game.conf = {
 				canInteract = true,
 				canFly = true,
 				canFight = false,
+				canFinish = false,
 			},
 			guard = {
 				name = "Guard",
@@ -37,6 +40,7 @@ game.conf = {
 				canInteract = false,
 				canFly = false,
 				canFight = true,
+				canFinish = false,
 			},
 		},
 	},

@@ -122,7 +122,6 @@ function game.summoning.loadLevel(id)
 			})
 		end
 	end
-	print(table.concat(game.state.summoning))
 end
 
 --- get the default summoning location for the current level

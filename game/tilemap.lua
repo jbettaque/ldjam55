@@ -11,6 +11,7 @@ require("game.tiles.mine")
 require("game.tiles.bridge")
 require("game.tiles.button")
 require("game.tiles.key")
+require("game.tiles.spike")
 
 local json = require("game.json")
 
@@ -42,6 +43,7 @@ function game.tilemap.load()
 	game.tiles.bridge.register()
 	game.tiles.button.register()
 	game.tiles.key.register()
+	game.tiles.spike.register()
 
 	game.tilemap.loadAssets(assets)
 

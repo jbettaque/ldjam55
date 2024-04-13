@@ -154,6 +154,10 @@ local function interactMinion(minion)
 	end
 end
 
+function game.minions.kill(minion)
+	print("TODO: kill minion")
+end
+
 --- callback when the game loads
 function game.minions.load()
 	game.state.minions = {}

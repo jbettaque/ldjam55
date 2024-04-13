@@ -33,6 +33,39 @@ door_func = function(x, y, button)
 	end
 end
 
+door_update_func = function(x, y, dt)
+	print("update door")
+	local shouldBeOpen = true
+	print(game.tilemap.getValue(x, y, "needs_redstone"))
+	if game.tilemap.getValue(x, y, "needs_redstone") then
+		local redstoneNeeded = game.tilemap.getValue(x, y, "needs_redstone")
+
+		for i = 1, #redstoneNeeded do
+			local redstoneX = redstoneNeeded[i].x
+			local redstoneY = redstoneNeeded[i].y
+
+			if not game.tilemap.getValue(redstoneX, redstoneY, "redstone") then
+				shouldBeOpen = false
+			end
+		end
+	end
+
+	local assetOpen = game.tilemap.getValue(x, y, "assetOpen")
+	local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
+
+	local asset = game.tilemap.getAsset(x, y)
+
+	if shouldBeOpen then
+		game.tilemap.setAsset(x, y, assetOpen)
+		game.tilemap.setValue(x, y, "walkable", true)
+		game.tilemap.setValue(x, y, "overFlyable", true)
+	else
+		game.tilemap.setAsset(x, y, assetClosed)
+		game.tilemap.setValue(x, y, "walkable", false)
+		game.tilemap.setValue(x, y, "overFlyable", false)
+	end
+end
+
 door_step = function(x, y)
 	print("step on door")
 end
@@ -57,10 +90,7 @@ function game.tiles.door.register()
 			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
-			needs_redstone = {
-				--{ x = 5, y = 5 },
-				--{ x = 6, y = 6 },
-			},
+			update = "door_update_func",
 		},
 		door_vert = {
 			preset = "door_vert",
@@ -71,9 +101,10 @@ function game.tiles.door.register()
 			overFlyable = false,
 			interact = "door_func",
 			step_on = "door_step",
+			update = "door_update_func",
 			needs_redstone = {
-				--{ x = 5, y = 5 },
-				--{ x = 6, y = 6 },
+				{ x = 5, y = 5 },
+				{ x = 6, y = 6 },
 			},
 		},
 	}
@@ -86,4 +117,5 @@ function game.tiles.door.register()
 	game.tilemap.registerTilePreset("door_hor", game.tiles.door.doorTilePresets.door_hor)
 	game.tilemap.registerTilePreset("door_vert", game.tiles.door.doorTilePresets.door_vert)
 	game.tilemap.registerInteractFunction("door_func", door_func)
+	game.tilemap.registerUpdateFunction("door_update_func", door_update_func)
 end

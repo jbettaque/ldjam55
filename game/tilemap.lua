@@ -27,6 +27,7 @@ local assets = {
 }
 local interactFunctions = {}
 local stepOnFunctions = {}
+local updateFunctions = {}
 
 local TILE_SIZE = game.conf.level.tileSize
 local LEVEL_WIDTH = game.conf.level.width
@@ -76,7 +77,16 @@ function game.tilemap.load()
 	--game.tilemap.save("save.json")
 end
 
-function game.tilemap.update(dt) end
+function game.tilemap.update(dt)
+	for y = 1, #map do
+		for x = 1, #map[y] do
+			local tile = map[y][x]
+			if updateFunctions[tile.update] then
+				updateFunctions[tile.update](x, y, dt)
+			end
+		end
+	end
+end
 
 function game.tilemap.draw()
 	love.graphics.setColor(255, 255, 255)
@@ -114,6 +124,9 @@ function game.tilemap.setTileWithPreset(x, y, tilePreset)
 end
 
 function game.tilemap.getValue(x, y, key)
+	if not map[y] or not map[y][x] then
+		return nil
+	end
 	return map[y][x][key]
 end
 
@@ -140,14 +153,14 @@ function game.tilemap.interact(x, y, button)
 	end
 end
 
-function game.tilemap.stepOn(x, y)
+function game.tilemap.stepOn(x, y, minion)
 	game.state.level.standingOn[y][x] = true
 
 	local tile = game.tilemap.getTile(x, y)
 
 	if tile.step_on then
 		print(tile.step_on)
-		stepOnFunctions[tile.step_on](x, y)
+		stepOnFunctions[tile.step_on](x, y, minion)
 	end
 end
 
@@ -167,6 +180,10 @@ function game.tilemap.registerStepOnFunction(name, func)
 	stepOnFunctions[name] = func
 end
 
+function game.tilemap.registerUpdateFunction(name, func)
+	updateFunctions[name] = func
+end
+
 function game.tilemap.registerAsset(asset)
 	table.insert(assets, asset)
 end
@@ -180,23 +197,6 @@ function game.tilemap.save(filename)
 	local file = io.open(filename, "w")
 	file:write(json_data)
 	file:close()
-	--print(love.filesystem.getWorkingDirectory())
-	--print("saving to " .. love.filesystem.getWorkingDirectory() .. "/" .. filename)
-	--local json_data = json.encode(map)
-	--local file, errorstr = love.filesystem.newFile(love.filesystem.getWorkingDirectory() .. "/" .. filename)
-	--if file then
-	--	file:open("w")
-	--	file:write(json_data)
-	--	file:close()
-	--else
-	--	print("save failed: " .. errorstr)
-	--end
-	--local success, message = love.filesystem.write(love.filesystem.getWorkingDirectory() .. "/" .. filename, json_data)
-	--if success then
-	--	print("save successful")
-	--else
-	--	print("save failed: " .. message)
-	--end
 end
 
 function game.tilemap.loadSave(filename)

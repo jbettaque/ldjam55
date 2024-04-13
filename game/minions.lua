@@ -223,7 +223,7 @@ end
 
 --- callback for key presses
 function game.minions.keypressed(key, scancode, isrepeat)
-	if key == "space" and not isrepeat then
+	if scancode == "space" and not isrepeat then
 		for _, minion in ipairs(game.state.minions) do
 			interactMinion(minion)
 		end

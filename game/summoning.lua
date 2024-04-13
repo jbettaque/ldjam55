@@ -86,8 +86,8 @@ function game.summoning.draw()
 end
 
 --- callback when a key is pressed
-function game.summoning.keypressed(key)
-	if key == "q" then
+function game.summoning.keypressed(key, scancode, isrepeat)
+	if scancode == "q" then
 		game.state.summoning.isSummoning = not game.state.summoning.isSummoning
 		print("show summoning menu: " .. tostring(game.state.summoning.isSummoning))
 	end

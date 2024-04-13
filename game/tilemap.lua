@@ -3,6 +3,7 @@ game.tiles = {}
 require("game.state")
 require("game.conf")
 require("game.tiles.door")
+require("game.tiles.spawn")
 
 local json = require("game.json")
 
@@ -26,6 +27,7 @@ local map = game.state.level.map
 
 function game.tilemap.load()
 	game.tiles.door.register()
+	game.tiles.spawn.register()
 
 	game.tilemap.loadAssets(assets)
 

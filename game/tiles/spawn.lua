@@ -9,6 +9,7 @@ function game.tiles.spawn.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.spawn.tilePreset = {
+		preset = "spawn",
 		asset = 1 + assetOffset,
 		walkable = true,
 		overFlyable = true,

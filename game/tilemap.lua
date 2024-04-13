@@ -18,8 +18,8 @@ local json = require("game.json")
 local mapping = {}
 
 tilePresets = {
-	wall = { asset = 1, walkable = false, overFlyable = false },
-	ground = { asset = 2, walkable = true, overFlyable = true },
+	wall = { preset = "wall", asset = 1, walkable = false, overFlyable = false},
+	ground = { preset = "ground", asset = 2, walkable = true, overFlyable = false},
 }
 local assets = {
 	"assets/tiles/tile_wall.png",
@@ -202,6 +202,20 @@ function game.tilemap.loadSave(filename)
 	local contents, size = love.filesystem.read(filename)
 	if contents then
 		map = json.decode(contents)
+
+		for i = 1, #map do
+			for j = 1, #map[i] do
+				game.state.level.standingOn[i][j] = false
+
+				--
+				local preset = tilePresets[map[i][j].preset]
+				if preset then
+					for k, v in pairs(preset) do
+						map[i][j][k] = v
+					end
+				end
+			end
+		end
 	end
 end
 

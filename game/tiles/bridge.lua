@@ -9,6 +9,7 @@ function game.tiles.bridge.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.bridge.tilePreset = {
+		preset = "bridge",
 		asset = 1 + assetOffset,
 		walkable = false,
 		overFlyable = true,

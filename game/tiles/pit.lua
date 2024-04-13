@@ -9,6 +9,7 @@ function game.tiles.pit.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.pit.tilePreset = {
+		preset = "pit",
 		asset = 1 + assetOffset,
 		walkable = false,
 		overFlyable = true,

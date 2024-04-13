@@ -9,6 +9,7 @@ function game.tiles.button.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.button.tilePreset = {
+		preset = "button",
 		asset = 1 + assetOffset,
 		walkable = true,
 		overFlyable = true,

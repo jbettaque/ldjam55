@@ -9,6 +9,7 @@ function game.tiles.finish.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.finish.tilePreset = {
+		preset = "finish",
 		asset = 1 + assetOffset,
 		walkable = true,
 		overFlyable = true,

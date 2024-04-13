@@ -9,6 +9,7 @@ function game.tiles.mine.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.mine.tilePreset = {
+		preset = "mine",
 		asset = 1 + assetOffset,
 		walkable = false,
 		overFlyable = false,

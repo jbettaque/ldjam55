@@ -9,6 +9,7 @@ function game.tiles.key.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.key.tilePreset = {
+		preset = "key",
 		asset = 1 + assetOffset,
 		walkable = true,
 		overFlyable = true,

@@ -9,6 +9,7 @@ function game.tiles.box.register()
 	print("assetOffset: " .. assetOffset)
 
 	game.tiles.box.tilePreset = {
+		preset = "box",
 		asset = 1 + assetOffset,
 		walkable = false,
 		overFlyable = false,

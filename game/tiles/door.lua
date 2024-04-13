@@ -31,6 +31,7 @@ function game.tiles.door.register()
 
 	game.tiles.door.doorTilePresets = {
 		door_hor = {
+			preset = "door_hor",
 			asset = 1 + assetOffset,
 			assetOpen = 2 + assetOffset,
 			assetClosed = 1 + assetOffset,
@@ -40,6 +41,7 @@ function game.tiles.door.register()
 			step_on = "door_step",
 		},
 		door_vert = {
+			preset = "door_vert",
 			asset = 3 + assetOffset,
 			assetOpen = 4 + assetOffset,
 			assetClosed = 3 + assetOffset,

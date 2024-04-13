@@ -1,20 +1,31 @@
 game.tilemap = {}
+game.tiles = {}
 require("game.state")
 require("game.conf")
+require("game.tiles.door")
 
 local mapping = {}
+
 local tilePresets = {
 	wall = { asset = 1, walkable = false },
 	ground = { asset = 2, walkable = true },
 }
+
+local assets = {
+	"assets/tiles/tile_wall.png",
+	"assets/tiles/tile_ground.png",
+}
+
 local TILE_SIZE = game.conf.level.tileSize
 local LEVEL_WIDTH = game.conf.level.width
 local LEVEL_HEIGHT = game.conf.level.height
 local map = game.state.level.map
+local interactCooldown = 0
 
 function game.tilemap.load()
-	mapping[1] = love.graphics.newImage("assets/tiles/tile_wall.png")
-	mapping[2] = love.graphics.newImage("assets/tiles/tile_ground.png")
+	game.tiles.door.register()
+
+	game.tilemap.loadAssets(assets)
 
 	local window_width = TILE_SIZE * LEVEL_WIDTH
 	local window_height = TILE_SIZE * LEVEL_HEIGHT
@@ -29,18 +40,36 @@ function game.tilemap.load()
 			else
 				game.tilemap.setTileWithPreset(x, y, tilePresets.ground)
 			end
+
+			if x == 5 and y == math.floor(LEVEL_HEIGHT / 2) then
+				game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_hor)
+			end
+
+			if x == math.floor(LEVEL_WIDTH / 2) and y == 5 then
+				game.tilemap.setTileWithPreset(x, y, game.tiles.door.doorTilePresets.door_vert)
+			end
 		end
 	end
 end
 
 function game.tilemap.update(dt)
 	if love.mouse.isDown(1) then
+		if interactCooldown > 0 then
+			interactCooldown = interactCooldown - dt
+			return
+		end
+		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
-		map[y][x].asset = 1
+		game.tilemap.interact(x, y, 1)
 	end
 	if love.mouse.isDown(2) then
+		if interactCooldown > 0 then
+			interactCooldown = interactCooldown - dt
+			return
+		end
+		interactCooldown = 0.1
 		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
-		map[y][x].asset = 2
+		game.tilemap.interact(x, y, 2)
 	end
 end
 
@@ -53,8 +82,14 @@ function game.tilemap.draw()
 	end
 end
 
+function game.tilemap.loadAssets(assets)
+	for i, asset in ipairs(assets) do
+		mapping[i] = love.graphics.newImage(asset)
+	end
+end
+
 function game.tilemap.getTile(x, y)
-	return mapping[map[y][x]]
+	return map[y][x]
 end
 
 function game.tilemap.getAsset(x, y)
@@ -91,4 +126,19 @@ end
 
 function game.tilemap.screenToWorldPos(x, y)
 	return math.floor(x / TILE_SIZE) + 1, math.floor(y / TILE_SIZE) + 1
+end
+
+function game.tilemap.interact(x, y, button)
+	local tile = game.tilemap.getTile(x, y)
+	if tile.interact then
+		tile.interact(x, y, button)
+	end
+end
+
+function game.tilemap.registerTilePresets(name, preset)
+	tilePresets[name] = preset
+end
+
+function game.tilemap.registerAsset(asset)
+	table.insert(assets, asset)
 end

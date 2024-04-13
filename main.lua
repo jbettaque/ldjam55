@@ -16,7 +16,6 @@ function love.update(dt)
 end
 
 function love.draw()
-	game.character.test()
 	game.tilemap.draw()
 	love.graphics.print("Hello World " .. time, 400, 250)
 	game.character.draw()

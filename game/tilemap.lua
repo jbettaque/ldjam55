@@ -3,6 +3,10 @@ require("game.state")
 require("game.conf")
 
 local mapping = {}
+local tilePresets = {
+	wall = { asset = 1, walkable = false },
+	ground = { asset = 2, walkable = true },
+}
 local TILE_SIZE = game.conf.level.tileSize
 local LEVEL_WIDTH = game.conf.level.width
 local LEVEL_HEIGHT = game.conf.level.height
@@ -21,9 +25,9 @@ function game.tilemap.load()
 		map[y] = {}
 		for x = 1, LEVEL_WIDTH do
 			if x == 1 or x == LEVEL_WIDTH or y == 1 or y == LEVEL_HEIGHT then
-				map[y][x] = { asset = 1 }
+				game.tilemap.setTileWithPreset(x, y, tilePresets.wall)
 			else
-				map[y][x] = { asset = 2 }
+				game.tilemap.setTileWithPreset(x, y, tilePresets.ground)
 			end
 		end
 	end
@@ -59,6 +63,22 @@ end
 
 function game.tilemap.setTile(x, y, tile)
 	map[y][x] = tile
+end
+
+function game.tilemap.setTileWithPreset(x, y, tilePreset)
+	local tile = {}
+	for k, v in pairs(tilePreset) do
+		tile[k] = v
+	end
+	map[y][x] = tile
+end
+
+function game.tilemap.getValue(x, y, key)
+	return map[y][x][key]
+end
+
+function game.tilemap.setValue(x, y, key, value)
+	map[y][x][key] = value
 end
 
 function game.tilemap.setAsset(x, y, asset)

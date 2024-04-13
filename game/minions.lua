@@ -6,45 +6,62 @@ game.minions = {}
 
 local MINION_SIZE = game.conf.minions.size
 
+--- trigger other game components when a minion enters a new tile
 local function triggerMinionStepOn(minion, mapX, mapY)
 	print("minion " .. minion.name .. " stepped on new tile " .. mapX .. "x" .. mapY)
 	game.tilemap.stepOn(mapX, mapY)
 end
 
+--- trigger other game components when a minion leaves a tile
 local function triggerMinionStepOff(minion, mapX, mapY)
 	print("minion " .. minion.name .. " stepped off old tile " .. mapX .. "x" .. mapY)
 	game.tilemap.stepOff(mapX, mapY)
 end
 
 local function moveMinion(minion, dt)
+	local x, y = minion.position.x, minion.position.y
 	local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
+	local hasMoved = false
 
-	-- prepare to move the minion
-	local newX, newY = minion.position.x, minion.position.y
-	if love.keyboard.isDown("w") or love.keyboard.isDown("up") then
-		newY = minion.position.y - minion.moveSpeed * dt
-	end
-	if love.keyboard.isDown("s") or love.keyboard.isDown("down") then
-		newY = minion.position.y + minion.moveSpeed * dt
-	end
-	if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
-		newX = minion.position.x - minion.moveSpeed * dt
-	end
-	if love.keyboard.isDown("d") or love.keyboard.isDown("right") then
-		newX = minion.position.x + minion.moveSpeed * dt
-	end
-
-	-- assign new position if it is valid
-	local newMapX, newMapY = game.tilemap.screenToWorldPos(newX, newY)
-	if game.tilemap.getValue(newMapX, newMapY, "walkable") == true then
-		minion.position.x = newX
-		minion.position.y = newY
-
-		-- trigger events if stepped on a new tile
-		if mapX ~= newMapX or mapY ~= newMapY then
-			triggerMinionStepOff(minion, mapX, mapY)
-			triggerMinionStepOn(minion, newMapX, newMapY)
+	--- checks whether the screen position x,y is accessible by the current minion
+	local function canMoveTo(x, y)
+		local mapX, mapY = game.tilemap.screenToWorldPos(x, y)
+		if minion.movementType == "walking" then
+			return game.tilemap.getValue(mapX, mapY, "walkable")
+		elseif minion.movementType == "flying" then
+			error("tilemap does not yet store fly-over information")
+		else
+			error("minion " .. minion.name .. " uses unknown movementType " .. minion.movementType)
 		end
+	end
+
+	-- handle movement in all four directions
+	local isUp = love.keyboard.isDown("w") or love.keyboard.isDown("up")
+	local isRight = love.keyboard.isDown("d") or love.keyboard.isDown("right")
+	local isDown = love.keyboard.isDown("s") or love.keyboard.isDown("down")
+	local isLeft = love.keyboard.isDown("a") or love.keyboard.isDown("left")
+	if isUp and not isDown and canMoveTo(x, y - minion.moveSpeed * dt) then
+		minion.position.y = y - minion.moveSpeed * dt
+		hasMoved = true
+	end
+	if isRight and not isLeft and canMoveTo(x + minion.moveSpeed * dt, y) then
+		minion.position.x = x + minion.moveSpeed * dt
+		hasMoved = true
+	end
+	if isDown and not isUp and canMoveTo(x, y + minion.moveSpeed * dt) then
+		minion.position.y = y + minion.moveSpeed * dt
+		hasMoved = true
+	end
+	if isLeft and not isRight and canMoveTo(x - minion.moveSpeed * dt, y) then
+		minion.position.x = x - minion.moveSpeed * dt
+		hasMoved = true
+	end
+
+	-- trigger events if stepped on a new tile
+	local newMapX, newMapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
+	if mapX ~= newMapX or mapY ~= newMapY then
+		triggerMinionStepOff(minion, mapX, mapY)
+		triggerMinionStepOn(minion, newMapX, newMapY)
 	end
 end
 
@@ -136,12 +153,12 @@ local function interactMinion(minion)
 	end
 end
 
--- callback when the game loads
+--- callback when the game loads
 function game.minions.load()
 	game.state.minions = {}
 end
 
--- callback for game updates
+--- callback for game updates
 function game.minions.update(dt)
 	for _, minion in ipairs(game.state.minions) do
 		moveMinion(minion, dt)
@@ -149,7 +166,7 @@ function game.minions.update(dt)
 	end
 end
 
--- callback for rendering
+--- callback for rendering
 function game.minions.draw()
 	for _, minion in ipairs(game.state.minions) do
 		-- body
@@ -203,7 +220,7 @@ function game.minions.draw()
 	end
 end
 
--- callback for key presses
+--- callback for key presses
 function game.minions.keypressed(key, scancode, isrepeat)
 	if key == "space" and not isrepeat then
 		for _, minion in ipairs(game.state.minions) do

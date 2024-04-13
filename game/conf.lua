@@ -14,7 +14,7 @@ game.conf = {
 			rowHeight = 50,
 			titleHeight = 40,
 			border = 5,
-			menuTitle = "Summon Me"
+			menuTitle = "Summon Me",
 		},
 	},
 }

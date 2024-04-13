@@ -21,7 +21,7 @@ end
 function love.draw()
 	game.tilemap.draw()
 	game.minions.draw()
-    game.summoning.draw()
+	game.summoning.draw()
 end
 
 function love.keypressed(key)

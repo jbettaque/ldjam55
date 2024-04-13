@@ -1,13 +1,13 @@
-name: test
+name: format
 on:
-  schedule:
-    - cron: "* 3 * * MON"
-  workflow_dispatch:
   push:
     branches: [ "*" ]
 
+permissions:
+  contents: write
+
 jobs:
-  check-pre-commit:
+  autofix-pre-commit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,3 +20,7 @@ jobs:
           path: ~/.cache/pre-commit
           key: pre-commit|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml') }}
       - run: pre-commit run --show-diff-on-failure --color=always --all-files
+        continue-on-error: true
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: fix pre-commit warnings

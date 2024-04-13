@@ -18,8 +18,8 @@ local json = require("game.json")
 local mapping = {}
 
 tilePresets = {
-	wall = { preset = "wall", asset = 1, walkable = false, overFlyable = false},
-	ground = { preset = "ground", asset = 2, walkable = true, overFlyable = false},
+	wall = { preset = "wall", asset = 1, walkable = false, overFlyable = false },
+	ground = { preset = "ground", asset = 2, walkable = true, overFlyable = false },
 }
 local assets = {
 	"assets/tiles/tile_wall.png",

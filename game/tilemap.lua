@@ -222,6 +222,7 @@ function game.tilemap.loadSave(filename)
 				end
 			end
 		end
+		game.loadLevel(game.state.level.current)
 	end
 end
 

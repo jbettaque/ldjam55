@@ -2,6 +2,7 @@ game.gui.menu = {}
 
 require("game.gui.control_widget")
 local muted = false
+
 ---  callback when a key is pressed on the keyboard
 function game.gui.menu.keypressed(key, scancode, isrepeat)
 	if scancode == "h" then
@@ -22,6 +23,7 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 	end
 end
 
+--- callback for when this gui should be drawn
 function game.gui.menu.draw()
 	local containerHeight = game.conf.ui.menu.containerHeight
 	local rowHeight = game.conf.ui.menu.rowHeight
@@ -56,7 +58,13 @@ function game.gui.menu.draw()
 	local itemFont = rowHeight * 0.8
 	love.graphics.setNewFont(itemFont)
 	love.graphics.printf("Level " .. tostring(game.state.level.current), xRow, yRowBase, textWidth, "center")
-	love.graphics.printf("I like to Move It Move It", xRow, yRowBase + 1 * rowMult, textWidth, "center")
+	love.graphics.printf(
+		game.conf.level_sequence[game.state.level.current].title,
+		xRow,
+		yRowBase + 1 * rowMult,
+		textWidth,
+		"center"
+	)
 	love.graphics.line(x1, yRowBase + 2 * rowMult, x1 + rowWidth, yRowBase + 2 * rowMult)
 
 	-- Draw actual menu section

@@ -86,7 +86,7 @@ game.conf = {
 		},
 		{
 			filename = "game/levels/01_summoning.json",
-			title = "Summon Me",
+			title = "Welcome to the Game",
 			minions = {
 				homunculus = 3,
 				zombie = 0,
@@ -225,104 +225,6 @@ game.conf = {
 			},
 		},
 	},
-	level_minions = {
-		{ -- testing stage
-			homunculus = 2,
-			zombie = 2,
-			fae = 2,
-			guard = 2,
-		},
-		{ -- 01_summoning
-			homunculus = 3,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 02_interaction
-			homunculus = 2,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 03_different_speeds
-			homunculus = 1,
-			zombie = 1,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 04_yournamehere
-			homunculus = 1,
-			zombie = 1,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 05_you_can_die
-			homunculus = 1,
-			zombie = 2,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 06_sacrifice
-			homunculus = 1,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 07_you_can_fly
-			homunculus = 1,
-			zombie = 0,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 08_dont_fly_too_high
-			homunculus = 1,
-			zombie = 1,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 09_fae_in_the_middle
-			homunculus = 2,
-			zombie = 2,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 10_race
-			homunculus = 1,
-			zombie = 2,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 11_fly_ahead
-			homunculus = 1,
-			zombie = 0,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 12_locked_in
-			homunculus = 1,
-			zombie = 1,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 13_zombie_prison
-			homunculus = 1,
-			zombie = 3,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- lever coordination
-			homunculus = 2,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		--{ -- zz_quintet
-		--	homunculus = 2,
-		--	zombie = 3,
-		--	fae = 0,
-		--	guard = 0,
-		--},
-	},
 
 	ui = {
 		summoning = {
@@ -346,6 +248,14 @@ game.conf = {
 			rowHeight = 40,
 			titleHeight = 70,
 			border = 5,
+		},
+		end_screen = {
+			containerHeight = 450,
+			containerWidth = 1100,
+			titleHeight = 70,
+			textHeight = 35,
+			border = 5,
+			topMargin = 45,
 		},
 		keyboard_control_widget = {
 			buttonSize = 78,

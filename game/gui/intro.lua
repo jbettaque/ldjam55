@@ -4,14 +4,13 @@ game.gui.intro = {}
 
 --- draw the menu container and return the inner dimensions available for furhter text
 ---
---- Parameters:
----   title: The title to draw on the top of the menu
 --- Returns:
 ---   x coordinate of the inner content area
 ---   y coordinate of the inner content area
 ---   width of the inner content area
 ---   height of the inner content area
-local function drawContainer(title)
+local function drawContainer()
+	local levelName = game.conf.level_sequence[game.state.level.current].title
 	local containerWidth = game.conf.ui.intro.containerWidth
 	local containerHeight = game.conf.ui.intro.containerHeight
 	local border = game.conf.ui.intro.border
@@ -29,7 +28,7 @@ local function drawContainer(title)
 	local titleHeight = game.conf.ui.intro.titleHeight
 	love.graphics.setColor(1, 1, 1)
 	love.graphics.setNewFont(titleHeight * 0.8)
-	love.graphics.printf(title, x1 + border, y1 + border, containerWidth, "center")
+	love.graphics.printf(levelName, x1 + border, y1 + border, containerWidth, "center")
 	love.graphics.line(x1, y1 + border + titleHeight + border, x1 + containerWidth, y1 + border + titleHeight + border)
 
 	--- Print closing remark
@@ -76,13 +75,13 @@ local function isInFooter(x, y)
 end
 
 local function drawLevelSummoning()
-	x, y, width, height = drawContainer("Welcome to the game")
+	x, y, width, height = drawContainer()
 	love.graphics.printf("Hello World.", x, y, width, "left") -- TODO write intro and explain controls
 	game.gui.widgets.keyboardControl(x + 20, y + 50)
 end
 
 local function drawLevelInteractions()
-	x, y, width, height = drawContainer("Interactions")
+	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"Your minions can interact with various objects in your chambers. In this room they need to operate a switch and a pressure plate.",
 		x,
@@ -93,7 +92,7 @@ local function drawLevelInteractions()
 end
 
 local function drawLevelDifferentSpeeds()
-	x, y, width, height = drawContainer("Different Speeds")
+	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with object. However, they are ideal as ballast for pressure plates. But remember that only homunculi can use the exit.",
 		x,
@@ -104,7 +103,7 @@ local function drawLevelDifferentSpeeds()
 end
 
 local function drawLevelYouCanDie()
-	x, y, width, height = drawContainer("Minions are mortal")
+	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"As you are well aware your minions can die, from running brainlessly into spikes for example. But don't be alarmed deceased minions can be re-summoned immediately.",
 		x,
@@ -115,7 +114,7 @@ local function drawLevelYouCanDie()
 end
 
 local function drawLevelYouCanFly()
-	x, y, width, height = drawContainer("Fly Away")
+	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"The next room contains pits and spikes which cannot be avoided. I suggest you summon a fae, which can elegantly glide above them. But just as Zombies they cannot use the exit.",
 		x,
@@ -126,7 +125,7 @@ local function drawLevelYouCanFly()
 end
 
 local function drawLevelDontFlyTooHigh()
-	x, y, width, height = drawContainer("Don't fly too high")
+	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"Fae might be able to fly above dangers and obstacles. But as you certainly know, this also prevents them from pressing down pressure plates.",
 		x,

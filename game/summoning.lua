@@ -112,7 +112,7 @@ function game.summoning.loadLevel(id)
 
 	-- rebuild state to store summonable minion types
 	print("loading summoning options for level " .. tostring(id))
-	for presetId, amount in pairs(game.conf.level_minions[id]) do
+	for presetId, amount in pairs(game.conf.level_sequence[id].minions) do
 		if amount > 0 then
 			print("    " .. amount .. " " .. presetId)
 			table.insert(game.state.summoning.types, {

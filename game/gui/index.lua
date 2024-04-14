@@ -13,12 +13,10 @@ end
 
 --- callback when the game loads the level with the given index
 function game.gui.loadLevel(id)
-	print(id, #game.conf.level_sequence)
+	game.state.isActive = false
 	if id == #game.conf.level_sequence then
-		game.state.isActive = true
 		game.state.gui = "endScreen"
 	else
-		game.state.isActive = false
 		game.state.gui = "intro"
 	end
 end

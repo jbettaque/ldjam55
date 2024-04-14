@@ -228,8 +228,8 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/credits.json",
-			title = "Credits",
+			filename = "game/levels/99_end.json",
+			title = "The End",
 			minions = {
 				homunculus = 0,
 				zombie = 0,

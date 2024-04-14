@@ -21,7 +21,7 @@ local mapping = {}
 
 tilePresets = {
 	wall = { preset = "wall", asset = 1, walkable = false, overFlyable = false },
-	ground = { preset = "ground", asset = 2, walkable = true, overFlyable = false },
+	ground = { preset = "ground", asset = 2, walkable = true, overFlyable = true },
 }
 local assets = {
 	"assets/tiles/tile_wall.png",

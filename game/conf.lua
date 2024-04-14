@@ -56,7 +56,7 @@ game.conf = {
 		height = 30,
 	},
 
-	level_sequence = {
+	level_sequence_old = {
 		"game/levels/level1.json", -- for testing
 		"game/levels/01_summoning.json",
 		"game/levels/02_interaction.json",
@@ -72,6 +72,158 @@ game.conf = {
 		"game/levels/12_locked_in.json",
 		"game/levels/13_zombie_prison.json",
 		"game/levels/lever_coordination.json",
+	},
+	level_sequence = {
+		{
+			filename = "game/levels/level1.json",
+			title = "testing stage",
+			minions = {
+				homunculus = 2,
+				zombie = 2,
+				fae = 2,
+				guard = 2,
+			},
+		},
+		{
+			filename = "game/levels/01_summoning.json",
+			title = "Summon Me",
+			minions = {
+				homunculus = 3,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/02_interaction.json",
+			title = "Interaction",
+			minions = {
+				homunculus = 2,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/03_different_speeds.json",
+			title = "Different Speeds",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/04_yournamehere.json",
+			title = "Your Name Here",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/05_you_can_die.json",
+			title = "You Can Die",
+			minions = {
+				homunculus = 1,
+				zombie = 2,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/06_sacrifice.json",
+			title = "Sacrifice",
+			minions = {
+				homunculus = 1,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/07_you_can_fly.json",
+			title = "You Can Fly",
+			minions = {
+				homunculus = 1,
+				zombie = 0,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/08_dont_fly_too_high.json",
+			title = "Don't Fly Too High",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/09_fae_in_the_middle.json",
+			title = "Fae in the Middle",
+			minions = {
+				homunculus = 2,
+				zombie = 2,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/10_race.json",
+			title = "Race",
+			minions = {
+				homunculus = 1,
+				zombie = 2,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/11_fly_ahead.json",
+			title = "Fly Ahead",
+			minions = {
+				homunculus = 1,
+				zombie = 0,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/12_locked_in.json",
+			title = "Locked In",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/13_zombie_prison.json",
+			title = "Zombie Prison",
+			minions = {
+				homunculus = 1,
+				zombie = 3,
+				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/lever_coordination.json",
+			title = "Lever Coordination",
+			minions = {
+				homunculus = 2,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
+		},
 	},
 	level_minions = {
 		{ -- testing stage

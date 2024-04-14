@@ -145,7 +145,7 @@ local function unstuckMinion(minion)
 	if minion.movementType == "walking" then
 		mapProp = "walkable"
 	elseif minion.movementType == "flying" then
-		mapProp = "overFylable"
+		mapProp = "overFlyable"
 	else
 		error("unknown minion movement type " .. tostring(minion.movementType))
 	end

@@ -64,11 +64,12 @@ game.conf = {
 		"game/levels/05_you_can_die.json",
 		"game/levels/06_sacrifice.json",
 		"game/levels/07_you_can_fly.json",
-		"game/levels/08_fae_in_the_middle.json",
-		"game/levels/09_race.json",
-		"game/levels/10_fly_ahead.json",
-		"game/levels/11_locked_in.json",
-		"game/levels/12_zombie_prison.json",
+		"game/levels/08_dont_fly_too_high.json",
+		"game/levels/09_fae_in_the_middle.json",
+		"game/levels/19_race.json",
+		"game/levels/11_fly_ahead.json",
+		"game/levels/12_locked_in.json",
+		"game/levels/13_zombie_prison.json",
 	},
 	level_minions = {
 		{ -- testing stage
@@ -119,42 +120,49 @@ game.conf = {
 			fae = 1,
 			guard = 0,
 		},
-		{ -- 08_fae_in_the_middle
-			homunculus = 2,
-			zombie = 2,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 09_race
-			homunculus = 1,
-			zombie = 2,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 10_fly_ahead
-			homunculus = 1,
-			zombie = 0,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 11_locked_in
+		{ -- 08_dont_fly_too_high
 			homunculus = 1,
 			zombie = 1,
 			fae = 1,
 			guard = 0,
 		},
-		--{ -- 12_quintet
-		--	homunculus = 2,
-		--	zombie = 3,
-		--	fae = 0,
-		--	guard = 0,
-		--},
-		{ -- 12_zombie_prison
+		{ -- 09_fae_in_the_middle
+			homunculus = 2,
+			zombie = 2,
+			fae = 1,
+			guard = 0,
+		},
+		{ -- 10_race
+			homunculus = 1,
+			zombie = 2,
+
+			fae = 0,
+			guard = 0,
+		},
+		{ -- 11_fly_ahead
+			homunculus = 1,
+			zombie = 0,
+			fae = 1,
+			guard = 0,
+		},
+		{ -- 12_locked_in
+			homunculus = 1,
+			zombie = 1,
+			fae = 1,
+			guard = 0,
+		},
+		{ -- 13_zombie_prison
 			homunculus = 1,
 			zombie = 3,
 			fae = 0,
 			guard = 0,
 		},
+		--{ -- zz_quintet
+		--	homunculus = 2,
+		--	zombie = 3,
+		--	fae = 0,
+		--	guard = 0,
+		--},
 	},
 
 	ui = {

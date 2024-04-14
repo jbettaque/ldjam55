@@ -7,13 +7,14 @@
 
 # Components
 
-- start / summoning spot
-- goal
-- wall
-- ground
-- pit
-- moveable boxes
-- mines sacrifice a minion
+- [x] start / summoning spot
+- [ ] goal
+- [x] wall
+- [x] ground
+- [x] pit
+- [ ] moveable boxes
+- [ ] mines sacrifice a minion
+
 
 - switch
 - step on plate

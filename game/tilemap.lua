@@ -14,6 +14,7 @@ require("game.tiles.key")
 require("game.tiles.spike")
 require("game.tiles.pressureplate")
 require("game.tiles.lever")
+require("game.tiles.keyhole")
 
 local json = require("game.json")
 
@@ -50,6 +51,7 @@ function game.tilemap.load()
 	game.tiles.pressureplate.register()
 	game.tiles.lever.register()
 	game.tiles.bridge.register()
+	game.tiles.keyhole.register()
 
 	game.tilemap.loadAssets(assets)
 
@@ -155,10 +157,10 @@ function game.tilemap.tilemapToScreen(x, y)
 	return (x - 1) * TILE_SIZE + (TILE_SIZE / 2), (y - 1) * TILE_SIZE + (TILE_SIZE / 2)
 end
 
-function game.tilemap.interact(x, y, button)
+function game.tilemap.interact(x, y, minion)
 	local tile = game.tilemap.getTile(x, y)
 	if tile.interact then
-		interactFunctions[tile.interact](x, y, button)
+		interactFunctions[tile.interact](x, y, minion)
 	end
 end
 

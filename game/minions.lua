@@ -156,7 +156,20 @@ local function interactMinion(minion)
 			error("unhandled minion angle " .. tostring(minion.angle))
 		end
 
-		print("minion " .. minion.name .. " is interacting with tile at " .. interactX .. "x" .. interactY)
+		print(
+			minion.name
+				.. " "
+				.. tostring(minion.id)
+				.. " is interacting with tile "
+				.. interactX
+				.. "x"
+				.. interactY
+				.. " and "
+				.. mapX
+				.. "x"
+				.. mapY
+		)
+		game.tilemap.interact(mapX, mapY, 1)
 		game.tilemap.interact(interactX, interactY, 1)
 	end
 end

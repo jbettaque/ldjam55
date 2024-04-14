@@ -65,6 +65,20 @@ function game.editor.update(dt)
 		showConnections = not showConnections
 	end
 
+	if love.mouse.isDown(3) then
+		cooldown = 0.2
+		local x, y = game.tilemap.screenToWorldPos(love.mouse.getX(), love.mouse.getY())
+
+		print(game.tilemap.getValue(x, y, "inverted"))
+		if game.tilemap.getValue(x, y, "inverted") ~= nil then
+			if game.tilemap.getValue(x, y, "inverted") == false then
+				game.tilemap.setValue(x, y, "inverted", true)
+			else
+				game.tilemap.setValue(x, y, "inverted", false)
+			end
+		end
+	end
+
 	if love.keyboard.isScancodeDown("s") and love.keyboard.isScancodeDown("lctrl") then
 		cooldown = 2
 		game.tilemap.save("game/levels/level" .. game.tilemap.getCurrentLevel() .. ".json")

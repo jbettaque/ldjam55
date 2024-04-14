@@ -93,6 +93,12 @@ function game.tilemap.update(dt)
 			end
 		end
 	end
+
+	if love.keyboard.isScancodeDown("escape") then
+		cooldown = 2
+		print("reloading level")
+		game.tilemap.resetLevel()
+	end
 end
 
 function game.tilemap.draw()
@@ -284,4 +290,8 @@ function game.tilemap.getSpawn()
 		end
 	end
 	return 100, 100
+end
+
+function game.tilemap.resetLevel()
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
 end

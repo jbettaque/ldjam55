@@ -56,23 +56,6 @@ game.conf = {
 		height = 30,
 	},
 
-	level_sequence_old = {
-		"game/levels/level1.json", -- for testing
-		"game/levels/01_summoning.json",
-		"game/levels/02_interaction.json",
-		"game/levels/03_different_speeds.json",
-		"game/levels/04_yournamehere.json",
-		"game/levels/05_you_can_die.json",
-		"game/levels/06_sacrifice.json",
-		"game/levels/07_you_can_fly.json",
-		"game/levels/08_dont_fly_too_high.json",
-		"game/levels/09_fae_in_the_middle.json",
-		"game/levels/10_race.json",
-		"game/levels/11_fly_ahead.json",
-		"game/levels/12_locked_in.json",
-		"game/levels/13_zombie_prison.json",
-		"game/levels/lever_coordination.json",
-	},
 	level_sequence = {
 		{
 			filename = "game/levels/level1.json",
@@ -224,104 +207,36 @@ game.conf = {
 				guard = 0,
 			},
 		},
-	},
-	level_minions = {
-		{ -- testing stage
-			homunculus = 2,
-			zombie = 2,
-			fae = 2,
-			guard = 2,
+		{
+			filename = "game/levels/mines.json",
+			title = "Mines",
+			minions = {
+				homunculus = 2,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
 		},
-		{ -- 01_summoning
-			homunculus = 3,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
+		{
+			filename = "game/levels/namemepls.json",
+			title = "Name Me Please",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 0,
+				guard = 0,
+			},
 		},
-		{ -- 02_interaction
-			homunculus = 2,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
+		{
+			filename = "game/levels/credits.json",
+			title = "Credits",
+			minions = {
+				homunculus = 0,
+				zombie = 0,
+				fae = 0,
+				guard = 0,
+			},
 		},
-		{ -- 03_different_speeds
-			homunculus = 1,
-			zombie = 1,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 04_yournamehere
-			homunculus = 1,
-			zombie = 1,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 05_you_can_die
-			homunculus = 1,
-			zombie = 2,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 06_sacrifice
-			homunculus = 1,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 07_you_can_fly
-			homunculus = 1,
-			zombie = 0,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 08_dont_fly_too_high
-			homunculus = 1,
-			zombie = 1,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 09_fae_in_the_middle
-			homunculus = 2,
-			zombie = 2,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 10_race
-			homunculus = 1,
-			zombie = 2,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- 11_fly_ahead
-			homunculus = 1,
-			zombie = 0,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 12_locked_in
-			homunculus = 1,
-			zombie = 1,
-			fae = 1,
-			guard = 0,
-		},
-		{ -- 13_zombie_prison
-			homunculus = 1,
-			zombie = 3,
-			fae = 0,
-			guard = 0,
-		},
-		{ -- lever coordination
-			homunculus = 2,
-			zombie = 0,
-			fae = 0,
-			guard = 0,
-		},
-		--{ -- zz_quintet
-		--	homunculus = 2,
-		--	zombie = 3,
-		--	fae = 0,
-		--	guard = 0,
-		--},
 	},
 
 	ui = {

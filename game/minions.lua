@@ -5,17 +5,24 @@ require("game.tilemap")
 game.minions = {}
 
 local MINION_SIZE = game.conf.minions.size
+local minion_id_seq = 0
+
+--- generate a new minion id that is unique for the current level
+local function gen_id()
+	minion_id_seq = minion_id_seq + 1
+	return minion_id_seq
+end
 
 --- trigger other game components when a minion enters a new tile
 local function triggerMinionStepOn(minion, mapX, mapY)
-	print("minion " .. minion.name .. " stepped on new tile " .. mapX .. "x" .. mapY)
-	game.tilemap.stepOn(mapX, mapY)
+	print(minion.name .. " " .. tostring(minion.id) .. " stepped on new tile " .. mapX .. "x" .. mapY)
+	game.tilemap.stepOn(mapX, mapY, minion)
 end
 
 --- trigger other game components when a minion leaves a tile
 local function triggerMinionStepOff(minion, mapX, mapY)
-	print("minion " .. minion.name .. " stepped off old tile " .. mapX .. "x" .. mapY)
-	game.tilemap.stepOff(mapX, mapY)
+	print(minion.name .. " " .. tostring(minion.id) .. " stepped off old tile " .. mapX .. "x" .. mapY)
+	game.tilemap.stepOff(mapX, mapY, minion)
 end
 
 local function moveMinion(minion, dt)
@@ -155,7 +162,10 @@ local function interactMinion(minion)
 end
 
 function game.minions.kill(minion)
-	print("TODO: kill minion")
+	print("killing " .. tostring(minion.name) .. " " .. tostring(minion.id))
+	local _, i = game.minions.get(minion.id)
+	table.remove(game.state.minions, i)
+	game.summoning.refreshSummon(minion.presetId)
 end
 
 --- callback when the game loads
@@ -237,11 +247,11 @@ end
 --- summon a minion of the specified type at a given position
 ---
 --- Parameters:
----    typ: The minion ID which is equal to the index into game.conf.minions
+---    presetId: The ID of a minion preset from game.conf.minions.preset
 ---    x, y: Map coordinates at which the minion should be summoned
-function game.minions.summon(typ, x, y)
-	print("summoning " .. typ .. " minion at " .. x .. "x" .. y)
-	local preset = game.conf.minions.presets[typ]
+function game.minions.summon(presetId, x, y)
+	print("summoning " .. presetId .. " at " .. x .. "x" .. y)
+	local preset = game.conf.minions.presets[presetId]
 	local screenX, screenY = game.tilemap.tilemapToScreen(x, y)
 
 	-- instantiate by copying all properties
@@ -251,6 +261,7 @@ function game.minions.summon(typ, x, y)
 	end
 
 	-- set runtime properties
+	minion.id = gen_id()
 	minion.position = {
 		x = screenX,
 		y = screenY,
@@ -261,7 +272,22 @@ function game.minions.summon(typ, x, y)
 	table.insert(game.state.minions, minion)
 end
 
+--- get the minion with the given id
+---
+--- Returns:
+---   the minion table
+---   the index into the minion state at which that minion is stored
+function game.minions.get(id)
+	for i, minion in pairs(game.state.minions) do
+		if minion.id == id then
+			return minion, i
+		end
+	end
+	error("No minion with id " .. tostring(id) .. " exists")
+end
+
 --- callback when the level with the given index is loaded
 function game.minions.loadLevel(id)
 	game.state.minions = {}
+	minion_id_seq = 0
 end

@@ -3,6 +3,7 @@ game.conf = {
 		size = 14,
 		presets = {
 			homunculus = {
+				presetId = "homunculus",
 				name = "Homunculus",
 				moveSpeed = 120,
 				color = { 255, 203, 164 },
@@ -13,6 +14,7 @@ game.conf = {
 				canFinish = true,
 			},
 			zombie = {
+				presetId = "zombie",
 				name = "Zombie",
 				moveSpeed = 80,
 				color = { 139, 139, 100 },
@@ -23,6 +25,7 @@ game.conf = {
 				canFinish = false,
 			},
 			fae = {
+				presetId = "zombie",
 				name = "Fae",
 				moveSpeed = 120,
 				color = { 0, 255, 255 },
@@ -33,6 +36,7 @@ game.conf = {
 				canFinish = false,
 			},
 			guard = {
+				presetId = "guard",
 				name = "Guard",
 				moveSpeed = 120,
 				color = { 203, 205, 205 },

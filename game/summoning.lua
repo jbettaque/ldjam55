@@ -59,7 +59,7 @@ function game.summoning.draw()
 		local availableWidth = 80
 		for i, v in ipairs(game.state.summoning.types) do
 			local minionState = game.state.summoning.types[i]
-			local minionType = game.conf.minions.presets[minionState.id]
+			local minionType = game.conf.minions.presets[minionState.presetId]
 			local yOffset = (rowHeight + 1) * (i - 1)
 			local textColor = { 1, 1, 1 }
 			if minionState.summoned == minionState.totalAvailable then
@@ -99,7 +99,7 @@ function game.summoning.keypressed(key, scancode, isrepeat)
 		if minionState.summoned < minionState.totalAvailable then
 			game.state.summoning.isSummoning = false
 			minionState.summoned = minionState.summoned + 1
-			game.minions.summon(minionState.id, game.summoning.getSummonLocation())
+			game.minions.summon(minionState.presetId, game.summoning.getSummonLocation())
 		end
 	end
 end
@@ -112,11 +112,11 @@ function game.summoning.loadLevel(id)
 
 	-- rebuild state to store summonable minion types
 	print("loading summoning options for level " .. tostring(id))
-	for minionId, amount in pairs(game.conf.level_minions[id]) do
+	for presetId, amount in pairs(game.conf.level_minions[id]) do
 		if amount > 0 then
-			print("    " .. amount .. " " .. minionId .. " available to summon")
+			print("    " .. amount .. " " .. presetId)
 			table.insert(game.state.summoning.types, {
-				id = minionId,
+				presetId = presetId,
 				summoned = 0,
 				totalAvailable = amount,
 			})
@@ -128,4 +128,25 @@ end
 function game.summoning.getSummonLocation()
 	print(game.tilemap.getSpawn())
 	return game.tilemap.getSpawn()
+end
+
+--- refresh one summonable minion of the given type
+---
+--- Parameters:
+---   presetId: The id of a preset defined in game.conf.minions.presets
+function game.summoning.refreshSummon(presetId)
+	print("refreshing 1 summon of preset " .. presetId)
+
+	for _, iTyp in pairs(game.state.summoning.types) do
+		if iTyp.presetId == presetId then
+			if iTyp.summoned > 0 then
+				iTyp.summoned = iTyp.summoned - 1
+			else
+				error("Cannot refresh summon because no minions have been summoned")
+			end
+			return
+		end
+	end
+
+	error("presetId " .. tostring(presetId) .. " not available in current level")
 end

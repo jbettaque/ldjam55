@@ -2,7 +2,7 @@ game.tiles.spike = {}
 
 local asset = "assets/tiles/tile_spike.png"
 
-spike_step = function(minion, x, y)
+spike_step = function(x, y, minion)
 	print("step on spike")
 	print(minion)
 	game.minions.kill(minion)

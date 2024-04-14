@@ -3083,14 +3083,14 @@
       "asset": 1
     },
     {
-      "asset": 17,
-      "asset_on": 18,
-      "preset": "pressureplate",
-      "asset_off": 17,
       "walkable": true,
-      "overFlyable": true,
+      "asset_on": 18,
+      "update": "pressureplate_update",
+      "asset_off": 17,
       "redstone": false,
-      "update": "pressureplate_update"
+      "overFlyable": true,
+      "preset": "pressureplate",
+      "asset": 17
     },
     {
       "walkable": true,
@@ -3359,80 +3359,80 @@
       "asset": 1
     },
     {
-      "assetClosed": 3,
-      "preset": "door_hor",
       "inverted": false,
+      "preset": "door_hor",
+      "needs_redstone": [
+        {
+          "y": 12,
+          "x": 16
+        }
+      ],
       "walkable": false,
       "overFlyable": false,
       "step_on": "door_step",
-      "update": "door_update_func",
+      "assetOpen": 4,
+      "assetClosed": 3,
+      "asset": 3,
+      "update": "door_update_func"
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "inverted": false,
+      "preset": "door_hor",
       "needs_redstone": [
         {
-          "x": 16,
-          "y": 12
+          "y": 15,
+          "x": 24
         }
       ],
-      "asset": 3,
-      "assetOpen": 4
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "assetClosed": 3,
-      "preset": "door_hor",
-      "inverted": false,
       "walkable": false,
       "overFlyable": false,
       "step_on": "door_step",
-      "update": "door_update_func",
-      "needs_redstone": [
-        {
-          "x": 24,
-          "y": 15
-        }
-      ],
+      "assetOpen": 4,
+      "assetClosed": 3,
       "asset": 3,
-      "assetOpen": 4
+      "update": "door_update_func"
     },
     {
       "walkable": false,
@@ -3932,862 +3932,114 @@
     },
     {
       "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "asset": 19,
-      "asset_on": 20,
-      "preset": "lever",
-      "asset_off": 19,
-      "walkable": true,
-      "overFlyable": true,
-      "redstone": false,
-      "interact": "lever_interact"
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "assetClosed": 5,
-      "preset": "door_vert",
-      "inverted": false,
-      "walkable": false,
-      "overFlyable": false,
-      "step_on": "door_step",
-      "update": "door_update_func",
-      "needs_redstone": [
-        {
-          "x": 24,
-          "y": 15
-        }
-      ],
-      "asset": 5,
-      "assetOpen": 6
-    },
-    {
-      "preset": "mine",
-      "asset": 11,
-      "walkable": true,
-      "overFlyable": true,
-      "step_on": "mine_step_func"
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "preset": "finish",
-      "asset": 7,
-      "walkable": true,
-      "overFlyable": true,
-      "step_on": "finish_step"
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    }
-  ],
-  [
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    }
-  ],
-  [
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "assetClosed": 3,
-      "preset": "door_hor",
-      "inverted": true,
-      "walkable": true,
-      "overFlyable": true,
-      "step_on": "door_step",
-      "update": "door_update_func",
-      "needs_redstone": [
-        {
-          "x": 16,
-          "y": 18
-        }
-      ],
-      "asset": 4,
-      "assetOpen": 4
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "assetClosed": 3,
-      "preset": "door_hor",
-      "inverted": true,
-      "walkable": true,
-      "overFlyable": true,
-      "step_on": "door_step",
-      "update": "door_update_func",
-      "needs_redstone": [
-        {
-          "x": 24,
-          "y": 15
-        }
-      ],
-      "asset": 4,
-      "assetOpen": 4
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    }
-  ],
-  [
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": true,
-      "overFlyable": true,
-      "preset": "ground",
-      "asset": 2
-    },
-    {
-      "walkable": false,
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1
-    },
-    {
-      "asset": 17,
       "asset_on": 18,
-      "preset": "pressureplate",
+      "update": "pressureplate_update",
       "asset_off": 17,
-      "walkable": true,
-      "overFlyable": true,
       "redstone": false,
-      "update": "pressureplate_update"
+      "overFlyable": true,
+      "preset": "pressureplate",
+      "asset": 17
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset_on": 20,
+      "interact": "lever_interact",
+      "asset_off": 19,
+      "redstone": false,
+      "overFlyable": true,
+      "preset": "lever",
+      "asset": 19
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "inverted": false,
+      "preset": "door_vert",
+      "needs_redstone": [
+        {
+          "y": 15,
+          "x": 24
+        }
+      ],
+      "walkable": false,
+      "overFlyable": false,
+      "step_on": "door_step",
+      "assetOpen": 6,
+      "assetClosed": 5,
+      "asset": 5,
+      "update": "door_update_func"
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "mine_step_func",
+      "preset": "mine",
+      "asset": 11
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "finish_step",
+      "preset": "finish",
+      "asset": 7
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
     },
     {
       "walkable": true,
@@ -4812,6 +4064,768 @@
       "overFlyable": true,
       "preset": "ground",
       "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "inverted": true,
+      "preset": "door_hor",
+      "needs_redstone": [
+        {
+          "y": 18,
+          "x": 16
+        }
+      ],
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "door_step",
+      "assetOpen": 4,
+      "assetClosed": 3,
+      "asset": 4,
+      "update": "door_update_func"
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "inverted": true,
+      "preset": "door_hor",
+      "needs_redstone": [
+        {
+          "y": 15,
+          "x": 24
+        }
+      ],
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "door_step",
+      "assetOpen": 4,
+      "assetClosed": 3,
+      "asset": 4,
+      "update": "door_update_func"
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset_on": 18,
+      "update": "pressureplate_update",
+      "asset_off": 17,
+      "redstone": false,
+      "overFlyable": true,
+      "preset": "pressureplate",
+      "asset": 17
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "asset_down": 16,
+      "asset_up": 15,
+      "asset": 15,
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step",
+      "needs_redstone": [
+        {
+          "y": 15,
+          "x": 17
+        }
+      ],
+      "inverted": true,
+      "update": "spike_update_func"
     },
     {
       "walkable": true,

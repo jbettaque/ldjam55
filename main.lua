@@ -5,6 +5,7 @@ require("game.summoning")
 require("game.minions")
 require("game.editor")
 require("game.intro")
+require("game.audio")
 
 function love.load()
 	game.intro.load()
@@ -12,11 +13,13 @@ function love.load()
 	game.tilemap.load()
 	game.minions.load()
 	game.editor.load()
+	game.audio.load()
 end
 
 function love.update(dt)
 	-- always active modules
 	game.intro.update(dt)
+	game.audio.update(dt)
 
 	-- conditionally active modules
 	if game.state.isActive then

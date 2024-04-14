@@ -126,5 +126,6 @@ end
 
 --- get the default summoning location for the current level
 function game.summoning.getSummonLocation()
-	return 100, 100
+	print(game.tilemap.getSpawn())
+	return game.tilemap.tilemapToScreen(game.tilemap.getSpawn())
 end

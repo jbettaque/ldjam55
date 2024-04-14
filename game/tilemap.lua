@@ -264,4 +264,5 @@ function game.tilemap.getSpawn()
 			end
 		end
 	end
+	return 100, 100
 end

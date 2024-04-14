@@ -6,8 +6,8 @@ require("game.minions")
 require("game.editor")
 
 function love.load()
-	game.tilemap.load()
 	game.summoning.load()
+	game.tilemap.load()
 	game.minions.load()
 	game.editor.load()
 end

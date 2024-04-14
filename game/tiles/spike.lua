@@ -38,8 +38,8 @@ spike_update_func = function(x, y, dt)
 	end
 
 	if shouldBeUp then
-		love.audio.stop(audioSpike)
-		love.audio.play(audioSpike)
+	   -- love.audio.stop(audioSpike)
+		--love.audio.play(audioSpike)
 		game.tilemap.setAsset(x, y, assetUp)
 	else
 		game.tilemap.setAsset(x, y, assetDown)

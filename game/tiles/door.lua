@@ -1,6 +1,8 @@
 game.tilemap = game.tilemap or require("game.tilemap")
 game.tiles.door = {}
 
+
+audioDoor = love.audio.newSource("assets/sfx/soundDoor.wav", "stream")
 door_func = function(x, y, button)
 	if button == 1 then
 		if game.tilemap.getValue(x, y, "needs_redstone") then
@@ -20,6 +22,8 @@ door_func = function(x, y, button)
 		local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
 
 		local asset = game.tilemap.getAsset(x, y)
+
+
 
 		if asset == assetOpen then
 			game.tilemap.setAsset(x, y, assetClosed)
@@ -63,6 +67,14 @@ door_update_func = function(x, y, dt)
 		game.tilemap.setAsset(x, y, assetClosed)
 		game.tilemap.setValue(x, y, "walkable", false)
 		game.tilemap.setValue(x, y, "overFlyable", false)
+	end
+
+	if assetClosed then
+		love.audio.stop(audioDoor)
+		love.audio.play(audioDoor)
+	else
+		love.audio.stop(audioDoor)
+		love.audio.play(audioDoor)
 	end
 end
 

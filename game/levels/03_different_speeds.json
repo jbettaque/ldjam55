@@ -1,0 +1,5668 @@
+[
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "assetOpen": 6,
+      "assetClosed": 5,
+      "asset": 6,
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "door_step",
+      "update": "door_update_func",
+      "needs_redstone": [
+        {
+          "y": 13,
+          "x": 21
+        }
+      ],
+      "interact": "door_func",
+      "preset": "door_vert"
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "redstone": true,
+      "overFlyable": true,
+      "preset": "pressureplate",
+      "asset": 17,
+      "walkable": true,
+      "asset_on": 17,
+      "asset_off": 16,
+      "step_on": "pressureplate_step"
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": true,
+      "preset": "spawn",
+      "asset": 8
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "step_on": "finish_step",
+      "preset": "finish",
+      "asset": 7,
+      "walkable": true,
+      "overFlyable": true
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground",
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": true,
+      "asset": 2
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ],
+  [
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    },
+    {
+      "walkable": false,
+      "asset": 1
+    }
+  ]
+]

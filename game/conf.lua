@@ -52,15 +52,15 @@ game.conf = {
 	},
 
 	level_sequence = {
-		"game/levels/level1.json",
+		"game/levels/03_different_speeds.json",
 		"game/levels/level2.json",
 		"game/levels/level3.json",
 		"game/levels/level4.json",
 	},
 	level_minions = {
 		{
-			homunculus = 2,
-			zombie = 3,
+			homunculus = 1,
+			zombie = 1,
 			fae = 0,
 			guard = 0,
 		},

@@ -3,9 +3,11 @@ game.tilemap = game.tilemap or require("game.tilemap")
 
 local asset = "assets/tiles/tile_finish.png"
 
-stepOnFinish = function(x, y)
-	print("step on finish")
-	game.tilemap.nextLevel()
+stepOnFinish = function(x, y, minion)
+	if minion.canFinish then
+		print("step on finish")
+		game.loadLevel(game.state.level.current + 1)
+	end
 end
 
 function game.tiles.finish.register()

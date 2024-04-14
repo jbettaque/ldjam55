@@ -15,6 +15,7 @@ function love.load()
 	game.editor.load()
 	game.audio.load()
 	game.gui.load()
+	game.loadLevel(1)
 end
 
 function love.update(dt)
@@ -59,4 +60,5 @@ function game.loadLevel(id)
 	game.minions.loadLevel(id)
 	game.summoning.loadLevel(id)
 	game.gui.loadLevel(id)
+	game.tilemap.loadLevel(id)
 end

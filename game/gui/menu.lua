@@ -1,7 +1,7 @@
 game.gui.menu = {}
 
 require("game.gui.control_widget")
-
+local muted = false
 ---  callback when a key is pressed on the keyboard
 function game.gui.menu.keypressed(key, scancode, isrepeat)
 	if scancode == "h" then
@@ -13,7 +13,16 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 		game.gui.close()
 	elseif scancode == "backspace" then
 		love.event.push("quit")
+	elseif scancode == "m" and muted == false then
+		muted = true
+	audioIntro:setVolume(0.0)
+		audioLoop:setVolume(0.0)
+	elseif scancode == "m" and muted == true then
+		muted = false
+		audioIntro:setVolume(0.5)
+		audioLoop:setVolume(0.5)
 	end
+
 end
 
 function game.gui.menu.draw()
@@ -79,6 +88,12 @@ function game.gui.menu.draw()
 		{ 1, 1, 1 },
 		" to quit",
 	}, xRow, yRowBase + 3 * rowMult, textWidth, "left")
+	love.graphics.printf({
+		{ 0.2, 1, 0.2 },
+		"<M>",
+		{ 1, 1, 1 },
+		" to mute ",
+	}, xRow, yRowBase + 4 * rowMult, textWidth, "left")
 	love.graphics.line(x1, yRowBase + 4 * rowMult + titleHeight, x1 + rowWidth, yRowBase + 4 * rowMult + titleHeight)
 
 	-- Draw Control widget section

@@ -67,7 +67,7 @@ local function moveMinion(minion, dt)
 
 	-- trigger events if stepped on a new tile
 	local newMapX, newMapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
-	if mapX ~= newMapX or mapY ~= newMapY then
+	if (mapX ~= newMapX or mapY ~= newMapY) and minion.canStepOn then
 		triggerMinionStepOff(minion, mapX, mapY)
 		triggerMinionStepOn(minion, newMapX, newMapY)
 	end

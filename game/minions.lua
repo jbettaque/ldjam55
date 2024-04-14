@@ -25,6 +25,7 @@ local function triggerMinionStepOff(minion, mapX, mapY)
 	game.tilemap.stepOff(mapX, mapY, minion)
 end
 
+--- handle the movement behavior of a minion
 local function moveMinion(minion, dt)
 	local x, y = minion.position.x, minion.position.y
 	local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
@@ -73,6 +74,7 @@ local function moveMinion(minion, dt)
 	end
 end
 
+--- handle the rotation behavior of a minion
 local function rotateMinion(minion)
 	local isUp = love.keyboard.isScancodeDown("w") or love.keyboard.isScancodeDown("up")
 	local isRight = love.keyboard.isScancodeDown("d") or love.keyboard.isScancodeDown("right")
@@ -126,12 +128,67 @@ local function rotateMinion(minion)
 	end
 end
 
+--- handle the interaction behavior of a minion
 local function interactMinion(minion)
 	if minion.canInteract == true then
 		local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
-
 		print(minion.name .. " " .. tostring(minion.id) .. " is interacting with tile " .. mapX .. "x" .. mapY)
 		game.tilemap.interact(mapX, mapY, minion)
+	end
+end
+
+--- handle the unstuck behavior of a potentially stuck minion by unstucking them
+local function unstuckMinion(minion)
+	local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
+
+	-- the property inside the tilemap which determines whether the minion can be on a tile
+	local mapProp
+	if minion.movementType == "walking" then
+		mapProp = "walkable"
+	elseif minion.movementType == "flying" then
+		mapProp = "overFylable"
+	else
+		error("unknown minion movement type " .. tostring(minion.movementType))
+	end
+
+	-- if the minion is stuck, try to unstuck them
+	if game.tilemap.getValue(mapX, mapY, mapProp) == false then
+		local tileScreenX, tileScreenY = game.tilemap.tilemapToScreen(mapX, mapY)
+
+		-- calculate the distance a minion has already traveled in each potential fix direction
+		local fixes = {
+			{ "right", minion.position.x - tileScreenX },
+			{ "left", tileScreenX - minion.position.x },
+			{ "up", tileScreenY - minion.position.y },
+			{ "down", minion.position.y - tileScreenY },
+		}
+
+		-- iterate over fixes with *most-distance-already-travelled* first and move them further in that direction but only if the tile in that direction can be moved to
+		table.sort(fixes, function(a, b)
+			return a[2] > b[2]
+		end)
+		for _, fix in ipairs(fixes) do
+			if fix[1] == "right" then
+				if game.tilemap.getValue(mapX + 1, mapY, mapProp) == true then
+					minion.position.x = minion.position.x + game.conf.minions.unstuckMoveBy
+					break
+				end
+			elseif fix[1] == "left" then
+				if game.tilemap.getValue(mapX - 1, mapY, mapProp) == true then
+					minion.position.x = minion.position.x - game.conf.minions.unstuckMoveBy
+					break
+				end
+			elseif fix[1] == "up" then
+				if game.tilemap.getValue(mapX, mapY - 1, mapProp) == true then
+					minion.position.y = minion.position.y - game.conf.minions.unstuckMoveBy
+					break
+				end
+			elseif fix[1] == "down" then
+				if game.tilemap.getValue(mapX, mapY + 1, mapProp) == true then
+					minion.position.y = minion.position.y + game.conf.minions.unstuckMoveBy
+				end
+			end
+		end
 	end
 end
 
@@ -152,6 +209,7 @@ function game.minions.update(dt)
 	for _, minion in ipairs(state.activeMinions) do
 		moveMinion(minion, dt)
 		rotateMinion(minion)
+		unstuckMinion(minion)
 	end
 end
 

@@ -131,6 +131,14 @@ game.conf = {
 			border = 5,
 			menuTitle = "Summon Me",
 		},
+		intro = {
+			containerWidth = 800,
+			containerHeight = 500,
+			border = 5,
+			titleHeight = 50,
+			footerHeight = 35,
+			textHeight = 20,
+		},
 	},
 
 	editor = true,

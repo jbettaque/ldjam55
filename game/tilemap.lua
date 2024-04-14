@@ -80,7 +80,7 @@ function game.tilemap.load()
 			game.state.level.standingOn[y][x] = false
 		end
 	end
-	game.tilemap.loadSave(game.conf.level_sequence[1])
+	game.tilemap.loadSave(game.conf.level_sequence[1].filename)
 	--game.tilemap.save("save.json")
 end
 
@@ -248,7 +248,7 @@ function game.tilemap.nextLevel()
 	else
 		game.state.level.current = game.state.level.current + 1
 	end
-	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current].filename)
 end
 
 function game.tilemap.previousLevel()
@@ -257,11 +257,11 @@ function game.tilemap.previousLevel()
 	else
 		game.state.level.current = game.state.level.current - 1
 	end
-	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current].filename)
 end
 
 function game.tilemap.loadLevel(id)
-	game.tilemap.loadSave(game.conf.level_sequence[id])
+	game.tilemap.loadSave(game.conf.level_sequence[id].filename)
 end
 
 function game.tilemap.setLevel(level)
@@ -273,7 +273,7 @@ function game.tilemap.getCurrentLevel()
 end
 
 function game.tilemap.getCurrentLevelPath()
-	return game.conf.level_sequence[game.state.level.current]
+	return game.conf.level_sequence[game.state.level.current].filename
 end
 
 function game.tilemap.getTilePresets()
@@ -292,7 +292,7 @@ function game.tilemap.getSpawn()
 end
 
 function game.tilemap.resetLevel()
-	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current].filename)
 end
 
 function game.tilemap.getStandingOn(x, y)

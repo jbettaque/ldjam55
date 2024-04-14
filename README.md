@@ -1,5 +1,9 @@
 # Game Code for LudumDare 55
 
+A game about summoning minions and solving puzzles.
+
+![Game Screenshot](./.screenshot.webp)
+
 ## Installation
 
 1. First, you need to install the game engine [love2d](https://www.love2d.org/).

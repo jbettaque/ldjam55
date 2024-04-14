@@ -28,6 +28,7 @@ local assets = {
 }
 local interactFunctions = {}
 local stepOnFunctions = {}
+local stepOffFunctions = {}
 local updateFunctions = {}
 
 local TILE_SIZE = game.conf.level.tileSize
@@ -163,7 +164,6 @@ function game.tilemap.stepOn(x, y, minion)
 	game.state.level.standingOn[y][x] = true
 
 	local tile = game.tilemap.getTile(x, y)
-
 	if tile.step_on then
 		stepOnFunctions[tile.step_on](x, y, minion)
 	end
@@ -171,6 +171,11 @@ end
 
 function game.tilemap.stepOff(x, y)
 	game.state.level.standingOn[y][x] = false
+
+	local tile = game.tilemap.getTile(x, y)
+	if tile.step_off then
+		stepOffFunctions[tile.step_off](x, y)
+	end
 end
 
 function game.tilemap.registerTilePreset(name, preset)
@@ -183,6 +188,10 @@ end
 
 function game.tilemap.registerStepOnFunction(name, func)
 	stepOnFunctions[name] = func
+end
+
+function game.tilemap.registerStepOffFunction(name, func)
+	stepOffFunctions[name] = func
 end
 
 function game.tilemap.registerUpdateFunction(name, func)

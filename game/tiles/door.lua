@@ -57,10 +57,7 @@ door_update_func = function(x, y, dt)
 	end
 
 	local asset = game.tilemap.getValue(x, y, "asset")
-	print("asset: " .. asset)
-	print("shouldBeOpen: " .. tostring(shouldBeOpen))
-	print("assetOpen: " .. assetOpen)
-	print(game.tiles.door.doorTilePresets.assetOpen)
+
 	if shouldBeOpen then
 		if asset == assetOpen then
 			print("return")

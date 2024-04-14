@@ -1,7 +1,6 @@
 game.tilemap = game.tilemap or require("game.tilemap")
 game.tiles.door = {}
 
-
 audioDoor = love.audio.newSource("assets/sfx/soundDoor.wav", "stream")
 door_func = function(x, y, button)
 	if button == 1 then
@@ -22,8 +21,6 @@ door_func = function(x, y, button)
 		local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
 
 		local asset = game.tilemap.getAsset(x, y)
-
-
 
 		if asset == assetOpen then
 			game.tilemap.setAsset(x, y, assetClosed)

@@ -153,6 +153,7 @@ local function unstuckMinion(minion)
 
 	-- if the minion is stuck, try to unstuck them
 	if game.tilemap.getValue(mapX, mapY, mapProp) == false then
+		print(minion.name .. " " .. minion.id .. " is stuck")
 		local tileScreenX, tileScreenY = game.tilemap.tilemapToScreen(mapX, mapY)
 
 		-- calculate the distance a minion has already traveled in each potential fix direction
@@ -170,22 +171,35 @@ local function unstuckMinion(minion)
 		for _, fix in ipairs(fixes) do
 			if fix[1] == "right" then
 				if game.tilemap.getValue(mapX + 1, mapY, mapProp) == true then
+					print("    moving them to the right")
 					minion.position.x = minion.position.x + game.conf.minions.unstuckMoveBy
 					break
+				else
+					print("    would like to move them right but moving there is not possible")
 				end
 			elseif fix[1] == "left" then
 				if game.tilemap.getValue(mapX - 1, mapY, mapProp) == true then
+					print("    moving them to the left")
 					minion.position.x = minion.position.x - game.conf.minions.unstuckMoveBy
 					break
+				else
+					print("    would like to move them left but moving there is not possible")
 				end
 			elseif fix[1] == "up" then
 				if game.tilemap.getValue(mapX, mapY - 1, mapProp) == true then
+					print("    moving them up")
 					minion.position.y = minion.position.y - game.conf.minions.unstuckMoveBy
 					break
+				else
+					print("    would like to move them up but moving there is not possible")
 				end
 			elseif fix[1] == "down" then
 				if game.tilemap.getValue(mapX, mapY + 1, mapProp) == true then
+					print("    moving them down")
 					minion.position.y = minion.position.y + game.conf.minions.unstuckMoveBy
+					break
+				else
+					print("    would like to move them down but moving there is not possible")
 				end
 			end
 		end

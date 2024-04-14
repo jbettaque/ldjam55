@@ -81,7 +81,8 @@ function game.editor.update(dt)
 
 	if love.keyboard.isScancodeDown("s") and love.keyboard.isScancodeDown("lctrl") then
 		cooldown = 2
-		game.tilemap.save("game/levels/level" .. game.tilemap.getCurrentLevel() .. ".json")
+		local filename = game.tilemap.getCurrentLevelPath()
+		game.tilemap.save(filename)
 	end
 
 	if love.keyboard.isScancodeDown("right") and love.keyboard.isScancodeDown("lctrl") then

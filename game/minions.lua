@@ -130,47 +130,8 @@ local function interactMinion(minion)
 	if minion.canInteract == true then
 		local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
 
-		-- figure out which tile to interact with based on the direction the minion is facing
-		local interactX, interactY = mapX, mapY
-		if minion.angle == 0 then
-			interactY = mapY - 1
-		elseif minion.angle == 45 then
-			interactY = mapY - 1
-			interactX = mapX + 1
-		elseif minion.angle == 90 then
-			interactX = mapX + 1
-		elseif minion.angle == 90 + 45 then
-			interactX = mapX + 1
-			interactY = mapY + 1
-		elseif minion.angle == 180 then
-			interactY = mapY + 1
-		elseif minion.angle == 180 + 45 then
-			interactY = mapY + 1
-			interactX = mapX - 1
-		elseif minion.angle == 270 then
-			interactX = mapX - 1
-		elseif minion.angle == 270 + 45 then
-			interactX = mapX - 1
-			interactY = mapY - 1
-		else
-			error("unhandled minion angle " .. tostring(minion.angle))
-		end
-
-		print(
-			minion.name
-				.. " "
-				.. tostring(minion.id)
-				.. " is interacting with tile "
-				.. interactX
-				.. "x"
-				.. interactY
-				.. " and "
-				.. mapX
-				.. "x"
-				.. mapY
-		)
+		print(minion.name .. " " .. tostring(minion.id) .. " is interacting with tile " .. mapX .. "x" .. mapY)
 		game.tilemap.interact(mapX, mapY, minion)
-		game.tilemap.interact(interactX, interactY, minion)
 	end
 end
 

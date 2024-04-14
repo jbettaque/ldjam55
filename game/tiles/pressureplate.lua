@@ -7,7 +7,7 @@ local assets = {
 
 pressureplate_step = function(x, y)
 	print("step on pressureplate")
-	game.tilemap.setAsset(x, y, game.tiles.button.tilePreset.asset_on)
+	game.tilemap.setAsset(x, y, game.tiles.pressureplate.tilePreset.asset_on)
 	game.tilemap.setValue(x, y, "redstone", true)
 end
 

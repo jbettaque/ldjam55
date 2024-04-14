@@ -66,7 +66,7 @@ game.conf = {
 		"game/levels/07_you_can_fly.json",
 		"game/levels/08_dont_fly_too_high.json",
 		"game/levels/09_fae_in_the_middle.json",
-		"game/levels/19_race.json",
+		"game/levels/10_race.json",
 		"game/levels/11_fly_ahead.json",
 		"game/levels/12_locked_in.json",
 		"game/levels/13_zombie_prison.json",

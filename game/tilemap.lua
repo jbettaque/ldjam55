@@ -146,6 +146,10 @@ function game.tilemap.screenToWorldPos(x, y)
 	return math.floor(x / TILE_SIZE) + 1, math.floor(y / TILE_SIZE) + 1
 end
 
+function game.tilemap.tilemapToScreen(x, y)
+	return (x - 1) * TILE_SIZE + (TILE_SIZE / 2), (y - 1) * TILE_SIZE + (TILE_SIZE / 2)
+end
+
 function game.tilemap.interact(x, y, button)
 	local tile = game.tilemap.getTile(x, y)
 	if tile.interact then
@@ -257,8 +261,4 @@ function game.tilemap.getSpawn()
 			end
 		end
 	end
-end
-
-function game.tilemap.tilemapToScreen(x, y)
-	return (x - 1) * TILE_SIZE, (y - 1) * TILE_SIZE
 end

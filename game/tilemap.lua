@@ -265,6 +265,10 @@ function game.tilemap.getCurrentLevel()
 	return game.state.level.current
 end
 
+function game.tilemap.getCurrentLevelPath()
+	return game.conf.level_sequence[game.state.level.current]
+end
+
 function game.tilemap.getTilePresets()
 	return tilePresets
 end

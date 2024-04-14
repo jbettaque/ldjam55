@@ -56,6 +56,7 @@ game.conf = {
 	},
 
 	level_sequence = {
+		"game/levels/level1.json", -- for testing
 		"game/levels/01_summoning.json",
 		"game/levels/02_interaction.json",
 		"game/levels/03_different_speeds.json",
@@ -63,6 +64,12 @@ game.conf = {
 		"game/levels/level2.json",
 	},
 	level_minions = {
+		{ -- testing stage
+			homunculus = 2,
+			zombie = 2,
+			fae = 2,
+			guard = 2,
+		},
 		{ -- 01_summoning
 			homunculus = 3,
 			zombie = 0,
@@ -90,7 +97,7 @@ game.conf = {
 		{
 			homunculus = 1,
 			zombie = 1,
-			fae = 0,
+			fae = 1,
 			guard = 0,
 		},
 	},

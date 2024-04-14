@@ -135,7 +135,6 @@ game.conf = {
 		{ -- 10_race
 			homunculus = 1,
 			zombie = 2,
-
 			fae = 0,
 			guard = 0,
 		},

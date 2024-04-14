@@ -59,14 +59,20 @@ game.conf = {
 	},
 	level_minions = {
 		{
-			homunculus = 1,
-			zombie = 0,
+			homunculus = 2,
+			zombie = 3,
 			fae = 0,
 			guard = 0,
 		},
 		{
 			homunculus = 2,
 			zombie = 0,
+			fae = 0,
+			guard = 0,
+		},
+		{
+			homunculus = 1,
+			zombie = 1,
 			fae = 0,
 			guard = 0,
 		},

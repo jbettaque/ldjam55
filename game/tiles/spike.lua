@@ -4,6 +4,7 @@ local assets = {
 	"assets/tiles/tile_spike_up.png",
 	"assets/tiles/tile_spike_down.png",
 }
+audioSpike = love.audio.newSource("assets/sfx/soundSpike.wav", "stream")
 spike_step = function(x, y, minion)
 	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a spike; killing them")
 
@@ -37,6 +38,8 @@ spike_update_func = function(x, y, dt)
 	end
 
 	if shouldBeUp then
+		love.audio.stop(audioSpike)
+		love.audio.play(audioSpike)
 		game.tilemap.setAsset(x, y, assetUp)
 	else
 		game.tilemap.setAsset(x, y, assetDown)

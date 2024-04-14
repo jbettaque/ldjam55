@@ -19,8 +19,6 @@ local assets = {
 
 pressurplate_update = function(x, y)
 	local standingOn = game.state.level.standingOn[y][x]
-	print("standingOn: " .. tostring(standingOn))
-	local asset = game.tilemap.getAsset(x, y)
 
 	if standingOn then
 		game.tilemap.setAsset(x, y, game.tiles.pressureplate.tilePreset.asset_on)

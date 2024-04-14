@@ -60,7 +60,6 @@ door_update_func = function(x, y, dt)
 
 	if shouldBeOpen then
 		if asset == assetOpen then
-			print("return")
 			return
 		end
 		love.audio.stop(audioDoor)

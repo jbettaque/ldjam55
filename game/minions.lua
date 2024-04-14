@@ -246,10 +246,10 @@ function game.minions.draw()
 			eyesSize / 3
 		)
 
-		-- key carryier
+		-- carried object
 		if minion.carrying == nil then
 		elseif minion.carrying == "key" then
-			print("hi")
+			--print("hi")
 		else
 			error("cannot render carried item " .. tostring(minion.carrying))
 		end

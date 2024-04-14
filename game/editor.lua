@@ -188,9 +188,16 @@ function newLevel()
 		end
 	end
 
-	game.conf.level_sequence[#game.conf.level_sequence + 1] = "game/levels/level"
-		.. #game.conf.level_sequence
-		.. ".json"
+	game.conf.level_sequence[#game.conf.level_sequence + 1] = {
+		filename = "game/levels/level" .. #game.conf.level_sequence + 1 .. ".json",
+		title = "testing stage",
+		minions = {
+			homunculus = 2,
+			zombie = 2,
+			fae = 2,
+			guard = 2,
+		},
+	}
 	game.tilemap.setLevel(#game.conf.level_sequence)
 end
 

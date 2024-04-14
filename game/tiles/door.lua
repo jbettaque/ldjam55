@@ -51,7 +51,9 @@ door_update_func = function(x, y, dt)
 	local assetOpen = game.tilemap.getValue(x, y, "assetOpen")
 	local assetClosed = game.tilemap.getValue(x, y, "assetClosed")
 
-	local asset = game.tilemap.getAsset(x, y)
+	if game.tilemap.getValue(x, y, "inverted") then
+		shouldBeOpen = not shouldBeOpen
+	end
 
 	if shouldBeOpen then
 		game.tilemap.setAsset(x, y, assetOpen)
@@ -86,9 +88,9 @@ function game.tiles.door.register()
 			assetClosed = 1 + assetOffset,
 			walkable = false,
 			overFlyable = false,
-			interact = "door_func",
 			step_on = "door_step",
 			update = "door_update_func",
+			inverted = false,
 		},
 		door_vert = {
 			preset = "door_vert",
@@ -97,9 +99,9 @@ function game.tiles.door.register()
 			assetClosed = 3 + assetOffset,
 			walkable = false,
 			overFlyable = false,
-			interact = "door_func",
 			step_on = "door_step",
 			update = "door_update_func",
+			inverted = false,
 		},
 	}
 

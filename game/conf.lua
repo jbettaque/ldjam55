@@ -70,6 +70,7 @@ game.conf = {
 		"game/levels/11_fly_ahead.json",
 		"game/levels/12_locked_in.json",
 		"game/levels/13_zombie_prison.json",
+		"game/levels/lever_coordination.json",
 	},
 	level_minions = {
 		{ -- testing stage
@@ -153,6 +154,12 @@ game.conf = {
 		{ -- 13_zombie_prison
 			homunculus = 1,
 			zombie = 3,
+			fae = 0,
+			guard = 0,
+		},
+		{ -- lever coordination
+			homunculus = 2,
+			zombie = 0,
 			fae = 0,
 			guard = 0,
 		},

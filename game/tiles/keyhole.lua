@@ -6,8 +6,7 @@ local assets = {
 }
 
 keyhole_interact = function(x, y, minion)
-	print("interact with keyhole")
-	print(minion)
+	print(minion.name .. " " .. tostring(minion.id) .. " is interacting with keyhole")
 	if minion.carrying == "key" then
 		game.tilemap.setAsset(x, y, game.tiles.keyhole.tilePreset.unlocked)
 		game.tilemap.setValue(x, y, "redstone", true)

@@ -5,8 +5,8 @@ local assets = {
 	"assets/tiles/tile_lever_on.png",
 }
 
-lever_interact = function(x, y)
-	print("interact with lever")
+lever_interact = function(x, y, minon)
+	print(minion.name .. " " .. tostring(minion.id) .. " switched a lever")
 	local asset = game.tilemap.getValue(x, y, "asset")
 
 	if asset == game.tiles.lever.tilePreset.asset_off then

@@ -37,7 +37,6 @@ local function moveMinion(minion, dt)
 		if minion.movementType == "walking" then
 			return game.tilemap.getValue(mapX, mapY, "walkable")
 		elseif minion.movementType == "flying" then
-			print(game.tilemap.getValue(mapX, mapY, "overFlyable"))
 			return game.tilemap.getValue(mapX, mapY, "overFlyable")
 		else
 			error("minion " .. minion.name .. " uses unknown movementType " .. minion.movementType)
@@ -282,7 +281,7 @@ function game.minions.draw()
 		-- carried object
 		if minion.carrying == nil then
 		elseif minion.carrying == "key" then
-			--print("hi")
+			error("rendering a minion carrying a key is not yet implemented")
 		else
 			error("cannot render carried item " .. tostring(minion.carrying))
 		end

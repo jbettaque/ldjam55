@@ -249,7 +249,7 @@ function game.editor.showConnections(dt)
 				print("Tile at " .. x .. "x" .. y .. " needs redstone")
 				for _, v in ipairs(needsRedstone) do
 					love.graphics.setColor(255, 0, 0)
-					print("  Needs redstone from " .. v.x .. "x" .. v.y .. " to " .. x .. "x" .. y)
+					print("    Needs redstone from " .. v.x .. "x" .. v.y .. " to " .. x .. "x" .. y)
 					local screenx1, screeny1 = game.tilemap.tilemapToScreen(x, y)
 					local screenx2, screeny2 = game.tilemap.tilemapToScreen(v.x, v.y)
 

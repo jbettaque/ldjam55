@@ -5,8 +5,8 @@ local assets = {
 	"assets/tiles/tile_button_on.png",
 }
 
-button_interact = function(x, y)
-	print("interact with button")
+button_interact = function(x, y, minion)
+	print(minion.name .. " " .. tostring(minion.id) .. " is interacting with a button")
 
 	game.tilemap.setAsset(x, y, game.tiles.button.tilePreset.asset_on)
 	game.tilemap.setValue(x, y, "redstone", true)

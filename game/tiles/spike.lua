@@ -5,7 +5,7 @@ local assets = {
 	"assets/tiles/tile_spike_down.png",
 }
 spike_step = function(x, y, minion)
-	print("step on spike")
+	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a spike; killing them")
 
 	if game.tilemap.getValue(x, y, "asset") == game.tiles.spike.tilePreset.asset_down then
 		return

@@ -76,7 +76,7 @@ door_update_func = function(x, y, dt)
 end
 
 door_step = function(x, y)
-	print("step on door")
+	-- noop
 end
 
 local doorAssets = {

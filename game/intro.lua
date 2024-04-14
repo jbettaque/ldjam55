@@ -120,6 +120,8 @@ function game.intro.draw()
 	if state.isOpen then
 		if game.state.level.current == 1 then
 			drawLevel1()
+		else
+			game.intro.close()
 		end
 	end
 end

@@ -237,7 +237,6 @@ function game.tilemap.loadSave(filename)
 				end
 			end
 		end
-		game.loadLevel(game.state.level.current)
 	end
 end
 
@@ -257,6 +256,10 @@ function game.tilemap.previousLevel()
 		game.state.level.current = game.state.level.current - 1
 	end
 	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+end
+
+function game.tilemap.loadLevel(id)
+	game.tilemap.loadSave(game.conf.level_sequence[id])
 end
 
 function game.tilemap.setLevel(level)

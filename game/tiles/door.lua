@@ -56,22 +56,30 @@ door_update_func = function(x, y, dt)
 		shouldBeOpen = not shouldBeOpen
 	end
 
+	local asset = game.tilemap.getValue(x, y, "asset")
+	print("asset: " .. asset)
+	print("shouldBeOpen: " .. tostring(shouldBeOpen))
+	print("assetOpen: " .. assetOpen)
+	print(game.tiles.door.doorTilePresets.assetOpen)
 	if shouldBeOpen then
+		if asset == assetOpen then
+			print("return")
+			return
+		end
+		love.audio.stop(audioDoor)
+		love.audio.play(audioDoor)
 		game.tilemap.setAsset(x, y, assetOpen)
 		game.tilemap.setValue(x, y, "walkable", true)
 		game.tilemap.setValue(x, y, "overFlyable", true)
 	else
+		if asset == assetClosed then
+			return
+		end
+		love.audio.stop(audioDoor)
+		love.audio.play(audioDoor)
 		game.tilemap.setAsset(x, y, assetClosed)
 		game.tilemap.setValue(x, y, "walkable", false)
 		game.tilemap.setValue(x, y, "overFlyable", false)
-	end
-
-	if assetClosed then
-		love.audio.stop(audioDoor)
-		love.audio.play(audioDoor)
-	else
-		love.audio.stop(audioDoor)
-		love.audio.play(audioDoor)
 	end
 end
 

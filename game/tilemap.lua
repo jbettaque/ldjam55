@@ -44,12 +44,12 @@ function game.tilemap.load()
 	game.tiles.pit.register()
 	game.tiles.box.register()
 	game.tiles.mine.register()
-	game.tiles.bridge.register()
 	game.tiles.button.register()
 	game.tiles.key.register()
 	game.tiles.spike.register()
 	game.tiles.pressureplate.register()
 	game.tiles.lever.register()
+	game.tiles.bridge.register()
 
 	game.tilemap.loadAssets(assets)
 

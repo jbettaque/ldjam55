@@ -9,11 +9,6 @@ lever_interact = function(x, y)
 	print("interact with lever")
 	local asset = game.tilemap.getValue(x, y, "asset")
 
-	game.tilemap.setAsset(x, y, game.tiles.lever.tilePreset.asset_on)
-	game.tilemap.setValue(x, y, "redstone", true)
-
-	print(asset, game.tiles.lever.tilePreset.asset_off)
-
 	if asset == game.tiles.lever.tilePreset.asset_off then
 		game.tilemap.setAsset(x, y, game.tiles.lever.tilePreset.asset_on)
 		game.tilemap.setValue(x, y, "redstone", true)

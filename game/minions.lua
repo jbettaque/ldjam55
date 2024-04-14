@@ -259,3 +259,8 @@ function game.minions.summon(typ, x, y)
 	-- actually spawn by inserting into game state
 	table.insert(game.state.minions, minion)
 end
+
+--- callback when the level with the given index is loaded
+function game.minions.loadLevel(id)
+	game.state.minions = {}
+end

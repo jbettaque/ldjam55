@@ -33,5 +33,6 @@ end
 
 --- load the level with the given index
 function game.loadLevel(id)
+	game.minions.loadLevel(id)
 	game.summoning.loadLevel(id)
 end

@@ -1,7 +1,6 @@
 require("game.state")
 
-game.intro = {}
-local state = game.state.intro
+game.gui.intro = {}
 
 --- draw the menu container and return the inner dimensions available for furhter text
 ---
@@ -48,11 +47,7 @@ local function drawContainer(title)
 		{ 0.1, 0.9, 0.1 },
 		"<ENTER>",
 		{ 1, 1, 1 },
-		" to close or click on ",
-		{ 0.1, 0.9, 0.1 },
-		"me",
-		{ 1, 1, 1 },
-		"!",
+		" to close!",
 	}, x1 + border, y1 + containerHeight - border - footerHeight, containerWidth, "center")
 
 	-- prepare inner content area and return dimensions
@@ -140,60 +135,29 @@ local function drawLevelDontFlyTooHigh()
 	)
 end
 
---- callback when the game starts
-function game.intro.load()
-	-- nothing to initialize; all relevant stuff happens in loadLevel()
-end
-
---- callback when the game loads the level with the given index
-function game.intro.loadLevel(id)
-	game.state.isActive = false
-	state.isOpen = true
-end
-
---- callback when the game loop updates
-function game.intro.update(dt)
-	-- nothing to do; dismissing the dialog is done via key events
-end
-
 --- callback when a key is pressed on the keyboard
-function game.intro.keypressed(key, scancode, isrepeat)
-	if state.isOpen and scancode == "return" then
-		game.intro.close()
-	end
-end
-
---- callback when a mouse button is pressed
-function game.intro.mousepressed(x, y, button, istouch, presses)
-	if state.isOpen and button == 1 and isInFooter(x, y) then
-		game.intro.close()
+function game.gui.intro.keypressed(key, scancode, isrepeat)
+	if scancode == "return" then
+		game.gui.close()
 	end
 end
 
 --- callback to draw on the screen
-function game.intro.draw()
+function game.gui.intro.draw()
 	local lvl = game.state.level.current
-	if state.isOpen then
-		if lvl == 2 then
-			drawLevelSummoning()
-		elseif lvl == 3 then
-			drawLevelInteractions()
-		elseif lvl == 4 then
-			drawLevelDifferentSpeeds()
-		elseif lvl == 6 then
-			drawLevelYouCanDie()
-		elseif lvl == 8 then
-			drawLevelYouCanFly()
-		elseif lvl == 9 then
-			drawLevelDontFlyTooHigh()
-		else
-			game.intro.close()
-		end
+	if lvl == 2 then
+		drawLevelSummoning()
+	elseif lvl == 3 then
+		drawLevelInteractions()
+	elseif lvl == 4 then
+		drawLevelDifferentSpeeds()
+	elseif lvl == 6 then
+		drawLevelYouCanDie()
+	elseif lvl == 8 then
+		drawLevelYouCanFly()
+	elseif lvl == 9 then
+		drawLevelDontFlyTooHigh()
+	else
+		game.gui.close()
 	end
-end
-
---- close the intro if it is currently open and activate the main game
-function game.intro.close()
-	state.isOpen = false
-	game.state.isActive = true
 end

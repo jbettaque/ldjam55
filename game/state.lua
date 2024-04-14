@@ -5,6 +5,7 @@ game.state = {
 	intro = {},
 	minions = {},
 	summoning = {},
+	gui = nil,
 	level = {
 		current = 1,
 		map = {},

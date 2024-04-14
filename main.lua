@@ -1,25 +1,26 @@
 game = {}
+
 require("game.tilemap")
 require("game.state")
 require("game.summoning")
 require("game.minions")
 require("game.editor")
-require("game.intro")
 require("game.audio")
+require("game.gui.index")
 
 function love.load()
-	game.intro.load()
 	game.summoning.load()
 	game.tilemap.load()
 	game.minions.load()
 	game.editor.load()
 	game.audio.load()
+	game.gui.load()
 end
 
 function love.update(dt)
 	-- always active modules
-	game.intro.update(dt)
 	game.audio.update(dt)
+	game.gui.update(dt)
 
 	-- conditionally active modules
 	if game.state.isActive then
@@ -35,22 +36,18 @@ function love.draw()
 	game.minions.draw()
 	game.summoning.draw()
 	game.editor.draw()
-	game.intro.draw()
+	game.gui.draw()
 end
 
 function love.keypressed(key, scancode, isrepeat)
 	-- always active modules
-	game.intro.keypressed(key, scancode, isrepeat)
+	game.gui.keypressed(key, scancode, isrepeat)
 
 	-- conditionally active modules
 	if game.state.isActive then
 		game.summoning.keypressed(key, scancode, isrepeat)
 		game.minions.keypressed(key, scancode, isrepeat)
 	end
-end
-
-function love.mousepressed(x, y, button, istouch, presses)
-	game.intro.mousepressed(x, y, button, istouch, presses)
 end
 
 function love.wheelmoved(x, y)
@@ -61,5 +58,5 @@ end
 function game.loadLevel(id)
 	game.minions.loadLevel(id)
 	game.summoning.loadLevel(id)
-	game.intro.loadLevel(id)
+	game.gui.loadLevel(id)
 end

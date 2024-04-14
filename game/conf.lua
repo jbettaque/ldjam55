@@ -181,6 +181,13 @@ game.conf = {
 			footerHeight = 35,
 			textHeight = 20,
 		},
+		menu = {
+			containerHeight = 700,
+			rowWidth = 450,
+			rowHeight = 40,
+			titleHeight = 70,
+			border = 5,
+		},
 	},
 
 	editor = true,

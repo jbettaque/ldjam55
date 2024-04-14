@@ -4,7 +4,7 @@ local assets = {
 	"assets/tiles/tile_spike_up.png",
 	"assets/tiles/tile_spike_down.png",
 }
-audioSpikeUp = love.audio.newSource("assets/sfx/soundSpike.wav", "stream")
+audioSpikeUp = love.audio.newSource("assets/sfx/soundSpikeUp.wav", "stream")
 audioSpikeDown = love.audio.newSource("assets/sfx/soundSpikeDown.wav", "stream")
 spike_step = function(x, y, minion)
 	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a spike; killing them")

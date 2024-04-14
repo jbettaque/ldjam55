@@ -23,7 +23,6 @@
 - secondary summoning spot
 - timer / timed button
 - teleporter (toggelable or instant)
-- one-way
 - resummoner
 - key/lock
 - guard

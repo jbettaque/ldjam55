@@ -52,25 +52,32 @@ game.conf = {
 	},
 
 	level_sequence = {
+		"game/levels/01_summoning.json",
+		"game/levels/02_interaction.json",
 		"game/levels/03_different_speeds.json",
+		"game/levels/04_yournamehere.json",
 		"game/levels/level2.json",
-		"game/levels/level3.json",
-		"game/levels/level4.json",
 	},
 	level_minions = {
-		{
-			homunculus = 1,
-			zombie = 1,
+		{ -- 01_summoning
+			homunculus = 3,
+			zombie = 0,
 			fae = 0,
 			guard = 0,
 		},
-		{
+		{ -- 02_interaction
 			homunculus = 2,
 			zombie = 0,
 			fae = 0,
 			guard = 0,
 		},
-		{
+		{ -- 03_different_speeds
+			homunculus = 1,
+			zombie = 1,
+			fae = 0,
+			guard = 0,
+		},
+		{ -- 04_yournamehere
 			homunculus = 1,
 			zombie = 1,
 			fae = 0,

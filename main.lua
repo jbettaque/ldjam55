@@ -57,6 +57,11 @@ end
 
 --- load the level with the given index
 function game.loadLevel(id)
+	if id > #game.conf.level_sequence then
+		error("level id too high")
+	end
+
+	game.state.level.current = id
 	game.minions.loadLevel(id)
 	game.summoning.loadLevel(id)
 	game.gui.loadLevel(id)

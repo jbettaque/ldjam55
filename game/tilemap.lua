@@ -165,7 +165,7 @@ function game.tilemap.interact(x, y, minion)
 end
 
 function game.tilemap.stepOn(x, y, minion)
-	game.state.level.standingOn[y][x] = true
+	game.state.level.standingOn[y][x] = minion
 
 	local tile = game.tilemap.getTile(x, y)
 	if tile.step_on then
@@ -173,8 +173,10 @@ function game.tilemap.stepOn(x, y, minion)
 	end
 end
 
-function game.tilemap.stepOff(x, y)
-	game.state.level.standingOn[y][x] = false
+function game.tilemap.stepOff(x, y, minion)
+	if game.state.level.standingOn[y][x] == minion then
+		game.state.level.standingOn[y][x] = false
+	end
 
 	local tile = game.tilemap.getTile(x, y)
 	if tile.step_off then
@@ -291,4 +293,8 @@ end
 
 function game.tilemap.resetLevel()
 	game.tilemap.loadSave(game.conf.level_sequence[game.state.level.current])
+end
+
+function game.tilemap.getStandingOn(x, y)
+	return game.state.level.standingOn[y][x]
 end

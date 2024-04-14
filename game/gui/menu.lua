@@ -15,14 +15,13 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 		love.event.push("quit")
 	elseif scancode == "m" and muted == false then
 		muted = true
-	audioIntro:setVolume(0.0)
+		audioIntro:setVolume(0.0)
 		audioLoop:setVolume(0.0)
 	elseif scancode == "m" and muted == true then
 		muted = false
 		audioIntro:setVolume(0.05)
 		audioLoop:setVolume(0.05)
 	end
-
 end
 
 function game.gui.menu.draw()

@@ -87,12 +87,12 @@ function game.editor.update(dt)
 
 	if love.keyboard.isScancodeDown("right") and love.keyboard.isScancodeDown("lctrl") then
 		cooldown = 0.2
-		game.tilemap.nextLevel()
+		game.loadLevel(game.state.level.current + 1)
 	end
 
 	if love.keyboard.isScancodeDown("left") and love.keyboard.isScancodeDown("lctrl") then
 		cooldown = 0.2
-		game.tilemap.previousLevel()
+		game.loadLevel(game.state.level.current - 1)
 	end
 
 	if love.keyboard.isScancodeDown("r") and love.mouse.isDown(1) then

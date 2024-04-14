@@ -61,7 +61,8 @@ game.conf = {
 		"game/levels/02_interaction.json",
 		"game/levels/03_different_speeds.json",
 		"game/levels/04_yournamehere.json",
-		"game/levels/level2.json",
+		"game/levels/05_you_can_die.json",
+		"game/levels/06_sacrifice.json",
 	},
 	level_minions = {
 		{ -- testing stage
@@ -94,10 +95,16 @@ game.conf = {
 			fae = 0,
 			guard = 0,
 		},
-		{
+		{ -- 05_you_can_die
 			homunculus = 1,
-			zombie = 1,
-			fae = 1,
+			zombie = 2,
+			fae = 0,
+			guard = 0,
+		},
+		{ -- 06_sacrifice
+			homunculus = 1,
+			zombie = 0,
+			fae = 0,
 			guard = 0,
 		},
 	},
@@ -112,5 +119,5 @@ game.conf = {
 		},
 	},
 
-	editor = false,
+	editor = true,
 }

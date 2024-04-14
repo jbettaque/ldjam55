@@ -1,5 +1,7 @@
 game.gui.menu = {}
 
+require("game.gui.control_widget")
+
 ---  callback when a key is pressed on the keyboard
 function game.gui.menu.keypressed(key, scancode, isrepeat)
 	if scancode == "h" then
@@ -44,17 +46,15 @@ function game.gui.menu.draw()
 	local rowMult = rowHeight + border * 2
 	local textWidth = rowWidth - border * 4
 
-	-- Draw Level Info
+	-- Draw Level Info Section
 	local itemFont = rowHeight * 0.8
 	love.graphics.setNewFont(itemFont)
 	love.graphics.printf("Level " .. tostring(game.state.level.current), xRow, yRowBase, textWidth, "center")
 	love.graphics.printf("I like to Move It Move It", xRow, yRowBase + 1 * rowMult, textWidth, "center")
 	love.graphics.line(x1, yRowBase + 2 * rowMult, x1 + rowWidth, yRowBase + 2 * rowMult)
 
-	-- update row base so that the line is incorporated and next section counts anew
+	-- Draw actual menu section
 	yRowBase = yRowBase + 2 * rowMult + 2 * border
-
-	-- Draw Control
 	love.graphics.printf({
 		{ 0.2, 1, 0.2 },
 		"<H>",
@@ -79,4 +79,10 @@ function game.gui.menu.draw()
 		{ 1, 1, 1 },
 		" to quit",
 	}, xRow, yRowBase + 3 * rowMult, textWidth, "left")
+	love.graphics.line(x1, yRowBase + 4 * rowMult + titleHeight, x1 + rowWidth, yRowBase + 4 * rowMult + titleHeight)
+
+	-- Draw Control widget section
+	yRowBase = yRowBase + 4 * rowMult + 2 * border + titleHeight
+	love.graphics.printf("Keyboard Controls", xRow, yRowBase, textWidth, "center")
+	game.gui.widgets.keyboardControl(xRow + 30, yRowBase + 1 * rowMult)
 end

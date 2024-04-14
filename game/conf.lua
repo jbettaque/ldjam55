@@ -182,11 +182,22 @@ game.conf = {
 			textHeight = 20,
 		},
 		menu = {
-			containerHeight = 700,
+			containerHeight = 790,
 			rowWidth = 450,
 			rowHeight = 40,
 			titleHeight = 70,
 			border = 5,
+		},
+		keyboard_control_widget = {
+			buttonSize = 78,
+			keyTextSize = 30,
+			descTextSize = 13,
+			gap = { x = 8, y = 5 },
+			indent = 18,
+			padding = { x = 3, y = 1 },
+			fgColor = { 1, 1, 1 },
+			fgColorLight = { 0.6, 0.6, 0.6 },
+			bgColor = { 0, 0, 1, 0.4 },
 		},
 	},
 

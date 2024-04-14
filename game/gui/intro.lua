@@ -78,6 +78,7 @@ end
 local function drawLevelSummoning()
 	x, y, width, height = drawContainer("Welcome to the game")
 	love.graphics.printf("Hello World.", x, y, width, "left") -- TODO write intro and explain controls
+	game.gui.widgets.keyboardControl(x + 20, y + 50)
 end
 
 local function drawLevelInteractions()

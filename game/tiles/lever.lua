@@ -4,7 +4,7 @@ local assets = {
 	"assets/tiles/tile_lever_off.png",
 	"assets/tiles/tile_lever_on.png",
 }
-audioSwitch = love.audio.newSource("assets/sfx/Light Switch Click On Sfx.wav", "stream")
+audioSwitch = love.audio.newSource("assets/sfx/soundLever.wav", "stream")
 
 lever_interact = function(x, y)
 	print("interact with lever")

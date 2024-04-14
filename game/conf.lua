@@ -66,6 +66,7 @@ game.conf = {
 		"game/levels/07_you_can_fly.json",
 		"game/levels/08_fae_in_the_middle.json",
 		"game/levels/09_race.json",
+		"game/levels/10_fly_ahead.json",
 	},
 	level_minions = {
 		{ -- testing stage
@@ -126,6 +127,12 @@ game.conf = {
 			homunculus = 1,
 			zombie = 2,
 			fae = 0,
+			guard = 0,
+		},
+		{ -- 10_fly_ahead
+			homunculus = 1,
+			zombie = 0,
+			fae = 1,
 			guard = 0,
 		},
 	},

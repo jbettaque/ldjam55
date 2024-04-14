@@ -86,7 +86,7 @@ game.conf = {
 		},
 		{
 			filename = "game/levels/01_summoning.json",
-			title = "Summon Me",
+			title = "Welcome to the Game",
 			minions = {
 				homunculus = 3,
 				zombie = 0,
@@ -346,6 +346,14 @@ game.conf = {
 			rowHeight = 40,
 			titleHeight = 70,
 			border = 5,
+		},
+		end_screen = {
+			containerHeight = 450,
+			containerWidth = 1100,
+			titleHeight = 70,
+			textHeight = 35,
+			border = 5,
+			topMargin = 45,
 		},
 		keyboard_control_widget = {
 			buttonSize = 78,

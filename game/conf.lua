@@ -1,6 +1,7 @@
 game.conf = {
 	minions = {
 		size = 14,
+		unstuckMoveBy = 5,
 		presets = {
 			homunculus = {
 				presetId = "homunculus",

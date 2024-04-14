@@ -25,6 +25,7 @@ local function triggerMinionStepOff(minion, mapX, mapY)
 	game.tilemap.stepOff(mapX, mapY, minion)
 end
 
+--- handle the movement behavior of a minion
 local function moveMinion(minion, dt)
 	local x, y = minion.position.x, minion.position.y
 	local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
@@ -36,7 +37,6 @@ local function moveMinion(minion, dt)
 		if minion.movementType == "walking" then
 			return game.tilemap.getValue(mapX, mapY, "walkable")
 		elseif minion.movementType == "flying" then
-			print(game.tilemap.getValue(mapX, mapY, "overFlyable"))
 			return game.tilemap.getValue(mapX, mapY, "overFlyable")
 		else
 			error("minion " .. minion.name .. " uses unknown movementType " .. minion.movementType)
@@ -73,6 +73,7 @@ local function moveMinion(minion, dt)
 	end
 end
 
+--- handle the rotation behavior of a minion
 local function rotateMinion(minion)
 	local isUp = love.keyboard.isScancodeDown("w") or love.keyboard.isScancodeDown("up")
 	local isRight = love.keyboard.isScancodeDown("d") or love.keyboard.isScancodeDown("right")
@@ -126,51 +127,81 @@ local function rotateMinion(minion)
 	end
 end
 
+--- handle the interaction behavior of a minion
 local function interactMinion(minion)
 	if minion.canInteract == true then
 		local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
-
-		-- figure out which tile to interact with based on the direction the minion is facing
-		local interactX, interactY = mapX, mapY
-		if minion.angle == 0 then
-			interactY = mapY - 1
-		elseif minion.angle == 45 then
-			interactY = mapY - 1
-			interactX = mapX + 1
-		elseif minion.angle == 90 then
-			interactX = mapX + 1
-		elseif minion.angle == 90 + 45 then
-			interactX = mapX + 1
-			interactY = mapY + 1
-		elseif minion.angle == 180 then
-			interactY = mapY + 1
-		elseif minion.angle == 180 + 45 then
-			interactY = mapY + 1
-			interactX = mapX - 1
-		elseif minion.angle == 270 then
-			interactX = mapX - 1
-		elseif minion.angle == 270 + 45 then
-			interactX = mapX - 1
-			interactY = mapY - 1
-		else
-			error("unhandled minion angle " .. tostring(minion.angle))
-		end
-
-		print(
-			minion.name
-				.. " "
-				.. tostring(minion.id)
-				.. " is interacting with tile "
-				.. interactX
-				.. "x"
-				.. interactY
-				.. " and "
-				.. mapX
-				.. "x"
-				.. mapY
-		)
+		print(minion.name .. " " .. tostring(minion.id) .. " is interacting with tile " .. mapX .. "x" .. mapY)
 		game.tilemap.interact(mapX, mapY, minion)
-		game.tilemap.interact(interactX, interactY, minion)
+	end
+end
+
+--- handle the unstuck behavior of a potentially stuck minion by unstucking them
+local function unstuckMinion(minion)
+	local mapX, mapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
+
+	-- the property inside the tilemap which determines whether the minion can be on a tile
+	local mapProp
+	if minion.movementType == "walking" then
+		mapProp = "walkable"
+	elseif minion.movementType == "flying" then
+		mapProp = "overFlyable"
+	else
+		error("unknown minion movement type " .. tostring(minion.movementType))
+	end
+
+	-- if the minion is stuck, try to unstuck them
+	if game.tilemap.getValue(mapX, mapY, mapProp) == false then
+		print(minion.name .. " " .. minion.id .. " is stuck")
+		local tileScreenX, tileScreenY = game.tilemap.tilemapToScreen(mapX, mapY)
+
+		-- calculate the distance a minion has already traveled in each potential fix direction
+		local fixes = {
+			{ "right", minion.position.x - tileScreenX },
+			{ "left", tileScreenX - minion.position.x },
+			{ "up", tileScreenY - minion.position.y },
+			{ "down", minion.position.y - tileScreenY },
+		}
+
+		-- iterate over fixes with *most-distance-already-travelled* first and move them further in that direction but only if the tile in that direction can be moved to
+		table.sort(fixes, function(a, b)
+			return a[2] > b[2]
+		end)
+		for _, fix in ipairs(fixes) do
+			if fix[1] == "right" then
+				if game.tilemap.getValue(mapX + 1, mapY, mapProp) == true then
+					print("    moving them to the right")
+					minion.position.x = minion.position.x + game.conf.minions.unstuckMoveBy
+					break
+				else
+					print("    would like to move them right but moving there is not possible")
+				end
+			elseif fix[1] == "left" then
+				if game.tilemap.getValue(mapX - 1, mapY, mapProp) == true then
+					print("    moving them to the left")
+					minion.position.x = minion.position.x - game.conf.minions.unstuckMoveBy
+					break
+				else
+					print("    would like to move them left but moving there is not possible")
+				end
+			elseif fix[1] == "up" then
+				if game.tilemap.getValue(mapX, mapY - 1, mapProp) == true then
+					print("    moving them up")
+					minion.position.y = minion.position.y - game.conf.minions.unstuckMoveBy
+					break
+				else
+					print("    would like to move them up but moving there is not possible")
+				end
+			elseif fix[1] == "down" then
+				if game.tilemap.getValue(mapX, mapY + 1, mapProp) == true then
+					print("    moving them down")
+					minion.position.y = minion.position.y + game.conf.minions.unstuckMoveBy
+					break
+				else
+					print("    would like to move them down but moving there is not possible")
+				end
+			end
+		end
 	end
 end
 
@@ -191,6 +222,7 @@ function game.minions.update(dt)
 	for _, minion in ipairs(state.activeMinions) do
 		moveMinion(minion, dt)
 		rotateMinion(minion)
+		unstuckMinion(minion)
 	end
 end
 
@@ -249,7 +281,7 @@ function game.minions.draw()
 		-- carried object
 		if minion.carrying == nil then
 		elseif minion.carrying == "key" then
-			--print("hi")
+			error("rendering a minion carrying a key is not yet implemented")
 		else
 			error("cannot render carried item " .. tostring(minion.carrying))
 		end

@@ -5,7 +5,7 @@ local asset = "assets/tiles/tile_finish.png"
 
 stepOnFinish = function(x, y, minion)
 	if minion.canFinish then
-		print("step on finish")
+		print(minion.name .. " " .. tostring(minion.id) .. " is finishing the game")
 		game.loadLevel(game.state.level.current + 1)
 	end
 end

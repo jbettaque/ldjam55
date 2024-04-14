@@ -3,8 +3,7 @@ game.tiles.key = {}
 local asset = "assets/tiles/tile_key.png"
 
 key_step_func = function(x, y, minion)
-	print("step on key")
-	print(minion)
+	print(tostring(minion.name) .. " " .. tostring(minion.id) .. " stepped on key")
 	minion.carrying = "key"
 	game.tilemap.setTileWithPreset(x, y, tilePresets["ground"])
 end

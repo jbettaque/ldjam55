@@ -3,7 +3,7 @@ game.tiles.mine = {}
 local asset = "assets/tiles/tile_mine.png"
 
 mine_step_func = function(x, y, minion)
-	print("step on mine")
+	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a mine")
 	game.minions.kill(minion)
 	game.tilemap.setTileWithPreset(x, y, tilePresets["ground"])
 end

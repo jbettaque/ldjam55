@@ -96,7 +96,7 @@ function game.gui.endScreen.draw()
 			{ 0, 1, 0 },
 			"<BACKSPACE>",
 			{ 1, 1, 1 },
-			" to close the game <3",
+			" to close the game",
 		},
 		x1 + CONF.border,
 		y1 + CONF.containerHeight - CONF.border - CONF.textHeight,

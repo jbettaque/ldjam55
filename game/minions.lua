@@ -114,7 +114,7 @@ local function rotateMinion(minion)
 		minion.angle = 270
 	else
 		error(
-			"unhandled input combination for monion: "
+			"unhandled input combination for minion: "
 				.. tostring(isUp)
 				.. " "
 				.. tostring(isRight)
@@ -280,6 +280,7 @@ function game.minions.summon(presetId, x, y)
 		y = screenY,
 	}
 	minion.angle = 0
+	minion.carrying = nil
 
 	-- actually spawn by inserting into game state
 	table.insert(state.activeMinions, minion)

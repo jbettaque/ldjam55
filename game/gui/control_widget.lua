@@ -80,10 +80,10 @@ function game.gui.widgets.keyboardControl(x, y)
 	drawButton(
 		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
 		y + 1 * (CONFIG.buttonSize + CONFIG.gap.y),
-		CONFIG.fgColorLight,
+		CONFIG.fgColor,
 		CONFIG.bgColor,
 		"E",
-		"nothing"
+		"Interact"
 	)
 
 	-- A S D

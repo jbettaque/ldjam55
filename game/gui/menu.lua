@@ -58,7 +58,13 @@ function game.gui.menu.draw()
 	local itemFont = rowHeight * 0.8
 	love.graphics.setNewFont(itemFont)
 	love.graphics.printf("Level " .. tostring(game.state.level.current), xRow, yRowBase, textWidth, "center")
-	love.graphics.printf("I like to Move It Move It", xRow, yRowBase + 1 * rowMult, textWidth, "center")
+	love.graphics.printf(
+		game.conf.level_sequence[game.state.level.current].title,
+		xRow,
+		yRowBase + 1 * rowMult,
+		textWidth,
+		"center"
+	)
 	love.graphics.line(x1, yRowBase + 2 * rowMult, x1 + rowWidth, yRowBase + 2 * rowMult)
 
 	-- Draw actual menu section

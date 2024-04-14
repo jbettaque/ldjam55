@@ -242,6 +242,7 @@ end
 function game.minions.summon(typ, x, y)
 	print("summoning " .. typ .. " minion at " .. x .. "x" .. y)
 	local preset = game.conf.minions.presets[typ]
+	local screenX, screenY = game.tilemap.tilemapToScreen(x, y)
 
 	-- instantiate by copying all properties
 	local minion = {}
@@ -251,8 +252,8 @@ function game.minions.summon(typ, x, y)
 
 	-- set runtime properties
 	minion.position = {
-		x = x,
-		y = y,
+		x = screenX,
+		y = screenY,
 	}
 	minion.angle = 0
 

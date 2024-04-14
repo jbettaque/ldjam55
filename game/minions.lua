@@ -169,8 +169,8 @@ local function interactMinion(minion)
 				.. "x"
 				.. mapY
 		)
-		game.tilemap.interact(mapX, mapY, 1)
-		game.tilemap.interact(interactX, interactY, 1)
+		game.tilemap.interact(mapX, mapY, minion)
+		game.tilemap.interact(interactX, interactY, minion)
 	end
 end
 
@@ -245,6 +245,14 @@ function game.minions.draw()
 			minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
 			eyesSize / 3
 		)
+
+		-- key carryier
+		if minion.carrying == nil then
+		elseif minion.carrying == "key" then
+			print("hi")
+		else
+			error("cannot render carried item " .. tostring(minion.carrying))
+		end
 	end
 end
 
@@ -280,7 +288,7 @@ function game.minions.summon(presetId, x, y)
 		y = screenY,
 	}
 	minion.angle = 0
-	minion.carrying = nil
+	minion.carrying = "key"
 
 	-- actually spawn by inserting into game state
 	table.insert(state.activeMinions, minion)

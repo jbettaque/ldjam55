@@ -4,6 +4,7 @@ require("game.utils")
 require("game.state")
 require("game.gui.menu")
 require("game.gui.intro")
+require("game.gui.endScreen")
 
 --- callback when the game starts
 function game.gui.load()
@@ -12,8 +13,14 @@ end
 
 --- callback when the game loads the level with the given index
 function game.gui.loadLevel(id)
-	game.state.isActive = false
-	game.state.gui = "intro"
+	print(id, #game.conf.level_sequence)
+	if id == #game.conf.level_sequence then
+		game.state.isActive = true
+		game.state.gui = "endScreen"
+	else
+		game.state.isActive = false
+		game.state.gui = "intro"
+	end
 end
 
 --- callback when the game loop updates
@@ -31,6 +38,8 @@ function game.gui.keypressed(key, scancode, isrepeat)
 		if scancode == "escape" then
 			game.state.gui = "menu"
 		end
+	elseif game.state.gui == "endScreen" then
+		game.gui.endScreen.keypressed(key, scancode, isrepeat)
 	else
 		error("unknown gui state " .. tostring(game.state.gui))
 	end
@@ -42,6 +51,8 @@ function game.gui.draw()
 		game.gui.intro.draw()
 	elseif game.state.gui == "menu" then
 		game.gui.menu.draw()
+	elseif game.state.gui == "endScreen" then
+		game.gui.endScreen.draw()
 	end
 end
 

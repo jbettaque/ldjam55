@@ -2,6 +2,7 @@ game.gui.menu = {}
 
 require("game.gui.control_widget")
 local muted = false
+
 ---  callback when a key is pressed on the keyboard
 function game.gui.menu.keypressed(key, scancode, isrepeat)
 	if scancode == "h" then
@@ -22,6 +23,7 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 	end
 end
 
+--- callback for when this gui should be drawn
 function game.gui.menu.draw()
 	local containerHeight = game.conf.ui.menu.containerHeight
 	local rowHeight = game.conf.ui.menu.rowHeight

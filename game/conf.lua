@@ -347,6 +347,14 @@ game.conf = {
 			titleHeight = 70,
 			border = 5,
 		},
+		end_screen = {
+			containerHeight = 450,
+			containerWidth = 1100,
+			titleHeight = 70,
+			textHeight = 35,
+			border = 5,
+			topMargin = 45,
+		},
 		keyboard_control_widget = {
 			buttonSize = 78,
 			keyTextSize = 30,

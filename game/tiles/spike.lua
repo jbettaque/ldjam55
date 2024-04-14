@@ -32,16 +32,25 @@ spike_update_func = function(x, y, dt)
 
 	local assetUp = game.tilemap.getValue(x, y, "asset_up")
 	local assetDown = game.tilemap.getValue(x, y, "asset_down")
+	local asset = game.tilemap.getValue(x, y, "asset")
 
 	if game.tilemap.getValue(x, y, "inverted") then
 		shouldBeUp = not shouldBeUp
 	end
 
 	if shouldBeUp then
-		-- love.audio.stop(audioSpike)
-		--love.audio.play(audioSpike)
+		if asset == assetUp then
+			return
+		end
+		love.audio.stop(audioSpike)
+		love.audio.play(audioSpike)
 		game.tilemap.setAsset(x, y, assetUp)
 	else
+		if asset == assetDown then
+			return
+		end
+		love.audio.stop(audioSpike)
+		love.audio.play(audioSpike)
 		game.tilemap.setAsset(x, y, assetDown)
 	end
 end

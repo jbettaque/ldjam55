@@ -228,7 +228,9 @@ function game.tilemap.loadSave(filename)
 				local preset = tilePresets[map[i][j].preset]
 				if preset then
 					for k, v in pairs(preset) do
-						map[i][j][k] = v
+						if map[i][j][k] == nil then
+							map[i][j][k] = v
+						end
 					end
 				end
 			end

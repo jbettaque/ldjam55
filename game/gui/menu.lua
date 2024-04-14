@@ -19,8 +19,8 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 		audioLoop:setVolume(0.0)
 	elseif scancode == "m" and muted == true then
 		muted = false
-		audioIntro:setVolume(0.5)
-		audioLoop:setVolume(0.5)
+		audioIntro:setVolume(0.05)
+		audioLoop:setVolume(0.05)
 	end
 
 end

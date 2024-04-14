@@ -10,7 +10,7 @@ lever_interact = function(x, y)
 	print("interact with lever")
 	local asset = game.tilemap.getValue(x, y, "asset")
 
-	 love.audio.stop(audioSwitch)
+	love.audio.stop(audioSwitch)
 
 	if asset == game.tiles.lever.tilePreset.asset_off then
 		game.tilemap.setAsset(x, y, game.tiles.lever.tilePreset.asset_on)

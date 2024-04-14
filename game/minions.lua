@@ -288,7 +288,7 @@ function game.minions.summon(presetId, x, y)
 		y = screenY,
 	}
 	minion.angle = 0
-	minion.carrying = "key"
+	minion.carrying = nil
 
 	-- actually spawn by inserting into game state
 	table.insert(state.activeMinions, minion)

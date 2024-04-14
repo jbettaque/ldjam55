@@ -142,6 +142,11 @@ function game.editor.draw()
 	love.graphics.print("Available presets:", 10, 40)
 	local i = 1
 	for k, v in pairs(game.tilemap.getTilePresets()) do
+		if k == currentPreset then
+			love.graphics.setColor(255, 255, 0)
+		else
+			love.graphics.setColor(255, 255, 255)
+		end
 		love.graphics.print(k, 10, 40 + i * 20)
 		i = i + 1
 	end
@@ -187,6 +192,46 @@ function newLevel()
 		.. #game.conf.level_sequence
 		.. ".json"
 	game.tilemap.setLevel(#game.conf.level_sequence)
+end
+
+function game.editor.wheelmoved(x, y)
+	if y < 0 then
+		cooldown = 0.1
+		local presetKeys = {}
+		for k, v in pairs(game.tilemap.getTilePresets()) do
+			table.insert(presetKeys, k)
+		end
+		local index = 1
+		for i = 1, #presetKeys do
+			if presetKeys[i] == currentPreset then
+				index = i
+				break
+			end
+		end
+		index = index + 1
+		if index > #presetKeys then
+			index = 1
+		end
+		currentPreset = presetKeys[index]
+	elseif y > 0 then
+		cooldown = 0.1
+		local presetKeys = {}
+		for k, v in pairs(game.tilemap.getTilePresets()) do
+			table.insert(presetKeys, k)
+		end
+		local index = 1
+		for i = 1, #presetKeys do
+			if presetKeys[i] == currentPreset then
+				index = i
+				break
+			end
+		end
+		index = index - 1
+		if index < 1 then
+			index = #presetKeys
+		end
+		currentPreset = presetKeys[index]
+	end
 end
 
 function game.editor.showConnections(dt)

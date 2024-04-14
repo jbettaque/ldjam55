@@ -53,6 +53,10 @@ function love.mousepressed(x, y, button, istouch, presses)
 	game.intro.mousepressed(x, y, button, istouch, presses)
 end
 
+function love.wheelmoved(x, y)
+	game.editor.wheelmoved(x, y)
+end
+
 --- load the level with the given index
 function game.loadLevel(id)
 	game.minions.loadLevel(id)

@@ -86,7 +86,7 @@ game.conf = {
 		},
 		{
 			filename = "game/levels/01_summoning.json",
-			title = "Summon Me",
+			title = "Welcome to the Game",
 			minions = {
 				homunculus = 3,
 				zombie = 0,

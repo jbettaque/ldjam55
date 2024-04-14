@@ -5,12 +5,12 @@ require("game.tilemap")
 game.minions = {}
 
 local MINION_SIZE = game.conf.minions.size
-local minion_id_seq = 0
+local state = game.state.minions
 
 --- generate a new minion id that is unique for the current level
 local function gen_id()
-	minion_id_seq = minion_id_seq + 1
-	return minion_id_seq
+	state.minion_id_seq = state.minion_id_seq + 1
+	return state.minion_id_seq
 end
 
 --- trigger other game components when a minion enters a new tile
@@ -164,18 +164,18 @@ end
 function game.minions.kill(minion)
 	print("killing " .. tostring(minion.name) .. " " .. tostring(minion.id))
 	local _, i = game.minions.get(minion.id)
-	table.remove(game.state.minions, i)
+	table.remove(state.activeMinions, i)
 	game.summoning.refreshSummon(minion.presetId)
 end
 
 --- callback when the game loads
 function game.minions.load()
-	game.state.minions = {}
+	-- nothing to do; initialization happens on level load
 end
 
 --- callback for game updates
 function game.minions.update(dt)
-	for _, minion in ipairs(game.state.minions) do
+	for _, minion in ipairs(state.activeMinions) do
 		moveMinion(minion, dt)
 		rotateMinion(minion)
 	end
@@ -183,7 +183,7 @@ end
 
 --- callback for rendering
 function game.minions.draw()
-	for _, minion in ipairs(game.state.minions) do
+	for _, minion in ipairs(state.activeMinions) do
 		-- body
 		love.graphics.setColor(love.math.colorFromBytes(unpack(minion.color)))
 		love.graphics.circle("fill", minion.position.x, minion.position.y, MINION_SIZE)
@@ -238,7 +238,7 @@ end
 --- callback for key presses
 function game.minions.keypressed(key, scancode, isrepeat)
 	if scancode == "space" and not isrepeat then
-		for _, minion in ipairs(game.state.minions) do
+		for _, minion in ipairs(state.activeMinions) do
 			interactMinion(minion)
 		end
 	end
@@ -269,7 +269,7 @@ function game.minions.summon(presetId, x, y)
 	minion.angle = 0
 
 	-- actually spawn by inserting into game state
-	table.insert(game.state.minions, minion)
+	table.insert(state.activeMinions, minion)
 end
 
 --- get the minion with the given id
@@ -278,7 +278,7 @@ end
 ---   the minion table
 ---   the index into the minion state at which that minion is stored
 function game.minions.get(id)
-	for i, minion in pairs(game.state.minions) do
+	for i, minion in pairs(state.activeMinions) do
 		if minion.id == id then
 			return minion, i
 		end
@@ -288,6 +288,6 @@ end
 
 --- callback when the level with the given index is loaded
 function game.minions.loadLevel(id)
-	game.state.minions = {}
-	minion_id_seq = 0
+	state.activeMinions = {}
+	state.minion_id_seq = 0
 end

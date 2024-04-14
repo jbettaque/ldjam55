@@ -927,16 +927,16 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -955,10 +955,10 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1005,208 +1005,16 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 1,
-      "walkable": false
-    }
-  ],
-  [
-    {
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1316,13 +1124,9 @@
     },
     {
       "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1333,76 +1137,76 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "ground"
+    },
+    {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1515,38 +1319,54 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
       "asset": 2,
       "walkable": true
     },
@@ -1567,58 +1387,238 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 1,
+      "walkable": false
+    }
+  ],
+  [
+    {
       "asset": 1,
       "walkable": false
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "preset": "ground"
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "asset": 2,
+      "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -1727,10 +1727,10 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1749,10 +1749,10 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1771,52 +1771,52 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "wall"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -1945,16 +1945,16 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -1969,130 +1969,52 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "wall"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 5,
+      "update": "door_update_func",
       "assetOpen": 6,
       "assetClosed": 5,
-      "update": "door_update_func",
       "inverted": false,
+      "walkable": false,
+      "interact": "door_func",
       "step_on": "door_step",
-      "asset": 5,
       "needs_redstone": [
         {
-          "y": 13,
-          "x": 21
+          "x": 21,
+          "y": 13
         }
       ],
-      "preset": "door_vert",
-      "interact": "door_func",
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "door_vert"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -2100,131 +2022,9 @@
     },
     {
       "asset": 1,
-      "walkable": false
-    }
-  ],
-  [
-    {
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2358,78 +2158,278 @@
     },
     {
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "ground"
+    },
+    {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 1,
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "wall"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "wall",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 1,
+      "walkable": false
+    }
+  ],
+  [
+    {
       "asset": 1,
       "walkable": false
     },
     {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "ground"
+    },
+    {
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 17,
       "redstone": false,
+      "overFlyable": true,
       "step_on": "pressureplate_step",
       "step_off": "pressureplate_step_off",
-      "asset": 16,
-      "asset_on": 17,
-      "overFlyable": true,
-      "preset": "pressureplate",
+      "walkable": true,
       "asset_off": 16,
-      "walkable": true
+      "asset_on": 17,
+      "preset": "pressureplate"
     },
     {
-      "overFlyable": true,
-      "step_on": "spike_step",
       "asset": 15,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2578,16 +2578,16 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "wall"
+    },
+    {
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -2598,30 +2598,30 @@
       "walkable": true
     },
     {
-      "overFlyable": true,
-      "step_on": "spike_step",
       "asset": 15,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2770,10 +2770,10 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2788,30 +2788,30 @@
       "walkable": true
     },
     {
-      "overFlyable": true,
-      "step_on": "spike_step",
       "asset": 15,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2960,10 +2960,10 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -2978,30 +2978,30 @@
       "walkable": true
     },
     {
-      "overFlyable": true,
-      "step_on": "spike_step",
       "asset": 15,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "ground"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -3150,51 +3150,51 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": true,
-      "preset": "spawn",
       "asset": 8,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": true,
       "overFlyable": true,
-      "step_on": "spike_step",
-      "asset": 15,
-      "walkable": true
+      "preset": "spawn"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
+      "asset": 15,
+      "walkable": true,
+      "overFlyable": true,
+      "step_on": "spike_step"
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 7,
+      "walkable": true,
       "overFlyable": true,
       "step_on": "finish_step",
-      "preset": "finish",
-      "asset": 7,
-      "walkable": true
+      "preset": "finish"
     },
     {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -3343,244 +3343,58 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "wall",
       "asset": 1,
-      "walkable": false
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "overFlyable": false,
-      "preset": "wall",
-      "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
+      "preset": "wall"
     },
     {
       "asset": 1,
-      "walkable": false
-    }
-  ],
-  [
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
     {
       "asset": 1,
-      "walkable": false
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
-      "asset": 2,
-      "walkable": true
-    },
-    {
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "wall"
     },
     {
+      "asset": 1,
+      "walkable": false,
       "overFlyable": false,
-      "preset": "ground",
-      "asset": 2,
-      "walkable": true
+      "preset": "wall"
     },
     {
-      "asset": 2,
-      "walkable": true
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
+    },
+    {
+      "asset": 1,
+      "walkable": false,
+      "overFlyable": false,
+      "preset": "wall"
     },
     {
       "asset": 2,
@@ -3753,16 +3567,16 @@
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
-      "walkable": true
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
       "asset": 2,
@@ -3939,16 +3753,202 @@
       "walkable": true
     },
     {
+      "asset": 2,
+      "walkable": true,
       "overFlyable": false,
-      "preset": "ground",
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
       "asset": 2,
       "walkable": true
     },
     {
-      "overFlyable": false,
-      "preset": "ground",
       "asset": 2,
       "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 1,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
+    },
+    {
+      "asset": 2,
+      "walkable": true,
+      "overFlyable": false,
+      "preset": "ground"
     },
     {
       "asset": 2,

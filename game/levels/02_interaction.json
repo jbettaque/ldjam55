@@ -2337,20 +2337,21 @@
       "walkable": true
     },
     {
-      "assetOpen": 6,
       "asset": 5,
       "walkable": false,
-      "overFlyable": false,
+      "assetOpen": 6,
       "step_on": "door_step",
-      "update": "door_update_func",
-      "assetClosed": 5,
+      "inverted": false,
       "interact": "door_func",
+      "update": "door_update_func",
+      "overFlyable": false,
       "needs_redstone": [
         {
-          "y": 17,
-          "x": 21
+          "x": 21,
+          "y": 17
         }
       ],
+      "assetClosed": 5,
       "preset": "door_vert"
     },
     {
@@ -2358,14 +2359,14 @@
       "walkable": true
     },
     {
-      "asset_off": 18,
-      "walkable": true,
-      "redstone": false,
-      "preset": "lever",
       "interact": "lever_interact",
-      "asset_on": 19,
+      "walkable": true,
       "overFlyable": true,
-      "asset": 18
+      "asset_off": 18,
+      "asset": 19,
+      "asset_on": 19,
+      "redstone": false,
+      "preset": "lever"
     },
     {
       "asset": 2,
@@ -2752,20 +2753,21 @@
       "preset": "wall"
     },
     {
-      "assetOpen": 4,
       "asset": 3,
       "walkable": false,
-      "overFlyable": false,
+      "assetOpen": 4,
       "step_on": "door_step",
-      "update": "door_update_func",
-      "assetClosed": 3,
+      "inverted": false,
       "interact": "door_func",
+      "update": "door_update_func",
+      "overFlyable": false,
       "needs_redstone": [
         {
-          "y": 13,
-          "x": 24
+          "x": 24,
+          "y": 13
         }
       ],
+      "assetClosed": 3,
       "preset": "door_hor"
     },
     {
@@ -3143,15 +3145,15 @@
       "preset": "ground"
     },
     {
-      "asset_off": 16,
+      "asset": 17,
       "redstone": false,
-      "preset": "pressureplate",
-      "asset": 16,
-      "walkable": true,
       "overFlyable": true,
-      "step_on": "pressureplate_step",
+      "asset_off": 16,
       "step_off": "pressureplate_step_off",
-      "asset_on": 17
+      "asset_on": 17,
+      "step_on": "pressureplate_step",
+      "walkable": true,
+      "preset": "pressureplate"
     },
     {
       "asset": 1,
@@ -3166,11 +3168,11 @@
       "preset": "ground"
     },
     {
-      "preset": "finish",
       "asset": 7,
       "walkable": true,
       "overFlyable": true,
-      "step_on": "finish_step"
+      "step_on": "finish_step",
+      "preset": "finish"
     },
     {
       "asset": 2,

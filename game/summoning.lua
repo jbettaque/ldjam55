@@ -22,9 +22,9 @@ function game.summoning.load()
 	}
 	audioFea = {
 
-		love.audio.newSource("assets/sfx/Fee_spawn_1.mp3", "stream"),
-		love.audio.newSource("assets/sfx/Fee_spawn_2.mp3", "stream"),
-		love.audio.newSource("assets/sfx/Fee_spawn_3.mp3", "stream"),
+		love.audio.newSource("assets/sfx/Fee_Spawn_1.mp3", "stream"),
+		love.audio.newSource("assets/sfx/Fee_Spawn_2.mp3", "stream"),
+		love.audio.newSource("assets/sfx/Fee_Spawn_3.mp3", "stream"),
 	}
 
 	-- initialize empty state where nothing can be summoned

@@ -21,17 +21,17 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 	elseif scancode == "m" and muted == true then
 		muted = false
 		love.audio.setVolume(1)
---	elseif scancode == "p"  and screensize == 0 then
-	--	screensize = 1
-	--	game.conf.level.tileSize = 48
-	--	print("setting tile size to 48")
-	    love.window.setMode(1680, 960)
+		--	elseif scancode == "p"  and screensize == 0 then
+		--	screensize = 1
+		--	game.conf.level.tileSize = 48
+		--	print("setting tile size to 48")
+		love.window.setMode(1680, 960)
 		game.loadGraphics()
---	elseif scancode == "p" and screensize == 1 then
+		--	elseif scancode == "p" and screensize == 1 then
 		--screensize = 0
-	--	game.conf.level.tileSize = 64
-	--	print("setting tile size to 64")
-	   --love.window.setMode(2240, 1280)
+		--	game.conf.level.tileSize = 64
+		--	print("setting tile size to 64")
+		--love.window.setMode(2240, 1280)
 		--game.loadGraphics()
 	end
 end

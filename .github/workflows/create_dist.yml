@@ -61,7 +61,7 @@ jobs:
           chmod +x /usr/local/bin/appimagetool
       - name: download required linux file
         run: |
-          curl -sSL https://github.com/love2d/love/releases/download/11.5/love-11.5-x86_64.AppImage -o ./love.AppImage
+          curl -sSL https://github.com/love2d/love/releases/download/${LOVE_VERSION}/love-${LOVE_VERSION}-x86_64.AppImage -o ./love.AppImage
           chmod +x ./love.AppImage
       - name: download love file
         uses: actions/download-artifact@v4
@@ -80,6 +80,34 @@ jobs:
         with:
           name: linux
           path: ./MassMoveMinionMagic.AppImage
+
+  create-mac-bundle:
+    runs-on: ubuntu-latest
+    needs: [ create-love-file ]
+    steps:
+      - name: download required mac file
+        run: |
+          curl -sSL https://github.com/love2d/love/releases/download/${LOVE_VERSION}/love-${LOVE_VERSION}-macos.zip -o ./love.zip
+      - name: download love file
+        uses: actions/download-artifact@v4
+        with:
+          name: MassMoveMinionMagic.love
+          path: ./
+      - name: create mac release
+        run: |
+          unzip love.zip
+          mv love.app _MassMoveMinionMagic.app
+          mv MassMoveMinionMagic.love _MassMoveMinionMagic.app/Contents/Resources/
+          sed -i 's/<string>org\.love2d\.love<\/string>/<string>com.ldjam.MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
+          sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
+          sed -i '106,+28 d' ./_MassMoveMinionMagic.app/Contents/Info.plist
+          zip -r MassMoveMinionMagic.app ./_MassMoveMinionMagic.app -y
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mac
+          path: ./MassMoveMinionMagic.app
+
 
   create-web-bundle:
     runs-on: ubuntu-latest

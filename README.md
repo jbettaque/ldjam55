@@ -9,8 +9,8 @@ The catch? You control all minions at the same time.
 
 <div dir="auto">
   <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
-  <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
-  <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
+  <img width=400 src="./press_material/screenshots/screenshot_2_resized.png" />
+  <img width=400 src="./press_material/screenshots/screenshot_3_resized.png" />
 </div>
 
 ## Game Description

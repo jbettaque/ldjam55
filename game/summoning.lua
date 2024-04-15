@@ -127,16 +127,19 @@ function game.summoning.keypressed(key, scancode, isrepeat)
 			if minionState.presetId == "homunculus" then
 
 				local randomIndex = love.math.random(1, #audioGarry)
+				audioGarry[randomIndex]:stop()
 				audioGarry[randomIndex]:play()
 			end
 			if minionState.presetId == "fae" then
 
 				local randomIndex = love.math.random(1, #audioFea)
+				audioFea[randomIndex]:stop()
 				audioFea[randomIndex]:play()
 			end
 			if minionState.presetId == "zombie" then
 
 				local randomIndex = love.math.random(1, #audioZombie)
+				audioZombie[randomIndex]:stop()
 				audioZombie[randomIndex]:play()
 			end
 			end

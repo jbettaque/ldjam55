@@ -20,7 +20,7 @@
     - [ ] Death by Spikes
     - [x] Level Complete
     - [ ] Mine (explosion)
-- [ ] Intro Text
+- [x] Intro Text
   - [x] Controls (to mute or restart press escape)
   - [x] Fluff
   - [x] Tutorial für mines
@@ -35,7 +35,7 @@
     - [ ] LD Page
     - [ ] itch.io page
     - [ ] github readme
-    - [ ] (maybe) making of (on github or ld post)
+    - [ ] (maybe) making of (on gitHub or ld post)
 - [ ] distribution
     - [ ] web build
     - [ ] remove test level

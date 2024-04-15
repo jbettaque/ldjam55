@@ -113,8 +113,8 @@ local function drawLevelWelcomeToTheGame()
 		GREEN,
 		"<ESC>",
 		WHITE,
-		" to pause and open the menu where you can:\n  - Show this text again\n  - Restart the level\n  - Mute the sound\n  - Quit",
-	}, x + 400, y + 150, width / 2, "left")
+		" to pause and open the menu where you can:\n  - Show this text again\n  - Restart the level\n  - Mute the sound\n  - Resize the window\n  - Quit",
+	}, x + 400, y + 130, width / 2, "left")
 end
 
 local function drawLevelInteractions()

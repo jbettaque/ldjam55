@@ -101,7 +101,7 @@ jobs:
           cd dist
           unzip love.zip
           mv love.app MassMoveMinionMagic.app
-          mv MassMoveMinionMagic.love MassMoveMinionMagic.app/Contents/Resources/
+          mv ../MassMoveMinionMagic.love MassMoveMinionMagic.app/Contents/Resources/
           sed -i 's/<string>org\.love2d\.love<\/string>/<string>com.ldjam.MassMoveMinionMagic<\/string>/' ./MassMoveMinionMagic.app/Contents/Info.plist
           sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./MassMoveMinionMagic.app/Contents/Info.plist
           sed -i 's/OS X AppIcon/homunculus/' ./MassMoveMinionMagic.app/Contents/Info.plist

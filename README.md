@@ -8,8 +8,9 @@ In **Mass Move Minion Magic** you summon minions and steer them through puzzles 
 The catch? You control all minions at the same time.
 
 <div dir="auto">
-  <img width=500 src="./press_material/screenshots/love_7QgXexlRyP.png" />
-  <img width=500 src="./press_material/screenshots/love_1aaj1mgVrE.png" />
+  <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
+  <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
+  <img width=400 src="./press_material/screenshots/screenshot_1_resized.png" />
 </div>
 
 ## Game Description

@@ -9,6 +9,7 @@ require("game.audio")
 require("game.gui.index")
 
 function love.load()
+	print("running on " .. love.system.getOS())
 	game.loadGraphics()
 	love.graphics.setDefaultFilter("nearest", "nearest", 1)
 	game.summoning.load()

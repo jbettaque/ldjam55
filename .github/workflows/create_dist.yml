@@ -101,7 +101,8 @@ jobs:
           sed -i 's/<string>org\.love2d\.love<\/string>/<string>com.ldjam.MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
           sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
           sed -i '106,+28 d' ./_MassMoveMinionMagic.app/Contents/Info.plist
-          zip -r MassMoveMinionMagic.app ./_MassMoveMinionMagic.app -y
+          cd _MassMoveMinionMagic.app
+          zip -ry ../MassMoveMinionMagic.app .
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:

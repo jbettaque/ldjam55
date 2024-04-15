@@ -172,9 +172,9 @@ function newLevel()
 		game.state.level.standingOn[y] = {}
 		for x = 1, LEVEL_WIDTH do
 			if x == 1 or x == LEVEL_WIDTH or y == 1 or y == LEVEL_HEIGHT then
-				game.tilemap.setTileWithPreset(x, y, tilePresets.wall)
+				game.tilemap.setTileWithPreset(x, y, game.tiles.background.tilePreset)
 			else
-				game.tilemap.setTileWithPreset(x, y, tilePresets.ground)
+				game.tilemap.setTileWithPreset(x, y, game.tiles.background.tilePreset)
 			end
 
 			--if x == 5 and y == math.floor(LEVEL_HEIGHT / 2) then

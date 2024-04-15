@@ -76,16 +76,16 @@ game.conf = {
 	},
 
 	level_sequence = {
-		{
-			filename = "game/levels/level1.json",
-			title = "testing stage",
-			minions = {
-				homunculus = 2,
-				zombie = 2,
-				fae = 2,
-				guard = 2,
-			},
-		},
+		--{
+		--	filename = "game/levels/level1.json",
+		--	title = "testing stage",
+		--	minions = {
+		--		homunculus = 2,
+		--		zombie = 2,
+		--		fae = 2,
+		--		guard = 2,
+		--	},
+		--},
 		{
 			filename = "game/levels/01_summoning.json",
 			title = "Welcome to the Game",
@@ -237,8 +237,8 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/namemepls.json",
-			title = "Name Me Please",
+			filename = "game/levels/killing_undead.json",
+			title = "Killing Undead",
 			minions = {
 				homunculus = 1,
 				zombie = 1,
@@ -248,7 +248,7 @@ game.conf = {
 		},
 		{
 			filename = "game/levels/locked_in_again.json",
-			title = "Name Me Please",
+			title = "Locked in Again",
 			minions = {
 				homunculus = 1,
 				zombie = 1,

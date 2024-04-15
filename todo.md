@@ -31,7 +31,7 @@
 - [ ] Press Material
     - [x] Name = Mass Move Minion Magic
     - [x] Description Text
-    - [ ] Cover / Logo
+    - [x] Cover / Logo
     - [ ] Screenshots
     - [ ] LD Page
     - [ ] itch.io page

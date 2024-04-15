@@ -2,10 +2,11 @@ game.tiles.finish = {}
 game.tilemap = game.tilemap or require("game.tilemap")
 
 local asset = "assets/tiles/tile_finish.png"
-
+audioFinish = love.audio.newSource("assets/sfx/soundFinish.mp3", "stream")
 stepOnFinish = function(x, y, minion)
 	if minion.canFinish then
 		print(minion.name .. " " .. tostring(minion.id) .. " is finishing the game")
+		love.audio.play(audioFinish)
 		game.loadLevel(game.state.level.current + 1)
 	end
 end

@@ -7,6 +7,9 @@ game.summoning = {}
 
 --- callback when the game loads
 function game.summoning.load()
+	audioSummon = love.audio.newSource("assets/sfx/soundSummon.mp3", "stream")
+	audioSummon:setVolume(0.5)
+
 	-- initialize empty state where nothing can be summoned
 	game.state.summoning = {
 		isSummoning = false,
@@ -100,6 +103,7 @@ function game.summoning.keypressed(key, scancode, isrepeat)
 			game.state.summoning.isSummoning = false
 			minionState.summoned = minionState.summoned + 1
 			game.minions.summon(minionState.presetId, game.summoning.getSummonLocation())
+			audioSummon:play()
 		end
 	end
 end

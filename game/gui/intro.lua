@@ -76,8 +76,14 @@ end
 
 local function drawLevelWelcomeToTheGame()
 	x, y, width, height = drawContainer()
-	love.graphics.printf("Hello World.", x, y, width, "left") -- TODO write intro and explain controls
-	game.gui.widgets.keyboardControl(x + 20, y + 50)
+	love.graphics.printf(
+		"Hello, thanks for playing #TODOADD GAMENAME HERE! In this game you can summon and control minions to try and solve the puzzle and reach the end of the level. But beware! You control all your summoned minions at once, so move around carefully!",
+		x,
+		y,
+		width,
+		"left"
+	) -- TODO write intro and explain controls
+	game.gui.widgets.keyboardControl(x + 20, y + 120)
 end
 
 local function drawLevelInteractions()

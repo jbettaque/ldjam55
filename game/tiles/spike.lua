@@ -16,7 +16,6 @@ spike_step = function(x, y, minion)
 end
 
 spike_update_func = function(x, y, dt)
-	print("update spike")
 	local shouldBeUp = true
 	if game.tilemap.getValue(x, y, "needs_redstone") then
 		local redstoneNeeded = game.tilemap.getValue(x, y, "needs_redstone")

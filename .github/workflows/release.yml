@@ -47,6 +47,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy-pages.outputs.page_url }}
     steps:
+      - name: download web files
+        uses: actions/download-artifact@v4
+        with:
+          name: web
+          path: ./web
       - name: upload github pages artifact
         id: upload-pages-artifact
         uses: actions/upload-pages-artifact@v3

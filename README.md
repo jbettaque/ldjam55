@@ -27,7 +27,7 @@ On there, download one of the *Assets* according to your operating system.
 
 We currently support the following systems:
 - Linux systems using the *MassMoveMinionMagic.AppImage* all-in-one binary
-- Windows users should download *MassMoveMinionMagic-win64.zip*, extract it and run the *MaxxMoveMinionMagic.exe* file contained within.
+- Windows users should download *MassMoveMinionMagic-win64.zip*, extract it and run the *MassMoveMinionMagic.exe* file contained within.
 - If you have the *LÖVE* game engine already installed, *MassMoveMinionMagic.love* can also be downloaded. You'll know what to do with it.
 
 > [!NOTE]

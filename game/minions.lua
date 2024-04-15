@@ -212,6 +212,9 @@ function game.minions.kill(minion)
 	local _, i = game.minions.get(minion.id)
 	table.remove(state.activeMinions, i)
 	game.summoning.refreshSummon(minion.presetId)
+
+	local randomDeathSoundIndex = math.random(1, #minion.deathSounds)
+	game.minions.audio[minion.deathSounds[randomDeathSoundIndex]]:play()
 end
 
 --- callback when the game loads
@@ -221,10 +224,19 @@ function game.minions.load()
 	-- load assets
 	game.minions.assets = {}
 
+	-- load audio
+	game.minions.audio = {}
+
 	for _, preset in pairs(game.conf.minions.presets) do
 		for _, assetPath in pairs(preset.assets) do
 			if not game.minions.assets[assetPath] then
 				game.minions.assets[assetPath] = love.graphics.newImage(assetPath)
+			end
+		end
+
+		for _, audioPath in pairs(preset.deathSounds) do
+			if not game.minions.audio[audioPath] then
+				game.minions.audio[audioPath] = love.audio.newSource(audioPath, "static")
 			end
 		end
 	end

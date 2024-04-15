@@ -81,4 +81,9 @@ function game.loadGraphics()
 		print("setting tile size to 48")
 		print(love.graphics.getDimensions())
 	end
+
+	local window_width = game.conf.level.tileSize * game.conf.level.width
+	local window_height = game.conf.level.tileSize * game.conf.level.height
+
+	love.window.setMode(window_width, window_height)
 end

@@ -2,7 +2,6 @@ game.gui.menu = {}
 
 require("game.gui.control_widget")
 local muted = false
---local screensize = 0
 
 ---  callback when a key is pressed on the keyboard
 function game.gui.menu.keypressed(key, scancode, isrepeat)
@@ -21,18 +20,17 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 	elseif scancode == "m" and muted == true then
 		muted = false
 		love.audio.setVolume(1)
-		--	elseif scancode == "p"  and screensize == 0 then
-		--	screensize = 1
-		--	game.conf.level.tileSize = 48
-		--	print("setting tile size to 48")
-		love.window.setMode(1680, 960)
-		game.loadGraphics()
-		--	elseif scancode == "p" and screensize == 1 then
-		--screensize = 0
-		--	game.conf.level.tileSize = 64
-		--	print("setting tile size to 64")
-		--love.window.setMode(2240, 1280)
-		--game.loadGraphics()
+	elseif scancode == "p" then
+		if game.conf.level.tileSize == 64 then
+			game.conf.level.tileSize = 48
+		elseif game.conf.level.tileSize == 48 then
+			game.conf.level.tileSize = 64
+		end
+		local window_width = game.conf.level.tileSize * game.conf.level.width
+		local window_height = game.conf.level.tileSize * game.conf.level.height
+
+		love.window.setMode(window_width, window_height)
+		game.loadLevel(game.state.level.current)
 	end
 end
 
@@ -116,12 +114,12 @@ function game.gui.menu.draw()
 		{ 0.2, 1, 0.2 },
 		"<P>",
 		{ 1, 1, 1 },
-		" to resize(not working)",
+		" to resize (restarts level)",
 	}, xRow, yRowBase + 5 * rowMult, textWidth, "left")
 	love.graphics.line(x1, yRowBase + 5 * rowMult + titleHeight, x1 + rowWidth, yRowBase + 5 * rowMult + titleHeight)
 
 	-- Draw Control widget section
 	yRowBase = yRowBase + 5 * rowMult + 2 * border + titleHeight
 	love.graphics.printf("Keyboard Controls", xRow, yRowBase, textWidth, "center")
-	game.gui.widgets.keyboardControl(xRow + 30, yRowBase + 1 * rowMult)
+	game.gui.widgets.keyboardControl(xRow + 98, yRowBase + 1 * rowMult)
 end

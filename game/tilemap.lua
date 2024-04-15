@@ -57,11 +57,6 @@ function game.tilemap.load()
 
 	game.tilemap.loadAssets(assets)
 
-	local window_width = game.conf.level.tileSize * LEVEL_WIDTH
-	local window_height = game.conf.level.tileSize * LEVEL_HEIGHT
-
-	love.window.setMode(window_width, window_height)
-
 	for y = 1, LEVEL_HEIGHT do
 		map[y] = {}
 		game.state.level.standingOn[y] = {}

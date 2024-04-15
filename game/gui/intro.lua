@@ -2,6 +2,9 @@ require("game.state")
 
 game.gui.intro = {}
 
+local WHITE = { 1, 1, 1 }
+local GREEN = { 0.1, 0.9, 0.1 }
+
 --- draw the menu container and return the inner dimensions available for furhter text
 ---
 --- Returns:
@@ -41,21 +44,25 @@ local function drawContainer()
 		y1 + containerHeight - border - footerHeight - border
 	)
 	love.graphics.printf({
-		{ 1, 1, 1 },
+		WHITE,
 		"Press ",
-		{ 0.1, 0.9, 0.1 },
+		GREEN,
 		"<ENTER>",
-		{ 1, 1, 1 },
+		WHITE,
 		" to close!",
 	}, x1 + border, y1 + containerHeight - border - footerHeight, containerWidth, "center")
 
 	-- prepare inner content area and return dimensions
-	local textHeight = game.conf.ui.intro.textHeight
-	love.graphics.setNewFont(textHeight * 0.9)
+	setupContentFont()
 	return x1 + border,
 		y1 + border * 3 + titleHeight,
 		containerWidth - border * 2,
 		containerHeight - border * 6 - titleHeight - footerHeight
+end
+
+function setupContentFont()
+	local textHeight = game.conf.ui.intro.textHeight
+	love.graphics.setNewFont(textHeight * 0.9)
 end
 
 --- calculate whether the given screen coordinates are inside the containers footer
@@ -77,24 +84,46 @@ end
 local function drawLevelWelcomeToTheGame()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Hello, thanks for playing #TODOADD GAMENAME HERE! In this game you can summon and control minions to try and solve the puzzle and reach the end of the level. But beware! You control all your summoned minions at once, so move around carefully!",
-		x,
-		y,
-		width,
-		"left"
-	) -- TODO write intro and explain controls
-	game.gui.widgets.keyboardControl(x + 20, y + 120)
-end
-
-local function drawLevelInteractions()
-	x, y, width, height = drawContainer()
-	love.graphics.printf(
-		"Your minions can interact with various objects in your chambers. In this room they need to operate a switch and a pressure plate.",
+		"Greetings Master!\nI set up all of your chambers just as you demanded. I drew the pentagrams so you can summon your minions. I also instructed all of them to move at the same time, just as you wanted. Finally, I set up a goal in each chamber you can chase your minions towards.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	game.gui.widgets.keyboardControl(x + 20, y + 120)
+	setupContentFont()
+	love.graphics.printf({
+		WHITE,
+		"Use ",
+		GREEN,
+		"<Q>",
+		WHITE,
+		" followed by ",
+		GREEN,
+		"<number>",
+		WHITE,
+		" to summon a minion.\nUse ",
+		GREEN,
+		"<WASD>",
+		WHITE,
+		" to command your minions.\nUse ",
+		GREEN,
+		"<ESC>",
+		WHITE,
+		" to pause and open the menu where you can:\n  - Show this text again\n  - Restart the level\n  - Mute the sound\n  - Quit",
+	}, x + 400, y + 150, width / 2, "left")
+end
+
+local function drawLevelInteractions()
+	x, y, width, height = drawContainer()
+	love.graphics.printf({
+		WHITE,
+		"I set up various objects for your minions to interact with. In this room they need to operate a switch and a pressure plate.\nOnly one homunculus needs to reach the goal.\n\nUse ",
+		GREEN,
+		"<E>",
+		WHITE,
+		" to interact with switches.",
+	}, x, y, width, "left")
 end
 
 local function drawLevelDifferentSpeeds()
@@ -144,7 +173,7 @@ end
 local function drawLevelDontFlyTooHigh()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Fae might be able to fly above dangers and obstacles. But as you certainly know, this also prevents them from pressing down pressure plates.",
+		"Faes might be able to fly above dangers and obstacles. But as you certainly know, this also prevents them from pressing down pressure plates.",
 		x,
 		y,
 		width,
@@ -155,7 +184,7 @@ end
 local function drawLevelMines()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Watch Out!\nThere is still one of the mines, you placed after - The Incident™ -\nCommand one of your minions to step onto it to clear it up.",
+		"Watch Out Master!\nThere is still one of the mines, you placed after - The Incident™ -\nCommand one of your minions to step onto it to clear it up.",
 		x,
 		y,
 		width,
@@ -165,13 +194,14 @@ end
 
 local function drawLevelLockedUpAgain()
 	x, y, width, height = drawContainer()
-	love.graphics.printf(
-		"We reached the last of your chambers. Good luck with it.\n\nAnd remember you can always reset the room in the <ESC> menu.",
-		x,
-		y,
-		width,
-		"left"
-	)
+	love.graphics.printf({
+		WHITE,
+		"We reached the last of your chambers. Good luck with it.\n\nAnd remember you can always reset the room in the ",
+		GREEN,
+		"<ESC>",
+		WHITE,
+		" menu.",
+	}, x, y, width, "left")
 end
 
 --- callback when a key is pressed on the keyboard

@@ -85,6 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ create-love-file ]
     steps:
+      - uses: actions/checkout@v4
       - name: download required mac file
         run: |
           curl -sSL https://github.com/love2d/love/releases/download/11.5/love-11.5-macos.zip -o ./love.zip
@@ -96,13 +97,14 @@ jobs:
       - name: create mac release
         run: |
           unzip love.zip
-          mv love.app _MassMoveMinionMagic.app
-          mv MassMoveMinionMagic.love _MassMoveMinionMagic.app/Contents/Resources/
-          sed -i 's/<string>org\.love2d\.love<\/string>/<string>com.ldjam.MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
-          sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./_MassMoveMinionMagic.app/Contents/Info.plist
-          sed -i '106,+28 d' ./_MassMoveMinionMagic.app/Contents/Info.plist
-          cd _MassMoveMinionMagic.app
-          zip -ry ../MassMoveMinionMagic.app .
+          mv love.app MassMoveMinionMagic.app
+          mv MassMoveMinionMagic.love MassMoveMinionMagic.app/Contents/Resources/
+          sed -i 's/<string>org\.love2d\.love<\/string>/<string>com.ldjam.MassMoveMinionMagic<\/string>/' ./MassMoveMinionMagic.app/Contents/Info.plist
+          sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./MassMoveMinionMagic.app/Contents/Info.plist
+          sed -i 's/OS X AppIcon/homunculus/' ./MassMoveMinionMagic.app/Contents/Info.plist
+          sed -i '106,+28 d' ./MassMoveMinionMagic.app/Contents/Info.plist
+          cp press_material/homunculus.icns ./MassMoveMinionMagic.app/Contents/Resources/homunculus.icns
+
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:

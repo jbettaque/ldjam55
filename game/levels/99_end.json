@@ -1,1 +1,4378 @@
-[[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":true,"preset":"ground","asset":2,"walkable":true},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}],[{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false},{"overFlyable":false,"preset":"wall","asset":1,"walkable":false}]]
+[
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": true,
+      "asset_off": 17,
+      "redstone": false,
+      "asset_on": 18,
+      "asset": 17,
+      "preset": "pressureplate",
+      "update": "pressureplate_update",
+      "walkable": true
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "wall",
+      "asset": 1,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ],
+  [
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    },
+    {
+      "overFlyable": false,
+      "preset": "background",
+      "asset": 24,
+      "walkable": false
+    }
+  ]
+]

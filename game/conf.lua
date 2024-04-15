@@ -257,7 +257,7 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/level20.json",
+			filename = "game/levels/99_end.json",
 			title = "The End",
 			minions = {
 				homunculus = 0,

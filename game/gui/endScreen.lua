@@ -87,7 +87,7 @@ function game.gui.endScreen.draw()
 		{ 0.6, 0.6, 0.6 },
 		")\n",
 		{ 1, 1, 1 },
-		"· Sascha\n",
+		"· Sascha Kirschberger\n",
 	}, x1 + CONF.border, y1 + 2 * CONF.border + CONF.titleHeight, CONF.containerWidth - 2 * CONF.border, "left")
 
 	-- Draw closing remarks

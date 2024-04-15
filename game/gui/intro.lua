@@ -74,7 +74,7 @@ local function isInFooter(x, y)
 		and y <= containerY + containerHeight
 end
 
-local function drawLevelSummoning()
+local function drawLevelWelcomeToTheGame()
 	x, y, width, height = drawContainer()
 	love.graphics.printf("Hello World.", x, y, width, "left") -- TODO write intro and explain controls
 	game.gui.widgets.keyboardControl(x + 20, y + 50)
@@ -95,6 +95,17 @@ local function drawLevelDifferentSpeeds()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
 		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with object. However, they are ideal as ballast for pressure plates. But remember that only homunculi can use the exit.",
+		x,
+		y,
+		width,
+		"left"
+	)
+end
+
+local function drawLevelZombiesAreStupid()
+	x, y, width, height = drawContainer()
+	love.graphics.printf(
+		"While Zombies are pretty easy to summon and deal with, they are also just plain dumb…\nThey can't do anything useful besides standing in the way and on top of things.",
 		x,
 		y,
 		width,
@@ -144,18 +155,21 @@ end
 
 --- callback to draw on the screen
 function game.gui.intro.draw()
-	local lvl = game.state.level.current
-	if lvl == 2 then
-		drawLevelSummoning()
-	elseif lvl == 3 then
+	local lvlName = game.conf.level_sequence[game.state.level.current].title
+
+	if lvlName == "Welcome to the Game" then
+		drawLevelWelcomeToTheGame()
+	elseif lvlName == "Interaction" then
 		drawLevelInteractions()
-	elseif lvl == 4 then
+	elseif lvlName == "Different Speeds" then
 		drawLevelDifferentSpeeds()
-	elseif lvl == 6 then
+	elseif lvlName == "Zombies Are Stupid" then
+		drawLevelZombiesAreStupid()
+	elseif lvlName == "You Can Die" then
 		drawLevelYouCanDie()
-	elseif lvl == 8 then
+	elseif lvlName == "You Can Fly" then
 		drawLevelYouCanFly()
-	elseif lvl == 9 then
+	elseif lvlName == "Don't Fly Too High" then
 		drawLevelDontFlyTooHigh()
 	else
 		game.gui.close()

@@ -98,8 +98,8 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/04_yournamehere.json",
-			title = "Your Name Here",
+			filename = "game/levels/04_zombies_are_stupid.json",
+			title = "Zombies Are Stupid",
 			minions = {
 				homunculus = 1,
 				zombie = 1,

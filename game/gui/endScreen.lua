@@ -80,6 +80,12 @@ function game.gui.endScreen.draw()
 		-- vic
 		{ 1, 1, 1 },
 		"· Vic\n",
+		{ 0.6, 0.6, 0.6 },
+		" (find me at ",
+		{ 0, 0.4, 0.6 },
+		"https://www.vicwrobel.de/",
+		{ 0.6, 0.6, 0.6 },
+		")\n",
 	}, x1 + CONF.border, y1 + 2 * CONF.border + CONF.titleHeight, CONF.containerWidth - 2 * CONF.border, "left")
 
 	-- Draw closing remarks

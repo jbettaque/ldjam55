@@ -159,7 +159,6 @@ function game.tilemap.getTileSize()
 end
 
 function game.tilemap.screenToWorldPos(x, y)
-	print(game.conf.level.tileSize)
 	return math.floor(x / game.conf.level.tileSize) + 1, math.floor(y / game.conf.level.tileSize) + 1
 end
 

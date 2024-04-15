@@ -6,6 +6,8 @@ game.minions = {}
 
 local MINION_SIZE = game.conf.minions.size
 local state = game.state.minions
+local idleState = 1
+local idleUpdateTimer = 1
 
 --- generate a new minion id that is unique for the current level
 local function gen_id()
@@ -215,6 +217,17 @@ end
 --- callback when the game loads
 function game.minions.load()
 	-- nothing to do; initialization happens on level load
+
+	-- load assets
+	game.minions.assets = {}
+
+	for _, preset in pairs(game.conf.minions.presets) do
+		for _, assetPath in pairs(preset.assets) do
+			if not game.minions.assets[assetPath] then
+				game.minions.assets[assetPath] = love.graphics.newImage(assetPath)
+			end
+		end
+	end
 end
 
 --- callback for game updates
@@ -224,12 +237,24 @@ function game.minions.update(dt)
 		rotateMinion(minion)
 		unstuckMinion(minion)
 	end
+
+	-- update the idle state of minions
+	idleUpdateTimer = idleUpdateTimer - dt
+
+	if idleUpdateTimer <= 0 then
+		idleUpdateTimer = game.conf.minions.idleTime
+		if idleState == 1 then
+			idleState = 2
+		else
+			idleState = 1
+		end
+	end
 end
 
 --- callback for rendering
 function game.minions.draw()
 	for _, minion in ipairs(state.activeMinions) do
-		local asset = love.graphics.newImage(minion.asset)
+		local asset = game.minions.assets[minion.assets[idleState]]
 
 		--using sprite
 		love.graphics.draw(

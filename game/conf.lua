@@ -2,6 +2,7 @@ game.conf = {
 	minions = {
 		size = 14,
 		unstuckMoveBy = 5,
+		idleTime = 1,
 		presets = {
 			homunculus = {
 				presetId = "homunculus",
@@ -13,7 +14,10 @@ game.conf = {
 				movementType = "walking",
 				canFight = false,
 				canFinish = true,
-				asset = "assets/minions/homunculus.png",
+				assets = {
+					"assets/minions/homunculus.png",
+					"assets/minions/homunculus_01.png",
+				},
 			},
 			zombie = {
 				presetId = "zombie",
@@ -25,7 +29,10 @@ game.conf = {
 				movementType = "walking",
 				canFight = false,
 				canFinish = false,
-				asset = "assets/minions/zombie.png",
+				assets = {
+					"assets/minions/zombie.png",
+					"assets/minions/zombie_01.png",
+				},
 			},
 			fae = {
 				presetId = "zombie",
@@ -37,7 +44,10 @@ game.conf = {
 				movementType = "flying",
 				canFight = false,
 				canFinish = false,
-				asset = "assets/minions/fae.png",
+				assets = {
+					"assets/minions/fae.png",
+					"assets/minions/fae_01.png",
+				},
 			},
 			guard = {
 				presetId = "guard",
@@ -49,7 +59,10 @@ game.conf = {
 				movementType = "walking",
 				canFight = true,
 				canFinish = false,
-				asset = "assets/minions/fae.png",
+				assets = {
+					"assets/minions/fae.png",
+					"assets/minions/fae_01.png",
+				},
 			},
 		},
 	},

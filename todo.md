@@ -16,9 +16,9 @@
     - [x] Lock and Key
     - [x] Button
 - [ ] Sound
-    - [ ] Summoning (maybe one for each minion)
+    - [x ?] Summoning (maybe one for each minion)
     - [ ] Death by Spikes
-    - [ ] Level Complete
+    - [x] Level Complete
     - [ ] Mine (explosion)
 - [ ] Intro Text
     - [ ] Controls (to mute or restart press escape)

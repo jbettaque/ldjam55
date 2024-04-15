@@ -55,7 +55,7 @@ game.conf = {
 	},
 
 	level = {
-		tileSize = 48,
+		tileSize = 32,
 		width = 35,
 		height = 20,
 		--width = 45,
@@ -244,7 +244,7 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/99_end.json",
+			filename = "game/levels/level20.json",
 			title = "The End",
 			minions = {
 				homunculus = 0,

@@ -9,6 +9,7 @@ require("game.audio")
 require("game.gui.index")
 
 function love.load()
+	game.loadGraphics()
 	love.graphics.setDefaultFilter("nearest", "nearest", 1)
 	game.summoning.load()
 	game.tilemap.load()
@@ -67,4 +68,15 @@ function game.loadLevel(id)
 	game.summoning.loadLevel(id)
 	game.gui.loadLevel(id)
 	game.tilemap.loadLevel(id)
+end
+
+function game.loadGraphics()
+	local w, h = love.window.getDesktopDimensions()
+	if h > 1080 then
+		game.conf.level.tileSize = 64
+		print("setting tile size to 64")
+	else
+		game.conf.level.tileSize = 48
+		print("setting tile size to 48")
+	end
 end

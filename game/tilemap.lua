@@ -33,7 +33,7 @@ local stepOnFunctions = {}
 local stepOffFunctions = {}
 local updateFunctions = {}
 
-local TILE_SIZE = game.conf.level.tileSize
+--local game.conf.level.tileSize = game.conf.level.tileSize
 local LEVEL_WIDTH = game.conf.level.width
 local LEVEL_HEIGHT = game.conf.level.height
 local map = game.state.level.map
@@ -55,8 +55,8 @@ function game.tilemap.load()
 
 	game.tilemap.loadAssets(assets)
 
-	local window_width = TILE_SIZE * LEVEL_WIDTH
-	local window_height = TILE_SIZE * LEVEL_HEIGHT
+	local window_width = game.conf.level.tileSize * LEVEL_WIDTH
+	local window_height = game.conf.level.tileSize * LEVEL_HEIGHT
 
 	love.window.setMode(window_width, window_height)
 
@@ -101,11 +101,11 @@ function game.tilemap.draw()
 		for x = 1, #map[y] do
 			love.graphics.draw(
 				game.tilemap.getAsset(x, y),
-				(x - 1) * TILE_SIZE,
-				(y - 1) * TILE_SIZE,
+				(x - 1) * game.conf.level.tileSize,
+				(y - 1) * game.conf.level.tileSize,
 				0,
-				TILE_SIZE / 32,
-				TILE_SIZE / 32,
+				game.conf.level.tileSize / 32,
+				game.conf.level.tileSize / 32,
 				0,
 				0
 			)
@@ -155,15 +155,17 @@ function game.tilemap.setAsset(x, y, asset)
 end
 
 function game.tilemap.getTileSize()
-	return TILE_SIZE
+	return game.conf.level.tileSize
 end
 
 function game.tilemap.screenToWorldPos(x, y)
-	return math.floor(x / TILE_SIZE) + 1, math.floor(y / TILE_SIZE) + 1
+	print(game.conf.level.tileSize)
+	return math.floor(x / game.conf.level.tileSize) + 1, math.floor(y / game.conf.level.tileSize) + 1
 end
 
 function game.tilemap.tilemapToScreen(x, y)
-	return (x - 1) * TILE_SIZE + (TILE_SIZE / 2), (y - 1) * TILE_SIZE + (TILE_SIZE / 2)
+	return (x - 1) * game.conf.level.tileSize + (game.conf.level.tileSize / 2),
+		(y - 1) * game.conf.level.tileSize + (game.conf.level.tileSize / 2)
 end
 
 function game.tilemap.interact(x, y, minion)

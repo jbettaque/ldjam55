@@ -86,6 +86,8 @@ function game.gui.endScreen.draw()
 		"https://www.vicwrobel.de/",
 		{ 0.6, 0.6, 0.6 },
 		")\n",
+		{ 1, 1, 1 },
+		"· Sascha\n",
 	}, x1 + CONF.border, y1 + 2 * CONF.border + CONF.titleHeight, CONF.containerWidth - 2 * CONF.border, "left")
 
 	-- Draw closing remarks

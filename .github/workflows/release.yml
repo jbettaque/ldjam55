@@ -1,0 +1,26 @@
+name: release
+on:
+  release:
+    types: [ "published", "created " ]
+
+permissions:
+  contents: write
+
+jobs:
+  create-artifacts:
+    uses: ./.github/workflows/create_dist.yml
+
+  attach-to-release:
+    runs-on: ubuntu-latest
+    needs: [ create-artifacts ]
+    steps:
+      - name: download love file
+        uses: actions/download-artifact@v4
+        with:
+          name: game.love
+          path: ./
+      - name: upload game.love release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ./game.love

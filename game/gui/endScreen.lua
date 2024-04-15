@@ -79,7 +79,7 @@ function game.gui.endScreen.draw()
 		"· Philip\n",
 		-- vic
 		{ 1, 1, 1 },
-		"· Vic\n",
+		"· Vic",
 		{ 0.6, 0.6, 0.6 },
 		" (find me at ",
 		{ 0, 0.4, 0.6 },

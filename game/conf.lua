@@ -248,7 +248,7 @@ game.conf = {
 		},
 		{
 			filename = "game/levels/locked_in_again.json",
-			title = "Locked in Again",
+			title = "Locked In (Again?)",
 			minions = {
 				homunculus = 1,
 				zombie = 1,

@@ -6,12 +6,8 @@ function game.audio.load()
 	audioIntro = love.audio.newSource("assets/music/intro.mp3", "stream")
 	audioLoop = love.audio.newSource("assets/music/loop.mp3", "stream")
 
-	audioIntro:setVolume(0.5)
-	audioLoop:setVolume(0.5)
-	if game.conf.editor then
-		audioIntro:setVolume(0.05)
-		audioLoop:setVolume(0.05)
-	end
+	audioIntro:setVolume(game.conf.volume.intro)
+	audioLoop:setVolume(game.conf.volume.loop)
 	audioIntro:setLooping(false)
 end
 

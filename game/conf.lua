@@ -325,5 +325,13 @@ game.conf = {
 		},
 	},
 
+	volume = {
+		master = 1,
+		intro = 0.25,
+		loop = 0,
+		voices = 1,
+		mineExplosion = 1,
+	},
+
 	editor = false,
 }

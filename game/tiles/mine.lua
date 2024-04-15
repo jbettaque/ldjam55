@@ -6,7 +6,7 @@ audioMine = love.audio.newSource("assets/sfx/Mine1.mp3", "stream")
 
 mine_step_func = function(x, y, minion)
 	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a mine")
-	audioMine:setVolume(0.5)
+	audioMine:setVolume(game.conf.volume.mineExplosion)
 	love.audio.stop(audioMine)
 	love.audio.play(audioMine)
 	game.minions.kill(minion)

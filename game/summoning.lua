@@ -8,24 +8,32 @@ game.summoning = {}
 --- callback when the game loads
 function game.summoning.load()
 	audioGarry = {
-
 		love.audio.newSource("assets/sfx/soundSummon.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_1.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_2.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_3.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_4.mp3", "stream"),
 	}
-	audioZombie = {
+	for _, audio in ipairs(audioGarry) do
+		audio:setVolume(game.conf.volume.voices)
+	end
 
+	audioZombie = {
 		love.audio.newSource("assets/sfx/Zombie_Spawn_1.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Zombie_Spawn_2.1.mp3", "stream"),
 	}
-	audioFea = {
+	for _, audio in ipairs(audioZombie) do
+		audio:setVolume(game.conf.volume.voices)
+	end
 
+	audioFea = {
 		love.audio.newSource("assets/sfx/Fee_Spawn_1.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Fee_Spawn_2.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Fee_Spawn_3.mp3", "stream"),
 	}
+	for _, audio in ipairs(audioFea) do
+		audio:setVolume(game.conf.volume.voices)
+	end
 
 	-- initialize empty state where nothing can be summoned
 	game.state.summoning = {

@@ -19,7 +19,7 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 		love.audio.setVolume(0)
 	elseif scancode == "m" and muted == true then
 		muted = false
-		love.audio.setVolume(1)
+		love.audio.setVolume(game.volume.master)
 	elseif scancode == "p" then
 		if game.conf.level.tileSize == 64 then
 			game.conf.level.tileSize = 48
@@ -121,5 +121,5 @@ function game.gui.menu.draw()
 	-- Draw Control widget section
 	yRowBase = yRowBase + 5 * rowMult + 2 * border + titleHeight
 	love.graphics.printf("Keyboard Controls", xRow, yRowBase, textWidth, "center")
-	game.gui.widgets.keyboardControl(xRow + 80, yRowBase + 1 * rowMult)
+	game.gui.widgets.keyboardControl(xRow + 98, yRowBase + 1 * rowMult)
 end

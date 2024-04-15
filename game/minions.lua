@@ -237,6 +237,7 @@ function game.minions.load()
 		for _, audioPath in pairs(preset.deathSounds) do
 			if not game.minions.audio[audioPath] then
 				game.minions.audio[audioPath] = love.audio.newSource(audioPath, "static")
+				game.minions.audio[audioPath]:setVolume(game.conf.volume.voices)
 			end
 		end
 	end

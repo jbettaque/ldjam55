@@ -29,14 +29,14 @@
     - [x] Void
 - [x] Scaling
 - [ ] Press Material
-  - [x] NAME NAME NAME (Mass Move Minion Magic)
-  - [x] Description Text
-  - [ ] Cover / Logo
-  - [ ] Screenshots
-  - [ ] LD Page
-  - [ ] itch.io page
-  - [ ] github readme
-  - [ ] (maybe) making of (on gitHub or ld post)
+    - [x] Name = Mass Move Minion Magic
+    - [x] Description Text
+    - [ ] Cover / Logo
+    - [ ] Screenshots
+    - [ ] LD Page
+    - [ ] itch.io page
+    - [x] github readme
+    - [ ] (maybe) making of (on gitHub or ld post)
 - [ ] distribution
   - [x] web build
   - [x] remove test level

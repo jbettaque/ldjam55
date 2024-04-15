@@ -152,6 +152,28 @@ local function drawLevelDontFlyTooHigh()
 	)
 end
 
+local function drawLevelMines()
+	x, y, width, height = drawContainer()
+	love.graphics.printf(
+		"Watch Out!\nThere is still one of the mines, you placed after - The Incident™ -\nCommand one of your minions to step onto it to clear it up.",
+		x,
+		y,
+		width,
+		"left"
+	)
+end
+
+local function drawLevelLockedUpAgain()
+	x, y, width, height = drawContainer()
+	love.graphics.printf(
+		"We reached the last of your chambers. Good luck with it.\n\nAnd remember you can always reset the room in the <ESC> menu.",
+		x,
+		y,
+		width,
+		"left"
+	)
+end
+
 --- callback when a key is pressed on the keyboard
 function game.gui.intro.keypressed(key, scancode, isrepeat)
 	if scancode == "return" then
@@ -177,6 +199,10 @@ function game.gui.intro.draw()
 		drawLevelYouCanFly()
 	elseif lvlName == "Don't Fly Too High" then
 		drawLevelDontFlyTooHigh()
+	elseif lvlName == "Mines" then
+		drawLevelMines()
+	elseif lvlName == "Locked In (Again?)" then
+		drawLevelLockedUpAgain()
 	else
 		game.gui.close()
 	end

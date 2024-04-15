@@ -23,7 +23,7 @@
 - [ ] Intro Text
     - [ ] Controls (to mute or restart press escape)
     - [ ] Fluff
-    - [ ] Tutorial für mines
+  - [x] Tutorial für mines
     - [ ] (maybe) show minions and tiles in tutorial text
 - [x] Resize Levels
     - [x] Void

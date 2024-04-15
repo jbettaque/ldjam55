@@ -27,8 +27,9 @@ end
 
 function game.gui.widgets.keyboardControl(x, y)
 	-- 1 2 3 4
+	drawButton(x + 0 * (CONFIG.buttonSize + CONFIG.gap.x), y, CONFIG.fgColor, CONFIG.bgColor, "esc", "Open the menu")
 	drawButton(
-		x + 0 * (CONFIG.buttonSize + CONFIG.gap.x),
+		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x),
 		y,
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -36,28 +37,20 @@ function game.gui.widgets.keyboardControl(x, y)
 		"Summon 1st menu entry"
 	)
 	drawButton(
-		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x),
-		y,
-		CONFIG.fgColor,
-		CONFIG.bgColor,
-		"2",
-		"Summon 2nd menu entry"
-	)
-	drawButton(
 		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x),
 		y,
 		CONFIG.fgColor,
 		CONFIG.bgColor,
-		"3",
-		"Summon 3rd menu entry"
+		"2",
+		"Summon 2rd menu entry"
 	)
 	drawButton(
 		x + 3 * (CONFIG.buttonSize + CONFIG.gap.x),
 		y,
 		CONFIG.fgColor,
 		CONFIG.bgColor,
-		"4",
-		"Summon 4th menu entry"
+		"3",
+		"Summon 3th menu entry"
 	)
 
 	-- Q W E

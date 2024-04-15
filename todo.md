@@ -43,7 +43,7 @@
   - [ ] editor false
   - [ ] console false
   - [ ] Game Icon
-- [ ] order levels by difficulty
+- [x] order levels by difficulty
 
 # Maybe
 

@@ -180,16 +180,6 @@ game.conf = {
 			},
 		},
 		{
-			filename = "game/levels/09_fae_in_the_middle.json",
-			title = "Fae in the Middle",
-			minions = {
-				homunculus = 2,
-				zombie = 2,
-				fae = 1,
-				guard = 0,
-			},
-		},
-		{
 			filename = "game/levels/10_race.json",
 			title = "Race",
 			minions = {
@@ -256,6 +246,16 @@ game.conf = {
 				homunculus = 1,
 				zombie = 1,
 				fae = 0,
+				guard = 0,
+			},
+		},
+		{
+			filename = "game/levels/09_fae_in_the_middle.json",
+			title = "Fae in the Middle",
+			minions = {
+				homunculus = 2,
+				zombie = 2,
+				fae = 1,
 				guard = 0,
 			},
 		},

@@ -121,5 +121,5 @@ function game.gui.menu.draw()
 	-- Draw Control widget section
 	yRowBase = yRowBase + 5 * rowMult + 2 * border + titleHeight
 	love.graphics.printf("Keyboard Controls", xRow, yRowBase, textWidth, "center")
-	game.gui.widgets.keyboardControl(xRow + 98, yRowBase + 1 * rowMult)
+	game.gui.widgets.keyboardControl(xRow + 80, yRowBase + 1 * rowMult)
 end

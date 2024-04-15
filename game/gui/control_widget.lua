@@ -26,7 +26,7 @@ local function drawButton(x, y, fgColor, bgColor, key, desc)
 end
 
 function game.gui.widgets.keyboardControl(x, y)
-	-- 1 2 3 4
+	-- ESC 1 2 3
 	drawButton(x + 0 * (CONFIG.buttonSize + CONFIG.gap.x), y, CONFIG.fgColor, CONFIG.bgColor, "esc", "Open the menu")
 	drawButton(
 		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x),
@@ -55,7 +55,7 @@ function game.gui.widgets.keyboardControl(x, y)
 
 	-- Q W E
 	drawButton(
-		x + 0 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
+		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
 		y + 1 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -63,7 +63,7 @@ function game.gui.widgets.keyboardControl(x, y)
 		"Open Summon Menu"
 	)
 	drawButton(
-		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
+		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
 		y + 1 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -71,7 +71,7 @@ function game.gui.widgets.keyboardControl(x, y)
 		"Walk up"
 	)
 	drawButton(
-		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
+		x + 3 * (CONFIG.buttonSize + CONFIG.gap.x) + 1 * CONFIG.indent,
 		y + 1 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -81,7 +81,7 @@ function game.gui.widgets.keyboardControl(x, y)
 
 	-- A S D
 	drawButton(
-		x + 0 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
+		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
 		y + 2 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -89,7 +89,7 @@ function game.gui.widgets.keyboardControl(x, y)
 		"Walk left"
 	)
 	drawButton(
-		x + 1 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
+		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
 		y + 2 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,
@@ -97,7 +97,7 @@ function game.gui.widgets.keyboardControl(x, y)
 		"Walk down"
 	)
 	drawButton(
-		x + 2 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
+		x + 3 * (CONFIG.buttonSize + CONFIG.gap.x) + 2 * CONFIG.indent,
 		y + 2 * (CONFIG.buttonSize + CONFIG.gap.y),
 		CONFIG.fgColor,
 		CONFIG.bgColor,

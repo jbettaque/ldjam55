@@ -93,7 +93,7 @@ local function drawLevelWelcomeToTheGame()
 	)
 	love.graphics.draw(game.tilemap.getAssetById(7), x + 300, y + 63, 0, 0.65, 0.65, 0, 0) -- finish
 	love.graphics.draw(game.tilemap.getAssetById(8), x + width - 224, y + 22, 0, 0.65, 0.65, 0, 0) -- start
-	game.gui.widgets.keyboardControl(x + 20, y + 120)
+	game.gui.widgets.keyboardControl(x + 10, y + 120)
 	setupContentFont()
 	love.graphics.printf({
 		WHITE,
@@ -114,7 +114,7 @@ local function drawLevelWelcomeToTheGame()
 		"<ESC>",
 		WHITE,
 		" to pause and open the menu where you can:\n  - Show this text again\n  - Restart the level\n  - Mute the sound\n  - Resize the window\n  - Quit",
-	}, x + 400, y + 130, width / 2, "left")
+	}, x + 410, y + 130, width / 2, "left")
 end
 
 local function drawLevelInteractions()

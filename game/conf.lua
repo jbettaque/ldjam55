@@ -18,6 +18,12 @@ game.conf = {
 					"assets/minions/homunculus.png",
 					"assets/minions/homunculus_01.png",
 				},
+				deathSounds = {
+					"assets/sfx/Garry_Tot_1.mp3",
+					"assets/sfx/Garry_tot_2.mp3",
+					"assets/sfx/Garry_tot_3.mp3",
+					"assets/sfx/Garry_tot_4.mp3",
+				},
 			},
 			zombie = {
 				presetId = "zombie",
@@ -32,6 +38,11 @@ game.conf = {
 				assets = {
 					"assets/minions/zombie.png",
 					"assets/minions/zombie_01.png",
+				},
+				deathSounds = {
+					"assets/sfx/Zombie_tot_1.mp3",
+					"assets/sfx/Zombie_tot_2.mp3",
+					"assets/sfx/Zombie_tot_3.mp3",
 				},
 			},
 			fae = {
@@ -48,6 +59,7 @@ game.conf = {
 					"assets/minions/fae.png",
 					"assets/minions/fae_01.png",
 				},
+				deathSounds = {},
 			},
 			guard = {
 				presetId = "guard",
@@ -63,6 +75,7 @@ game.conf = {
 					"assets/minions/fae.png",
 					"assets/minions/fae_01.png",
 				},
+				deathSounds = {},
 			},
 		},
 	},

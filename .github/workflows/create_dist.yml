@@ -22,8 +22,8 @@ jobs:
         id: upload-artifact
         uses: actions/upload-artifact@v4
         with:
-          name: game.love
-          path: ./game.love
+          name: MassMoveMinionMagic.love
+          path: ./MassMoveMinionMagic.love
 
   create-windows-bundle:
     runs-on: ubuntu-latest
@@ -36,12 +36,12 @@ jobs:
       - name: download love file
         uses: actions/download-artifact@v4
         with:
-          name: game.love
+          name: MassMoveMinionMagic.love
           path: ./
       - name: create windows release
         run: |
           cp -r ./love-${LOVE_VERSION}-win64/ ./dist/
-          cat ./dist/love.exe ./game.love > ./dist/game.exe
+          cat ./dist/love.exe ./MassMoveMinionMagic.love > ./dist/MassMoveMinionMagic.exe
           rm ./dist/love.exe
       - name: upload artifact
         uses: actions/upload-artifact@v4
@@ -66,20 +66,20 @@ jobs:
       - name: download love file
         uses: actions/download-artifact@v4
         with:
-          name: game.love
+          name: MassMoveMinionMagic.love
           path: ./
       - name: create linux release
         run: |
           mkdir dist
           ./love.AppImage --appimage-extract
-          cp ./game.love ./squashfs-root/game.love
-          sed -i '/# uncomment and edit to add your own game/ a FUSE_PATH=$APPDIR/game.love' squashfs-root/AppRun
-          appimagetool ./squashfs-root ./Game.AppImage
+          cp ./MassMoveMinionMagic.love ./squashfs-root/MassMoveMinionMagic.love
+          sed -i '/# uncomment and edit to add your own game/ a FUSE_PATH=$APPDIR/MassMoveMinionMagic.love' squashfs-root/AppRun
+          appimagetool ./squashfs-root ./MassMoveMinionMagic.AppImage
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: linux
-          path: ./Game.AppImage
+          path: ./MassMoveMinionMagic.AppImage
 
   create-web-bundle:
     runs-on: ubuntu-latest
@@ -90,11 +90,11 @@ jobs:
       - name: download love file
         uses: actions/download-artifact@v4
         with:
-          name: game.love
+          name: MassMoveMinionMagic.love
           path: ./
       - name: create web release
         run: |
-          love.js --compatibility --title "game" ./game.love ./dist/
+          love.js --compatibility --title "MassMoveMinionMagic" ./MassMoveMinionMagic.love ./dist/
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:

@@ -2,6 +2,6 @@
 D=$(realpath $(dirname $0))
 WD=$(pwd)
 
-echo "Creating game.love in current directory"
+echo "Creating MassMoveMinionMagic.love in current directory"
 cd $D
-zip -r $WD/game.love main.lua conf.lua assets/ game/
+zip -r $WD/MassMoveMinionMagic.love main.lua conf.lua assets/ game/

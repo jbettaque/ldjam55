@@ -37,7 +37,7 @@
     - [ ] github readme
     - [ ] (maybe) making of (on gitHub or ld post)
 - [ ] distribution
-    - [ ] web build
+    - [x] web build
     - [ ] remove test level
     - [ ] editor false
     - [ ] console false

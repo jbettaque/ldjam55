@@ -87,7 +87,7 @@ jobs:
     steps:
       - name: download required mac file
         run: |
-          curl -sSL https://github.com/love2d/love/releases/download/${LOVE_VERSION}/love-${LOVE_VERSION}-macos.zip -o ./love.zip
+          curl -sSL https://github.com/love2d/love/releases/download/11.5/love-11.5-macos.zip -o ./love.zip
       - name: download love file
         uses: actions/download-artifact@v4
         with:

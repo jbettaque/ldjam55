@@ -260,7 +260,7 @@ function game.minions.draw()
 		love.graphics.draw(
 			asset,
 			minion.position.x,
-			minion.position.y - game.conf.level.tileSize / 2,
+			minion.position.y - game.conf.level.tileSize / 2.5,
 			math.rad(0),
 			2,
 			2,

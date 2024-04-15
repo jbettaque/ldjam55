@@ -6,7 +6,7 @@ on:
   workflow_call:
 
 env:
-  LOVE_VERSION: "11.4"
+  LOVE_VERSION: "11.5"
 
 jobs:
   create-love-file:

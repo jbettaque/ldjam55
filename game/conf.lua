@@ -35,7 +35,7 @@ game.conf = {
 				},
 			},
 			fae = {
-				presetId = "zombie",
+				presetId = "fae",
 				name = "Fae",
 				moveSpeed = 120,
 				color = { 0, 255, 255 },

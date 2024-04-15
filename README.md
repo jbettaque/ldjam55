@@ -1,4 +1,6 @@
-# Mass Move Minion Magic
+<div align="center">
+  <img width=400 src="./press_material/cover.png"/>
+</div>
 
 > A game about summoning minions and solving puzzles created during the [Ludum Dare 55](https://ldjam.com/events/ludum-dare/55).
 

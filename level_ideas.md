@@ -26,3 +26,16 @@
 - resummoner
 - key/lock
 - guard
+
+# Puzzle Matrix
+
+|        | Box | Button |  Door   | Key |  Lever  |  Mine   |  Plate  |  Spike  |
+|:------:|:---:|:------:|:-------:|:---:|:-------:|:-------:|:-------:|:-------:|
+|  Box   |     |   -    |    -    |  -  |    -    |    -    |    -    |    -    |
+| Button |     |        |    -    |  -  |    -    |    -    |    -    |    -    |
+|  Door  |     |        | &check; |  -  |    -    |    -    |    -    |    -    |
+|  Key   |     |        |         |     |    -    |    -    |    -    |    -    |
+| Lever  |     |        | &check; |     | &check; |    -    |    -    |    -    |
+|  Mine  |     |        |         |     |         | &check; |    -    |    -    |
+| Plate  |     |        | &check; |     |         |         | &check; |    -    |
+| Spike  |     |        |         |     |         |         | &check; | &check; |

@@ -7,7 +7,7 @@
 
 
 - [ ] Sprites for minions
-    - [ ] Homunculus
+    - [x] Homunculus
     - [x] Zombie
     - [x] Fae
 - [ ] Sprites for Assets
@@ -26,7 +26,7 @@
     - [ ] Tutorial für mines
     - [ ] (maybe) show minions and tiles in tutorial text
 - [x] Resize Levels
-    - [ ] Void
+    - [x] Void
 - [x] Scaling
 - [ ] Press Material
     - [ ] NAME NAME NAME

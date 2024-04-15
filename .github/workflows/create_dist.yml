@@ -96,6 +96,9 @@ jobs:
           path: ./
       - name: create mac release
         run: |
+          mkdir dist
+          mv love.zip ./dist
+          cd dist
           unzip love.zip
           mv love.app MassMoveMinionMagic.app
           mv MassMoveMinionMagic.love MassMoveMinionMagic.app/Contents/Resources/
@@ -103,13 +106,13 @@ jobs:
           sed -i 's/<string>LÖVE<\/string>/<string>MassMoveMinionMagic<\/string>/' ./MassMoveMinionMagic.app/Contents/Info.plist
           sed -i 's/OS X AppIcon/homunculus/' ./MassMoveMinionMagic.app/Contents/Info.plist
           sed -i '106,+28 d' ./MassMoveMinionMagic.app/Contents/Info.plist
-          cp press_material/homunculus.icns ./MassMoveMinionMagic.app/Contents/Resources/homunculus.icns
+          cp ../press_material/homunculus.icns ./MassMoveMinionMagic.app/Contents/Resources/homunculus.icns
 
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: mac
-          path: ./MassMoveMinionMagic.app
+          path: ./dist
 
 
   create-web-bundle:

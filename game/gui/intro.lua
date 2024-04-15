@@ -1,4 +1,5 @@
 require("game.state")
+require("game.tilemap")
 
 game.gui.intro = {}
 
@@ -84,12 +85,14 @@ end
 local function drawLevelWelcomeToTheGame()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Greetings Master!\nI set up all of your chambers just as you demanded. I drew the pentagrams so you can summon your minions. I also instructed all of them to move at the same time, just as you wanted. Finally, I set up a goal in each chamber you can chase your minions towards.",
+		"Greetings Master!\nI set up all of your chambers just as you demanded. I drew the     pentagrams so you can summon your minions. I also instructed all of them to move at the same time, just as you wanted. Finally, I set up a     goal in each chamber you can chase your minions towards.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(7), x + 300, y + 63, 0, 0.65, 0.65, 0, 0) -- finish
+	love.graphics.draw(game.tilemap.getAssetById(8), x + width - 224, y + 22, 0, 0.65, 0.65, 0, 0) -- start
 	game.gui.widgets.keyboardControl(x + 20, y + 120)
 	setupContentFont()
 	love.graphics.printf({
@@ -118,23 +121,26 @@ local function drawLevelInteractions()
 	x, y, width, height = drawContainer()
 	love.graphics.printf({
 		WHITE,
-		"I set up various objects for your minions to interact with. In this room they need to operate a switch and a pressure plate.\nOnly one homunculus needs to reach the goal.\n\nUse ",
+		"I set up various objects for your minions to interact with. In this room they need to operate a      switch and a     pressure plate.\nOnly one homunculus needs to reach the goal.\n\nUse ",
 		GREEN,
 		"<E>",
 		WHITE,
 		" to interact with switches.",
 	}, x, y, width, "left")
+	love.graphics.draw(game.tilemap.getAssetById(17), x + 240, y + 22, 0, 0.65, 0.65, 0, 0) -- pressure plate
+	love.graphics.draw(game.tilemap.getAssetById(19), x + 95, y + 22, 0, 0.65, 0.65, 0, 0) -- switch
 end
 
 local function drawLevelDifferentSpeeds()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with object. However, they are ideal as ballast for pressure plates. But remember that only homunculi can use the exit.",
+		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with object. However, they are ideal as ballast for     pressure plates. But remember that only homunculi can use the exit.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(17), x + width - 50, y + 42, 0, 0.65, 0.65, 0, 0) -- pressure plate
 end
 
 local function drawLevelZombiesAreStupid()
@@ -151,45 +157,50 @@ end
 local function drawLevelYouCanDie()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"As you are well aware your minions can die, from running brainlessly into spikes for example. But don't be alarmed deceased minions can be re-summoned immediately.",
+		"As you are well aware your minions can die, from running brainlessly into     spikes for example. But don't be alarmed deceased minions can be re-summoned immediately.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(15), x + width - 126, y + 1, 0, 0.65, 0.65, 0, 0) -- spikes
 end
 
 local function drawLevelYouCanFly()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"The next room contains pits and spikes which cannot be avoided. I suggest you summon a fae, which can elegantly glide above them. But just as Zombies they cannot use the exit.",
+		"The next room contains     pits and     spikes which cannot be avoided. I suggest you summon a fae, which can elegantly glide above them. But just as Zombies they cannot use the exit.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(15), x + 319, y + 1, 0, 0.65, 0.65, 0, 0) -- spikes
+	love.graphics.draw(game.tilemap.getAssetById(9), x + 219, y + 1, 0, 0.65, 0.65, 0, 0) -- pits
 end
 
 local function drawLevelDontFlyTooHigh()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Faes might be able to fly above dangers and obstacles. But as you certainly know, this also prevents them from pressing down pressure plates.",
+		"Faes might be able to fly above dangers and obstacles. But as you certainly know, this also prevents them from pressing     down pressure plates.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(17), x + 306, y + 22, 0, 0.65, 0.65, 0, 0) -- pressure plate
 end
 
 local function drawLevelMines()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Watch Out Master!\nThere is still one of the mines, you placed after - The Incident™ -\nCommand one of your minions to step onto it to clear it up.",
+		"Watch Out Master!\nThere is still one of the     mines, you placed after - The Incident™ -\nCommand one of your minions to step onto it to clear it up.",
 		x,
 		y,
 		width,
 		"left"
 	)
+	love.graphics.draw(game.tilemap.getAssetById(11), x + 210, y + 22, 0, 0.65, 0.65, 0, 0) -- mine
 end
 
 local function drawLevelLockedUpAgain()

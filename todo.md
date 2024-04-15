@@ -24,7 +24,7 @@
   - [x] Controls (to mute or restart press escape)
   - [x] Fluff
   - [x] Tutorial für mines
-  - [ ] (maybe) show minions and tiles in tutorial text
+  - [x] (maybe) show minions and tiles in tutorial text
 - [x] Resize Levels
     - [x] Void
 - [x] Scaling

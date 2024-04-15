@@ -129,6 +129,10 @@ function game.tilemap.getAsset(x, y)
 	return mapping[map[y][x].asset]
 end
 
+function game.tilemap.getAssetById(id)
+	return mapping[id]
+end
+
 function game.tilemap.setTile(x, y, tile)
 	map[y][x] = tile
 end

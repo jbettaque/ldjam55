@@ -6,7 +6,7 @@
 - [x] interaction system
 
 
-- [ ] Sprites for minions
+- [x] Sprites for minions
     - [x] Homunculus
     - [x] Zombie
     - [x] Fae

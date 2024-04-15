@@ -40,6 +40,7 @@
     - [ ] remove test level
     - [ ] editor false
     - [ ] console false
+- [ ] order levels by difficulty
 
 # Maybe
 

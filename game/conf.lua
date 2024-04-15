@@ -228,6 +228,16 @@ game.conf = {
 			},
 		},
 		{
+			filename = "game/levels/locked_in_again.json",
+			title = "Name Me Please",
+			minions = {
+				homunculus = 1,
+				zombie = 1,
+				fae = 1,
+				guard = 0,
+			},
+		},
+		{
 			filename = "game/levels/99_end.json",
 			title = "The End",
 			minions = {

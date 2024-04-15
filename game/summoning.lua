@@ -14,8 +14,7 @@ function game.summoning.load()
 		love.audio.newSource("assets/sfx/Garry_spawn_2.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_3.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Garry_spawn_4.mp3", "stream"),
-
-	     }
+	}
 	audioZombie = {
 
 		love.audio.newSource("assets/sfx/Zombie_Spawn_1.mp3", "stream"),
@@ -27,9 +26,6 @@ function game.summoning.load()
 		love.audio.newSource("assets/sfx/Fee_spawn_2.mp3", "stream"),
 		love.audio.newSource("assets/sfx/Fee_spawn_3.mp3", "stream"),
 	}
-
-
-
 
 	-- initialize empty state where nothing can be summoned
 	game.state.summoning = {
@@ -125,24 +121,20 @@ function game.summoning.keypressed(key, scancode, isrepeat)
 			minionState.summoned = minionState.summoned + 1
 			game.minions.summon(minionState.presetId, game.summoning.getSummonLocation())
 			if minionState.presetId == "homunculus" then
-
 				local randomIndex = love.math.random(1, #audioGarry)
 				audioGarry[randomIndex]:play()
 			end
 			if minionState.presetId == "fae" then
-
 				local randomIndex = love.math.random(1, #audioFea)
 				audioFea[randomIndex]:play()
 			end
 			if minionState.presetId == "zombie" then
-
 				local randomIndex = love.math.random(1, #audioZombie)
 				audioZombie[randomIndex]:play()
 			end
-			end
+		end
 	end
 end
-
 
 --- callback when the level with the given index is loaded
 function game.summoning.loadLevel(id)

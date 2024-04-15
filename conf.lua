@@ -22,5 +22,5 @@ function love.conf(t)
 	t.window.resizable = true
 	t.modules.joystick = false
 	t.modules.touch = false
-	t.console = true
+	t.console = false
 end

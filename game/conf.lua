@@ -325,5 +325,5 @@ game.conf = {
 		},
 	},
 
-	editor = true,
+	editor = false,
 }

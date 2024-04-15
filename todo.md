@@ -40,9 +40,10 @@
 - [ ] distribution
   - [x] web build
   - [x] remove test level
-  - [ ] editor false
-  - [ ] console false
+  - [x] editor false
+  - [x] console false
   - [ ] Game Icon
+  - [ ] Mac Build
 - [x] order levels by difficulty
 
 # Maybe

@@ -285,7 +285,7 @@ game.conf = {
 			textHeight = 20,
 		},
 		menu = {
-			containerHeight = 790,
+			containerHeight = 850,
 			rowWidth = 450,
 			rowHeight = 40,
 			titleHeight = 70,

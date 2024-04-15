@@ -75,8 +75,10 @@ function game.loadGraphics()
 	if h > 1080 then
 		game.conf.level.tileSize = 64
 		print("setting tile size to 64")
+		print(love.graphics.getDimensions())
 	else
 		game.conf.level.tileSize = 48
 		print("setting tile size to 48")
+		print(love.graphics.getDimensions())
 	end
 end

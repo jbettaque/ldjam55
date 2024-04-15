@@ -10,7 +10,7 @@
     - [x] Homunculus
     - [x] Zombie
     - [x] Fae
-- [ ] Sprites for Assets
+- [x] Sprites for Assets
     - [x] 2x Door
     - [x] Mine
     - [x] Lock and Key

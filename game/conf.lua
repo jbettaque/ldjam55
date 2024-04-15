@@ -13,6 +13,7 @@ game.conf = {
 				movementType = "walking",
 				canFight = false,
 				canFinish = true,
+				asset = "assets/minions/homunculus.png",
 			},
 			zombie = {
 				presetId = "zombie",
@@ -24,6 +25,7 @@ game.conf = {
 				movementType = "walking",
 				canFight = false,
 				canFinish = false,
+				asset = "assets/minions/zombie.png",
 			},
 			fae = {
 				presetId = "zombie",
@@ -35,6 +37,7 @@ game.conf = {
 				movementType = "flying",
 				canFight = false,
 				canFinish = false,
+				asset = "assets/minions/fae.png",
 			},
 			guard = {
 				presetId = "guard",
@@ -46,14 +49,17 @@ game.conf = {
 				movementType = "walking",
 				canFight = true,
 				canFinish = false,
+				asset = "assets/minions/fae.png",
 			},
 		},
 	},
 
 	level = {
-		tileSize = 32,
-		width = 45,
-		height = 30,
+		tileSize = 48,
+		width = 35,
+		height = 20,
+		--width = 45,
+		--height = 30,
 	},
 
 	level_sequence = {

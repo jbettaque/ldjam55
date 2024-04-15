@@ -8,13 +8,13 @@
 
 - [ ] Sprites for minions
     - [ ] Homunculus
-    - [ ] Zombie
-    - [ ] Fae
+    - [x] Zombie
+    - [x] Fae
 - [ ] Sprites for Assets
-    - [ ] 2x Door
-    - [ ] Mine
-    - [ ] Lock and Key
-    - [ ] Button
+    - [x] 2x Door
+    - [x] Mine
+    - [x] Lock and Key
+    - [x] Button
 - [ ] Sound
     - [ ] Summoning (maybe one for each minion)
     - [ ] Death by Spikes
@@ -23,10 +23,11 @@
 - [ ] Intro Text
     - [ ] Controls (to mute or restart press escape)
     - [ ] Fluff
+    - [ ] Tutorial für mines
     - [ ] (maybe) show minions and tiles in tutorial text
-- [ ] Resize Levels
+- [x] Resize Levels
     - [ ] Void
-- [ ] Scaling
+- [x] Scaling
 - [ ] Press Material
     - [ ] NAME NAME NAME
     - [ ] Description Text

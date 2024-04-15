@@ -229,54 +229,68 @@ end
 --- callback for rendering
 function game.minions.draw()
 	for _, minion in ipairs(state.activeMinions) do
-		-- body
-		love.graphics.setColor(love.math.colorFromBytes(unpack(minion.color)))
-		love.graphics.circle("fill", minion.position.x, minion.position.y, MINION_SIZE)
+		local asset = love.graphics.newImage(minion.asset)
 
-		-- eye white
-		local eyesSize = MINION_SIZE / 4
-		local eyesDistance = MINION_SIZE / 2
-		love.graphics.setColor(1, 1, 1)
-		love.graphics.circle(
-			"fill",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			eyesSize
+		--using sprite
+		love.graphics.draw(
+			asset,
+			minion.position.x,
+			minion.position.y - game.conf.level.tileSize / 2,
+			math.rad(0),
+			2,
+			2,
+			asset:getWidth() / 2,
+			asset:getHeight() / 2
 		)
-		love.graphics.circle(
-			"fill",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			eyesSize
-		)
-		-- eye outline
-		love.graphics.setColor(0, 0, 0)
-		love.graphics.circle(
-			"line",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			eyesSize
-		)
-		love.graphics.circle(
-			"line",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			eyesSize
-		)
-		-- pupils
-		love.graphics.setColor(0, 0, 0)
-		love.graphics.circle(
-			"fill",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
-			eyesSize / 3
-		)
-		love.graphics.circle(
-			"fill",
-			minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
-			eyesSize / 3
-		)
+
+		---- body
+		--love.graphics.setColor(love.math.colorFromBytes(unpack(minion.color)))
+		--love.graphics.circle("fill", minion.position.x, minion.position.y, MINION_SIZE)
+		--
+		---- eye white
+		--local eyesSize = MINION_SIZE / 4
+		--local eyesDistance = MINION_SIZE / 2
+		--love.graphics.setColor(1, 1, 1)
+		--love.graphics.circle(
+		--	"fill",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	eyesSize
+		--)
+		--love.graphics.circle(
+		--	"fill",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	eyesSize
+		--)
+		---- eye outline
+		--love.graphics.setColor(0, 0, 0)
+		--love.graphics.circle(
+		--	"line",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	eyesSize
+		--)
+		--love.graphics.circle(
+		--	"line",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	eyesSize
+		--)
+		---- pupils
+		--love.graphics.setColor(0, 0, 0)
+		--love.graphics.circle(
+		--	"fill",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 - 35)) * eyesDistance,
+		--	eyesSize / 3
+		--)
+		--love.graphics.circle(
+		--	"fill",
+		--	minion.position.x + math.cos(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	minion.position.y + math.sin(math.rad(minion.angle - 90 + 35)) * eyesDistance,
+		--	eyesSize / 3
+		--)
 
 		-- carried object
 		if minion.carrying == nil then

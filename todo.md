@@ -32,16 +32,16 @@
   - [x] NAME NAME NAME (Mass Move Minion Magic)
   - [x] Description Text
   - [ ] Cover / Logo
-    - [ ] Screenshots
-    - [ ] LD Page
-    - [ ] itch.io page
-    - [ ] github readme
-    - [ ] (maybe) making of (on gitHub or ld post)
+  - [ ] Screenshots
+  - [ ] LD Page
+  - [ ] itch.io page
+  - [ ] github readme
+  - [ ] (maybe) making of (on gitHub or ld post)
 - [ ] distribution
-    - [x] web build
+  - [x] web build
   - [x] remove test level
-    - [ ] editor false
-    - [ ] console false
+  - [ ] editor false
+  - [ ] console false
   - [ ] Game Icon
 - [ ] order levels by difficulty
 

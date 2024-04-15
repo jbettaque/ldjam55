@@ -96,10 +96,19 @@ function game.tilemap.update(dt)
 end
 
 function game.tilemap.draw()
-	love.graphics.setColor(255, 255, 255)
+	love.graphics.setColor(1, 1, 1)
 	for y = 1, #map do
 		for x = 1, #map[y] do
-			love.graphics.draw(game.tilemap.getAsset(x, y), (x - 1) * TILE_SIZE, (y - 1) * TILE_SIZE)
+			love.graphics.draw(
+				game.tilemap.getAsset(x, y),
+				(x - 1) * TILE_SIZE,
+				(y - 1) * TILE_SIZE,
+				0,
+				TILE_SIZE / 32,
+				TILE_SIZE / 32,
+				0,
+				0
+			)
 		end
 	end
 end
@@ -239,6 +248,8 @@ function game.tilemap.loadSave(filename)
 				end
 			end
 		end
+
+		--game.tilemap.resizeLevel(35, 20)
 	end
 end
 
@@ -297,4 +308,61 @@ end
 
 function game.tilemap.getStandingOn(x, y)
 	return game.state.level.standingOn[y][x]
+end
+
+function game.tilemap.resizeLevel(width, height)
+	local newMap = {}
+	for y = 1, height do
+		newMap[y] = {}
+		for x = 1, width do
+			newMap[y][x] = { preset = "ground", asset = 2, walkable = true, overFlyable = true }
+		end
+	end
+
+	--find the center of the new map
+	local centerX = math.floor(width / 2)
+	local centerY = math.floor(height / 2)
+
+	--find the center of the old map
+	local oldCenterX = math.floor(LEVEL_WIDTH / 2)
+	local oldCenterY = math.floor(LEVEL_HEIGHT / 2)
+
+	--copy the old map to the new map
+	for y = 1, LEVEL_HEIGHT do
+		for x = 1, LEVEL_WIDTH do
+			local newX = x + (centerX - oldCenterX)
+			local newY = y + (centerY - oldCenterY)
+			if newX >= 1 and newX <= width and newY >= 1 and newY <= height then
+				newMap[newY][newX] = map[y][x]
+			end
+		end
+	end
+
+	--fix needs_redstone property
+	for y = 1, height do
+		for x = 1, width do
+			if newMap[y][x].needs_redstone then
+				local redstoneNeeded = newMap[y][x].needs_redstone
+				for i = 1, #redstoneNeeded do
+					local redstoneX = redstoneNeeded[i].x
+					local redstoneY = redstoneNeeded[i].y
+					local newX = redstoneX + (centerX - oldCenterX)
+					local newY = redstoneY + (centerY - oldCenterY)
+					redstoneNeeded[i].x = newX
+					redstoneNeeded[i].y = newY
+				end
+			end
+		end
+	end
+
+	--fix the standingOn table
+	local newStandingOn = {}
+	for y = 1, height do
+		newStandingOn[y] = {}
+		for x = 1, width do
+			newStandingOn[y][x] = game.state.level.standingOn[y][x]
+		end
+	end
+
+	map = newMap
 end

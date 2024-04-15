@@ -9,6 +9,7 @@ require("game.audio")
 require("game.gui.index")
 
 function love.load()
+	love.graphics.setDefaultFilter("nearest", "nearest", 1)
 	game.summoning.load()
 	game.tilemap.load()
 	game.minions.load()

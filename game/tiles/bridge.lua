@@ -1,6 +1,6 @@
 game.tiles.bridge = {}
 
-local asset = "assets/tiles/tile_bridge_hor.png"
+local asset = "assets/tiles/tile_ground.png"
 
 function game.tiles.bridge.register()
 	local assetOffset = game.tilemap.getAssetCount()

@@ -29,7 +29,9 @@ function game.gui.menu.keypressed(key, scancode, isrepeat)
 		local window_width = game.conf.level.tileSize * game.conf.level.width
 		local window_height = game.conf.level.tileSize * game.conf.level.height
 
-		love.window.setMode(window_width, window_height)
+		if love.system.getOS() ~= "Web" then
+			love.window.setMode(window_width, window_height)
+		end
 		game.loadLevel(game.state.level.current)
 	end
 end

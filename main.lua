@@ -85,6 +85,7 @@ function game.loadGraphics()
 
 	local window_width = game.conf.level.tileSize * game.conf.level.width
 	local window_height = game.conf.level.tileSize * game.conf.level.height
-
-	love.window.setMode(window_width, window_height)
+	if love.system.getOS() ~= "Web" then
+		love.window.setMode(window_width, window_height)
+	end
 end

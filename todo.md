@@ -42,7 +42,7 @@
   - [x] remove test level
   - [x] editor false
   - [x] console false
-  - [ ] Game Icon
+  - [x] Game Icon
   - [ ] Mac Build
 - [x] order levels by difficulty
 

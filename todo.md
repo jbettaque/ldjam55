@@ -32,7 +32,7 @@
     - [x] Name = Mass Move Minion Magic
     - [x] Description Text
     - [x] Cover / Logo
-    - [ ] Screenshots
+    - [x] Screenshots
     - [ ] LD Page
     - [ ] itch.io page
     - [x] github readme

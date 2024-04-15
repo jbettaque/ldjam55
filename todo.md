@@ -29,8 +29,9 @@
     - [x] Void
 - [x] Scaling
 - [ ] Press Material
-    - [ ] NAME NAME NAME
-    - [ ] Description Text
+  - [x] NAME NAME NAME (Mass Move Minion Magic)
+  - [x] Description Text
+  - [ ] Cover / Logo
     - [ ] Screenshots
     - [ ] LD Page
     - [ ] itch.io page
@@ -38,9 +39,10 @@
     - [ ] (maybe) making of (on gitHub or ld post)
 - [ ] distribution
     - [x] web build
-    - [ ] remove test level
+  - [x] remove test level
     - [ ] editor false
     - [ ] console false
+  - [ ] Game Icon
 - [ ] order levels by difficulty
 
 # Maybe

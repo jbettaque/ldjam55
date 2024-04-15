@@ -2,8 +2,13 @@ game.tiles.mine = {}
 
 local asset = "assets/tiles/tile_mine.png"
 
+audioMine = love.audio.newSource("assets/sfx/Mine1.mp3", "stream")
+
 mine_step_func = function(x, y, minion)
 	print(minion.name .. " " .. tostring(minion.id) .. " stepped on a mine")
+	audioMine:setVolume(0.5)
+	love.audio.stop(audioMine)
+	love.audio.play(audioMine)
 	game.minions.kill(minion)
 	game.tilemap.setTileWithPreset(x, y, tilePresets["ground"])
 end

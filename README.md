@@ -28,12 +28,13 @@ There are preassure plates, doors, levers and spike traps to name but a few.
 
 ## Installation
 
-The most current version of the game can be downloaded from the [GitHub Release Page](https://github.com/jbettaque/ldjam55/releases).
+The most current version of the game can be downloaded from the [GitHub Release Page](https://github.com/jbettaque/ldjam55/releases/latest).
 On there, download one of the *Assets* according to your operating system.
 
 We currently support the following systems:
 - **Linux** systems using the *MassMoveMinionMagic.AppImage* all-in-one binary.
-  This binary can be run once it is made executable (in your files app under *Properties* or `chmod +x MassMoveMinionMagic.AppImage`)
+  This binary can be run once it is made executable (in your files app under *Properties* or `chmod +x MassMoveMinionMagic.AppImage`).
+  You also need `fuse` installed on your system. On most systems it is already installed.
 - **Windows** users should download *MassMoveMinionMagic-win64.zip*, extract it and run the *MassMoveMinionMagic.exe* file contained within.
 - If you have the *LÖVE* game engine already installed, *MassMoveMinionMagic.love* can also be downloaded. You'll know what to do with it.
 

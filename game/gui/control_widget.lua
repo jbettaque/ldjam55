@@ -42,7 +42,7 @@ function game.gui.widgets.keyboardControl(x, y)
 		CONFIG.fgColor,
 		CONFIG.bgColor,
 		"2",
-		"Summon 2rd menu entry"
+		"Summon 2nd menu entry"
 	)
 	drawButton(
 		x + 3 * (CONFIG.buttonSize + CONFIG.gap.x),

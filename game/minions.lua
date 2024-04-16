@@ -204,6 +204,13 @@ local function unstuckMinion(minion)
 				end
 			end
 		end
+
+		-- trigger step-on and step-off events if the minion is now unstuck
+		local newMapX, newMapY = game.tilemap.screenToWorldPos(minion.position.x, minion.position.y)
+		if newMapX ~= mapX or newMapY ~= mapY then
+			triggerMinionStepOff(minion, mapX, mapY)
+			triggerMinionStepOn(minion, newMapX, newMapY)
+		end
 	end
 end
 

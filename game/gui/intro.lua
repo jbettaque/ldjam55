@@ -134,7 +134,7 @@ end
 local function drawLevelDifferentSpeeds()
 	x, y, width, height = drawContainer()
 	love.graphics.printf(
-		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with object. However, they are ideal as ballast for     pressure plates. But remember that only homunculi can use the exit.",
+		"Naturally you don't only have homunculi at your command. Summon a zombie to clear the next room. As you know zombies are slower than your other minions and they are also dumber and can't interact with objects. However, they are ideal as ballast for     pressure plates. But remember that only homunculi can use the exit.",
 		x,
 		y,
 		width,

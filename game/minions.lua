@@ -252,8 +252,13 @@ end
 
 --- callback for game updates
 function game.minions.update(dt)
+	local currentLvl = game.state.level.current
 	for _, minion in ipairs(state.activeMinions) do
 		moveMinion(minion, dt)
+		-- check if minion finished level during movement, if so aboard update as all minions will be cleared
+		if currentLvl ~= game.state.level.current then
+			return
+		end
 		rotateMinion(minion)
 		unstuckMinion(minion)
 	end

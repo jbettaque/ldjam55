@@ -36,6 +36,7 @@ We currently support the following systems:
   This binary can be run once it is made executable (in your files app under *Properties* or `chmod +x MassMoveMinionMagic.AppImage`).
   You also need `fuse` installed on your system. On most systems it is already installed.
 - **Windows** users should download *MassMoveMinionMagic-win64.zip*, extract it and run the *MassMoveMinionMagic.exe* file contained within.
+- **MacOS** users should download *MassMoveMinionMagic-macos.zip*, double click the zip to extract it. Then right-click *open* on the application and confirm the "Unverified Developer" dialog with *open* again. 
 - If you have the *LÖVE* game engine already installed, *MassMoveMinionMagic.love* can also be downloaded. You'll know what to do with it.
 
 > [!NOTE]
